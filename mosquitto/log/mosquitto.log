@@ -1,0 +1,41 @@
+1676295110: mosquitto version 2.0.15 starting
+1676295110: Config loaded from /mosquitto/config/mosquitto.conf.
+1676295110: Opening ipv4 listen socket on port 1883.
+1676295110: Opening ipv6 listen socket on port 1883.
+1676295110: mosquitto version 2.0.15 running
+1676295141: mosquitto version 2.0.15 starting
+1676295141: Config loaded from /mosquitto/config/mosquitto.conf.
+1676295141: Opening ipv4 listen socket on port 1883.
+1676295141: Opening ipv6 listen socket on port 1883.
+1676295141: mosquitto version 2.0.15 running
+1676295551: New connection from 172.18.0.3:34810 on port 1883.
+1676295551: New client connected from 172.18.0.3:34810 as auto-DA657311-7FCD-F478-A9F0-4261048775C6 (p2, c1, k60, u'hta-sensor').
+1676295551: Client auto-DA657311-7FCD-F478-A9F0-4261048775C6 disconnected.
+1676295632: New connection from 172.18.0.3:35570 on port 1883.
+1676295632: New client connected from 172.18.0.3:35570 as auto-DB0BA232-D0AB-F199-74AC-FFD0A3FE555B (p2, c1, k60, u'hta-sensor').
+1676295659: New connection from 172.18.0.4:40336 on port 1883.
+1676295659: New client connected from 172.18.0.4:40336 as auto-53B64DDA-D50B-0EEA-64DA-64686175D888 (p2, c1, k60, u'hta-sensor').
+1676295659: Client auto-53B64DDA-D50B-0EEA-64DA-64686175D888 disconnected.
+1676296404: Client auto-DB0BA232-D0AB-F199-74AC-FFD0A3FE555B disconnected.
+1676296942: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676298741: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676299838: New connection from 172.18.0.3:33574 on port 1883.
+1676299838: New client connected from 172.18.0.3:33574 as mqttjs_4a1d9ef0 (p2, c1, k60, u'hta-sensor').
+1676300542: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676300748: Client mqttjs_4a1d9ef0 closed its connection.
+1676303195: mosquitto version 2.0.15 starting
+1676303195: Config loaded from /mosquitto/config/mosquitto.conf.
+1676303195: Opening ipv4 listen socket on port 1883.
+1676303195: Opening ipv6 listen socket on port 1883.
+1676303195: mosquitto version 2.0.15 running
+1676303196: New connection from 172.18.0.3:47028 on port 1883.
+1676303196: New client connected from 172.18.0.3:47028 as mqttjs_2e244c0f (p2, c1, k60, u'hta-sensor').
+1676303213: New connection from 172.18.0.4:55136 on port 1883.
+1676303213: New client connected from 172.18.0.4:55136 as auto-0EE443B2-E2F0-B18F-111C-507E26C9445F (p2, c1, k60, u'hta-sensor').
+1676303213: Client auto-0EE443B2-E2F0-B18F-111C-507E26C9445F disconnected.
+1676303263: Client mqttjs_2e244c0f closed its connection.
+1676303265: New connection from 172.18.0.3:49920 on port 1883.
+1676303265: New client connected from 172.18.0.3:49920 as mqttjs_d1ec05b4 (p2, c1, k60, u'hta-sensor').
+1676303272: New connection from 172.18.0.4:44264 on port 1883.
+1676303272: New client connected from 172.18.0.4:44264 as auto-886B1DC3-4CEC-6576-66F7-9F61E77456BB (p2, c1, k60, u'hta-sensor').
+1676303272: Client auto-886B1DC3-4CEC-6576-66F7-9F61E77456BB disconnected.

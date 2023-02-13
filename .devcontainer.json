@@ -1,0 +1,17 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+    "runArgs": [
+      "--network=sensor-network"
+    ],
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "ms-vscode.vscode-typescript-next",
+          "VisualStudioExptTeam.intellicode-api-usage-examples",
+          "VisualStudioExptTeam.vscodeintellicode",
+        ]
+      }
+    },
+  }

@@ -1,0 +1,30 @@
+services:
+  mqtt:
+    image: eclipse-mosquitto
+    volumes:
+      - ./mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./mosquitto/log/:/mosquitto/log/
+      - mosquittodata:/mosquitto/data/
+    ports:
+      - 1883:1883
+      - 9001:9001
+    command: >
+      sh -c '
+        if [ x${MOSQUITTO_PASSWORD} == x ]; then
+          echo "Set the MOSQUITTO_PASSWORD environment variable in the .env file";
+          exit 1;
+        fi;
+        echo "hta-sensor:$MOSQUITTO_PASSWORD" > /mosquitto/config/password.txt
+        mosquitto_passwd -U /mosquitto/config/password.txt
+        /usr/sbin/mosquitto -c /mosquitto/config/mosquitto.conf
+      '
+    networks:
+      - sensor-network
+
+networks:
+  sensor-network:
+    name: "sensor-network"
+
+volumes:
+  mosquittodata:
+    driver: local
