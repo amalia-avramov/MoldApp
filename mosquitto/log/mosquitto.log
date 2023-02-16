@@ -39,3 +39,50 @@
 1676303272: New connection from 172.18.0.4:44264 on port 1883.
 1676303272: New client connected from 172.18.0.4:44264 as auto-886B1DC3-4CEC-6576-66F7-9F61E77456BB (p2, c1, k60, u'hta-sensor').
 1676303272: Client auto-886B1DC3-4CEC-6576-66F7-9F61E77456BB disconnected.
+1676393443: mosquitto version 2.0.15 starting
+1676393443: Config loaded from /mosquitto/config/mosquitto.conf.
+1676393443: Opening ipv4 listen socket on port 1883.
+1676393443: Opening ipv6 listen socket on port 1883.
+1676393443: mosquitto version 2.0.15 running
+1676394347: New connection from 172.20.0.3:44042 on port 1883.
+1676394347: New client connected from 172.20.0.3:44042 as mqttjs_6f963d01 (p2, c1, k60, u'hta-sensor').
+1676445306: Client mqttjs_6f963d01 closed its connection.
+1676556533: mosquitto version 2.0.15 starting
+1676556533: Config loaded from /mosquitto/config/mosquitto.conf.
+1676556533: Opening ipv4 listen socket on port 1883.
+1676556533: Opening ipv6 listen socket on port 1883.
+1676556533: mosquitto version 2.0.15 running
+1676556533: New connection from 172.20.0.2:42764 on port 1883.
+1676556533: New client connected from 172.20.0.2:42764 as mqttjs_5e774bff (p2, c1, k60, u'hta-sensor').
+1676556568: New connection from 172.20.0.2:42770 on port 1883.
+1676556568: New client connected from 172.20.0.2:42770 as mqttjs_4ae32175 (p2, c1, k60, u'hta-sensor').
+1676556568: Client mqttjs_4ae32175 closed its connection.
+1676556587: Client mqttjs_5e774bff closed its connection.
+1676556616: New connection from 172.20.0.2:42776 on port 1883.
+1676556616: New client connected from 172.20.0.2:42776 as mqttjs_f5918218 (p2, c1, k60, u'hta-sensor').
+1676556761: Client mqttjs_f5918218 closed its connection.
+1676556826: New connection from 172.20.0.2:42818 on port 1883.
+1676556826: New client connected from 172.20.0.2:42818 as mqttjs_99918aa8 (p2, c1, k60, u'hta-sensor').
+1676557671: New connection from 172.20.0.4:55240 on port 1883.
+1676557671: New client connected from 172.20.0.4:55240 as auto-38D61FF1-EA02-E8BB-FB0A-E3D535EC636D (p2, c1, k60, u'hta-sensor').
+1676557671: Client auto-38D61FF1-EA02-E8BB-FB0A-E3D535EC636D disconnected.
+1676557676: New connection from 172.20.0.4:55242 on port 1883.
+1676557676: New client connected from 172.20.0.4:55242 as auto-4BF8A588-CBA9-ED6B-6CCD-4CEB296A2639 (p2, c1, k60, u'hta-sensor').
+1676557676: Client auto-4BF8A588-CBA9-ED6B-6CCD-4CEB296A2639 disconnected.
+1676557918: Client mqttjs_99918aa8 closed its connection.
+1676557925: New connection from 172.20.0.2:42934 on port 1883.
+1676557925: New client connected from 172.20.0.2:42934 as mqttjs_4f8cd135 (p2, c1, k60, u'hta-sensor').
+1676557929: Client mqttjs_4f8cd135 closed its connection.
+1676557936: New connection from 172.20.0.2:42938 on port 1883.
+1676557936: New client connected from 172.20.0.2:42938 as mqttjs_e7870e61 (p2, c1, k60, u'hta-sensor').
+1676558334: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676560537: mosquitto version 2.0.15 starting
+1676560537: Config loaded from /mosquitto/config/mosquitto.conf.
+1676560537: Opening ipv4 listen socket on port 1883.
+1676560537: Opening ipv6 listen socket on port 1883.
+1676560537: mosquitto version 2.0.15 running
+1676561410: mosquitto version 2.0.15 starting
+1676561410: Config loaded from /mosquitto/config/mosquitto.conf.
+1676561410: Opening ipv4 listen socket on port 1883.
+1676561410: Opening ipv6 listen socket on port 1883.
+1676561410: mosquitto version 2.0.15 running

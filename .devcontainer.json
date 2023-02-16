@@ -10,8 +10,8 @@
           "esbenp.prettier-vscode",
           "ms-vscode.vscode-typescript-next",
           "VisualStudioExptTeam.intellicode-api-usage-examples",
-          "VisualStudioExptTeam.vscodeintellicode",
+          "VisualStudioExptTeam.vscodeintellicode"
         ]
       }
-    },
+    }
   }
