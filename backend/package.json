@@ -20,7 +20,10 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.1",
+    "@influxdata/influxdb-client-apis": "^1.33.1",
     "@nestjs/common": "^9.0.0",
+    "@nestjs/config": "^2.3.1",
     "@nestjs/core": "^9.0.0",
     "@nestjs/microservices": "^9.3.8",
     "@nestjs/platform-express": "^9.0.0",

@@ -34,7 +34,7 @@ services:
       - DOCKER_INFLUXDB_INIT_RETENTION=${DOCKER_INFLUXDB_INIT_RETENTION}
       - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=${DOCKER_INFLUXDB_INIT_ADMIN_TOKEN}
     ports:
-      - "8086:8086"
+      - "9999:8086"
     volumes:
       - influxdb_data:/var/lib/influxdb
     networks:

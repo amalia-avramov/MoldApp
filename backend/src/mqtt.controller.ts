@@ -1,10 +1,20 @@
-import { Controller } from '@nestjs/common';
-import { MessagePattern, Payload } from '@nestjs/microservices';
+import { Controller, Inject } from '@nestjs/common';
+import {
+  Ctx,
+  MessagePattern,
+  MqttContext,
+  Payload,
+} from '@nestjs/microservices';
+import { InfluxDbService } from './influx.service';
 
 @Controller()
 export class MqttController {
-  @MessagePattern('test')
-  getNotification(@Payload() data: any) {
-    console.log(data);
+  constructor(
+    @Inject(InfluxDbService) private readonly influxdbService: InfluxDbService,
+  ) {}
+  @MessagePattern('sensors/#')
+  getNotification(@Payload() data: any, @Ctx() context: MqttContext) {
+    console.log(data, context.getTopic());
+    this.influxdbService.saveData();
   }
 }

@@ -86,3 +86,187 @@
 1676561410: Opening ipv4 listen socket on port 1883.
 1676561410: Opening ipv6 listen socket on port 1883.
 1676561410: mosquitto version 2.0.15 running
+1676563211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676566094: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676569748: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676571549: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676618653: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676620454: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676622255: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676624056: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676625857: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676628138: mosquitto version 2.0.15 starting
+1676628138: Config loaded from /mosquitto/config/mosquitto.conf.
+1676628138: Opening ipv4 listen socket on port 1883.
+1676628138: Opening ipv6 listen socket on port 1883.
+1676628138: mosquitto version 2.0.15 running
+1676629939: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676631740: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1676632133: mosquitto version 2.0.15 starting
+1676632133: Config loaded from /mosquitto/config/mosquitto.conf.
+1676632133: Opening ipv4 listen socket on port 1883.
+1676632133: Opening ipv6 listen socket on port 1883.
+1676632133: mosquitto version 2.0.15 running
+1676632259: mosquitto version 2.0.15 starting
+1676632259: Config loaded from /mosquitto/config/mosquitto.conf.
+1676632259: Opening ipv4 listen socket on port 1883.
+1676632259: Opening ipv6 listen socket on port 1883.
+1676632259: mosquitto version 2.0.15 running
+1676632468: mosquitto version 2.0.15 starting
+1676632468: Config loaded from /mosquitto/config/mosquitto.conf.
+1676632468: Opening ipv4 listen socket on port 1883.
+1676632468: Opening ipv6 listen socket on port 1883.
+1676632468: mosquitto version 2.0.15 running
+1676632738: mosquitto version 2.0.15 starting
+1676632738: Config loaded from /mosquitto/config/mosquitto.conf.
+1676632738: Opening ipv4 listen socket on port 1883.
+1676632738: Opening ipv6 listen socket on port 1883.
+1676632738: mosquitto version 2.0.15 running
+1676632803: mosquitto version 2.0.15 starting
+1676632803: Config loaded from /mosquitto/config/mosquitto.conf.
+1676632803: Opening ipv4 listen socket on port 1883.
+1676632803: Opening ipv6 listen socket on port 1883.
+1676632803: mosquitto version 2.0.15 running
+1676632896: mosquitto version 2.0.15 starting
+1676632896: Config loaded from /mosquitto/config/mosquitto.conf.
+1676632896: Opening ipv4 listen socket on port 1883.
+1676632896: Opening ipv6 listen socket on port 1883.
+1676632896: mosquitto version 2.0.15 running
+1676632997: mosquitto version 2.0.15 starting
+1676632997: Config loaded from /mosquitto/config/mosquitto.conf.
+1676632997: Opening ipv4 listen socket on port 1883.
+1676632997: Opening ipv6 listen socket on port 1883.
+1676632997: mosquitto version 2.0.15 running
+1676633106: New connection from 172.22.0.2:39300 on port 1883.
+1676633106: New client connected from 172.22.0.2:39300 as mqttjs_82c8fffa (p2, c1, k60, u'hta-sensor').
+1676633198: Client mqttjs_82c8fffa closed its connection.
+1676633221: New connection from 172.22.0.2:39318 on port 1883.
+1676633221: New client connected from 172.22.0.2:39318 as mqttjs_6969d748 (p2, c1, k60, u'hta-sensor').
+1676633241: Client mqttjs_6969d748 closed its connection.
+1676633271: New connection from 172.22.0.2:39328 on port 1883.
+1676633271: New client connected from 172.22.0.2:39328 as mqttjs_5a08b3c1 (p2, c1, k60, u'hta-sensor').
+1676633379: Client mqttjs_5a08b3c1 closed its connection.
+1676633386: New connection from 172.22.0.2:39338 on port 1883.
+1676633386: New client connected from 172.22.0.2:39338 as mqttjs_6c0c0ead (p2, c1, k60, u'hta-sensor').
+1676633400: Client mqttjs_6c0c0ead closed its connection.
+1676633407: New connection from 172.22.0.2:39350 on port 1883.
+1676633407: New client connected from 172.22.0.2:39350 as mqttjs_d5bb5189 (p2, c1, k60, u'hta-sensor').
+1676633417: Client mqttjs_d5bb5189 closed its connection.
+1676633424: New connection from 172.22.0.2:39356 on port 1883.
+1676633424: New client connected from 172.22.0.2:39356 as mqttjs_13976f6d (p2, c1, k60, u'hta-sensor').
+1676633453: Client mqttjs_13976f6d closed its connection.
+1676633467: New connection from 172.22.0.2:39362 on port 1883.
+1676633467: New client connected from 172.22.0.2:39362 as mqttjs_98f5c08e (p2, c1, k60, u'hta-sensor').
+1676633500: Client mqttjs_98f5c08e closed its connection.
+1676633517: New connection from 172.22.0.2:39364 on port 1883.
+1676633517: New client connected from 172.22.0.2:39364 as mqttjs_d5505d74 (p2, c1, k60, u'hta-sensor').
+1676633528: Client mqttjs_d5505d74 closed its connection.
+1676633541: New connection from 172.22.0.2:39368 on port 1883.
+1676633541: New client connected from 172.22.0.2:39368 as mqttjs_10a91948 (p2, c1, k60, u'hta-sensor').
+1676633554: Client mqttjs_10a91948 closed its connection.
+1676633561: New connection from 172.22.0.2:39372 on port 1883.
+1676633561: New client connected from 172.22.0.2:39372 as mqttjs_970371a5 (p2, c1, k60, u'hta-sensor').
+1676633563: Client mqttjs_970371a5 closed its connection.
+1676633570: New connection from 172.22.0.2:39374 on port 1883.
+1676633570: New client connected from 172.22.0.2:39374 as mqttjs_432c1d25 (p2, c1, k60, u'hta-sensor').
+1676633574: Client mqttjs_432c1d25 closed its connection.
+1676633585: New connection from 172.22.0.2:39376 on port 1883.
+1676633585: New client connected from 172.22.0.2:39376 as mqttjs_c12d2483 (p2, c1, k60, u'hta-sensor').
+1676633586: Client mqttjs_c12d2483 closed its connection.
+1676633599: New connection from 172.22.0.2:39380 on port 1883.
+1676633599: New client connected from 172.22.0.2:39380 as mqttjs_307f086d (p2, c1, k60, u'hta-sensor').
+1676633605: Client mqttjs_307f086d closed its connection.
+1676633632: New connection from 172.22.0.2:39384 on port 1883.
+1676633632: New client connected from 172.22.0.2:39384 as mqttjs_fb8d6491 (p2, c1, k60, u'hta-sensor').
+1676633699: Client mqttjs_fb8d6491 closed its connection.
+1676633706: New connection from 172.22.0.2:39388 on port 1883.
+1676633706: New client connected from 172.22.0.2:39388 as mqttjs_4b817009 (p2, c1, k60, u'hta-sensor').
+1676633718: Client mqttjs_4b817009 closed its connection.
+1676633725: New connection from 172.22.0.2:39390 on port 1883.
+1676633725: New client connected from 172.22.0.2:39390 as mqttjs_d64c2ce8 (p2, c1, k60, u'hta-sensor').
+1676633725: Client mqttjs_d64c2ce8 closed its connection.
+1676633731: New connection from 172.22.0.2:39392 on port 1883.
+1676633731: New client connected from 172.22.0.2:39392 as mqttjs_50a4aa68 (p2, c1, k60, u'hta-sensor').
+1676633738: Client mqttjs_50a4aa68 closed its connection.
+1676633745: New connection from 172.22.0.2:39396 on port 1883.
+1676633745: New client connected from 172.22.0.2:39396 as mqttjs_ed69605d (p2, c1, k60, u'hta-sensor').
+1676633839: Client mqttjs_ed69605d closed its connection.
+1676633852: New connection from 172.22.0.2:39400 on port 1883.
+1676633852: New client connected from 172.22.0.2:39400 as mqttjs_aef13a97 (p2, c1, k60, u'hta-sensor').
+1676633868: Client mqttjs_aef13a97 closed its connection.
+1676633885: New connection from 172.22.0.2:39404 on port 1883.
+1676633885: Client mqttjs_8ee8c75e disconnected, not authorised.
+1676633898: New connection from 172.22.0.2:39408 on port 1883.
+1676633898: New client connected from 172.22.0.2:39408 as mqttjs_4f70cced (p2, c1, k60, u'hta-sensor').
+1676633908: Client mqttjs_4f70cced closed its connection.
+1676633917: New connection from 172.22.0.2:39412 on port 1883.
+1676633917: New client connected from 172.22.0.2:39412 as mqttjs_4fa12167 (p2, c1, k60, u'hta-sensor').
+1676633921: Client mqttjs_4fa12167 closed its connection.
+1676633931: New connection from 172.22.0.2:39414 on port 1883.
+1676633931: New client connected from 172.22.0.2:39414 as mqttjs_4aad916b (p2, c1, k60, u'hta-sensor').
+1676633984: Client mqttjs_4aad916b closed its connection.
+1676633991: New connection from 172.22.0.2:39416 on port 1883.
+1676633991: New client connected from 172.22.0.2:39416 as mqttjs_f430d524 (p2, c1, k60, u'hta-sensor').
+1676633999: Client mqttjs_f430d524 closed its connection.
+1676634006: New connection from 172.22.0.2:39418 on port 1883.
+1676634006: New client connected from 172.22.0.2:39418 as mqttjs_998c5011 (p2, c1, k60, u'hta-sensor').
+1676634012: Client mqttjs_998c5011 closed its connection.
+1676634029: New connection from 172.22.0.2:39420 on port 1883.
+1676634029: New client connected from 172.22.0.2:39420 as mqttjs_33d0d42f (p2, c1, k60, u'hta-sensor').
+1676634037: Client mqttjs_33d0d42f closed its connection.
+1676634047: New connection from 172.22.0.2:39422 on port 1883.
+1676634047: New client connected from 172.22.0.2:39422 as mqttjs_340eac95 (p2, c1, k60, u'hta-sensor').
+1676634061: New connection from 172.22.0.5:35790 on port 1883.
+1676634061: New client connected from 172.22.0.5:35790 as auto-921690DE-821E-F8F5-8471-3A3DABBBBFAE (p2, c1, k60, u'hta-sensor').
+1676634061: Client auto-921690DE-821E-F8F5-8471-3A3DABBBBFAE disconnected.
+1676634095: New connection from 172.22.0.5:35792 on port 1883.
+1676634095: New client connected from 172.22.0.5:35792 as auto-FD5DA087-E271-1552-74B8-3F71F4E19157 (p2, c1, k60, u'hta-sensor').
+1676634095: Client auto-FD5DA087-E271-1552-74B8-3F71F4E19157 disconnected.
+1676634141: Client mqttjs_340eac95 closed its connection.
+1676634148: New connection from 172.22.0.5:35794 on port 1883.
+1676634148: New client connected from 172.22.0.5:35794 as auto-CB3643CD-A589-3627-4C82-8EB3A150D0E0 (p2, c1, k60, u'hta-sensor').
+1676634148: Client auto-CB3643CD-A589-3627-4C82-8EB3A150D0E0 disconnected.
+1676634148: New connection from 172.22.0.2:39432 on port 1883.
+1676634148: New client connected from 172.22.0.2:39432 as mqttjs_c2a1f035 (p2, c1, k60, u'hta-sensor').
+1676634154: New connection from 172.22.0.5:35798 on port 1883.
+1676634154: New client connected from 172.22.0.5:35798 as auto-E826A6C3-6F7A-BBF3-B2FB-988BCE4089D0 (p2, c1, k60, u'hta-sensor').
+1676634154: Client auto-E826A6C3-6F7A-BBF3-B2FB-988BCE4089D0 disconnected.
+1676634171: Client mqttjs_c2a1f035 closed its connection.
+1676634176: New connection from 172.22.0.5:35802 on port 1883.
+1676634176: New client connected from 172.22.0.5:35802 as auto-CFE6C388-7E50-7CCB-D67E-89E403CB1D0D (p2, c1, k60, u'hta-sensor').
+1676634176: Client auto-CFE6C388-7E50-7CCB-D67E-89E403CB1D0D disconnected.
+1676634178: New connection from 172.22.0.2:39440 on port 1883.
+1676634178: New client connected from 172.22.0.2:39440 as mqttjs_09651b21 (p2, c1, k60, u'hta-sensor').
+1676634181: New connection from 172.22.0.5:35806 on port 1883.
+1676634181: New client connected from 172.22.0.5:35806 as auto-CC2415D9-6E4B-2317-6109-3DCCD6CB4477 (p2, c1, k60, u'hta-sensor').
+1676634181: Client auto-CC2415D9-6E4B-2317-6109-3DCCD6CB4477 disconnected.
+1676634284: Client mqttjs_09651b21 closed its connection.
+1676634296: New connection from 172.22.0.2:39444 on port 1883.
+1676634296: New client connected from 172.22.0.2:39444 as mqttjs_658d5b9f (p2, c1, k60, u'hta-sensor').
+1676634297: New connection from 172.22.0.5:35810 on port 1883.
+1676634297: New client connected from 172.22.0.5:35810 as auto-F5906464-D7F5-8967-4070-723C7F98155D (p2, c1, k60, u'hta-sensor').
+1676634297: Client auto-F5906464-D7F5-8967-4070-723C7F98155D disconnected.
+1676634327: Client mqttjs_658d5b9f closed its connection.
+1676634334: New connection from 172.22.0.2:39450 on port 1883.
+1676634334: New client connected from 172.22.0.2:39450 as mqttjs_aeae97dd (p2, c1, k60, u'hta-sensor').
+1676634402: Client mqttjs_aeae97dd closed its connection.
+1676634408: New connection from 172.22.0.2:39452 on port 1883.
+1676634408: New client connected from 172.22.0.2:39452 as mqttjs_8aa7ce9b (p2, c1, k60, u'hta-sensor').
+1676634432: Client mqttjs_8aa7ce9b closed its connection.
+1676634449: New connection from 172.22.0.2:39456 on port 1883.
+1676634449: New client connected from 172.22.0.2:39456 as mqttjs_527e24df (p2, c1, k60, u'hta-sensor').
+1676634453: New connection from 172.22.0.5:35824 on port 1883.
+1676634453: New client connected from 172.22.0.5:35824 as auto-ECA5297F-1A80-ABC4-62C4-C0DF52EBD678 (p2, c1, k60, u'hta-sensor').
+1676634453: Client auto-ECA5297F-1A80-ABC4-62C4-C0DF52EBD678 disconnected.
+1676634497: New connection from 172.22.0.5:35830 on port 1883.
+1676634497: New client connected from 172.22.0.5:35830 as auto-2974CB02-2225-A30C-01D3-F045C7372318 (p2, c1, k60, u'hta-sensor').
+1676634497: Client auto-2974CB02-2225-A30C-01D3-F045C7372318 disconnected.
+1676634498: New connection from 172.22.0.5:35834 on port 1883.
+1676634498: New client connected from 172.22.0.5:35834 as auto-559BDFF3-B458-FA5B-2F4F-B9FC1CC99C7E (p2, c1, k60, u'hta-sensor').
+1676634498: Client auto-559BDFF3-B458-FA5B-2F4F-B9FC1CC99C7E disconnected.
+1676634500: New connection from 172.22.0.5:35838 on port 1883.
+1676634500: New client connected from 172.22.0.5:35838 as auto-6449F5E0-A23B-B9B7-2E72-84D567D2BE55 (p2, c1, k60, u'hta-sensor').
+1676634500: Client auto-6449F5E0-A23B-B9B7-2E72-84D567D2BE55 disconnected.
+1676634502: New connection from 172.22.0.5:35842 on port 1883.
+1676634502: New client connected from 172.22.0.5:35842 as auto-A68F474A-8301-6A17-1B05-04A338561F85 (p2, c1, k60, u'hta-sensor').
+1676634502: Client auto-A68F474A-8301-6A17-1B05-04A338561F85 disconnected.
