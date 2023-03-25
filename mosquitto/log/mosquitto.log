@@ -270,3 +270,908 @@
 1676634502: New connection from 172.22.0.5:35842 on port 1883.
 1676634502: New client connected from 172.22.0.5:35842 as auto-A68F474A-8301-6A17-1B05-04A338561F85 (p2, c1, k60, u'hta-sensor').
 1676634502: Client auto-A68F474A-8301-6A17-1B05-04A338561F85 disconnected.
+1677170039: mosquitto version 2.0.15 starting
+1677170039: Config loaded from /mosquitto/config/mosquitto.conf.
+1677170039: Opening ipv4 listen socket on port 1883.
+1677170039: Opening ipv6 listen socket on port 1883.
+1677170039: mosquitto version 2.0.15 running
+1677171839: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677173638: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677175439: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677181251: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677228067: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677239027: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677240828: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677242629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677257908: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677261161: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677263172: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677322142: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677323943: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677325744: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677327545: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677335321: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1677339975: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1679738856: mosquitto version 2.0.15 starting
+1679738856: Config loaded from /mosquitto/config/mosquitto.conf.
+1679738856: Opening ipv4 listen socket on port 1883.
+1679738856: Opening ipv6 listen socket on port 1883.
+1679738856: mosquitto version 2.0.15 running
+1679738949: New connection from 172.18.0.1:33422 on port 1883.
+1679738949: Client BME280Client disconnected, not authorised.
+1679738951: New connection from 172.18.0.1:33430 on port 1883.
+1679738951: Client BME280Client disconnected, not authorised.
+1679738953: New connection from 172.18.0.1:33432 on port 1883.
+1679738953: Client BME280Client disconnected, not authorised.
+1679738955: New connection from 172.18.0.1:33446 on port 1883.
+1679738955: Client BME280Client disconnected, not authorised.
+1679738957: New connection from 172.18.0.1:33458 on port 1883.
+1679738957: Client BME280Client disconnected, not authorised.
+1679738959: New connection from 172.18.0.1:54618 on port 1883.
+1679738960: Client BME280Client disconnected, not authorised.
+1679738962: New connection from 172.18.0.1:54624 on port 1883.
+1679738962: Client BME280Client disconnected, not authorised.
+1679738971: New connection from 172.18.0.1:59886 on port 1883.
+1679738971: Client BME280Client disconnected, not authorised.
+1679738973: New connection from 172.18.0.1:59894 on port 1883.
+1679738973: Client BME280Client disconnected, not authorised.
+1679738975: New connection from 172.18.0.1:59904 on port 1883.
+1679738975: Client BME280Client disconnected, not authorised.
+1679738977: New connection from 172.18.0.1:59918 on port 1883.
+1679738977: Client BME280Client disconnected, not authorised.
+1679738979: New connection from 172.18.0.1:43204 on port 1883.
+1679738979: Client BME280Client disconnected, not authorised.
+1679738981: New connection from 172.18.0.1:43216 on port 1883.
+1679738981: Client BME280Client disconnected, not authorised.
+1679738983: New connection from 172.18.0.1:43226 on port 1883.
+1679738983: Client BME280Client disconnected, not authorised.
+1679738985: New connection from 172.18.0.1:43238 on port 1883.
+1679738985: Client BME280Client disconnected, not authorised.
+1679738987: New connection from 172.18.0.1:43244 on port 1883.
+1679738987: Client BME280Client disconnected, not authorised.
+1679738992: New connection from 172.18.0.1:37812 on port 1883.
+1679738992: Client BME280Client disconnected, not authorised.
+1679738994: New connection from 172.18.0.1:37816 on port 1883.
+1679738994: Client BME280Client disconnected, not authorised.
+1679738996: New connection from 172.18.0.1:37826 on port 1883.
+1679738996: Client BME280Client disconnected, not authorised.
+1679738998: New connection from 172.18.0.1:37838 on port 1883.
+1679738998: Client BME280Client disconnected, not authorised.
+1679739000: New connection from 172.18.0.1:41022 on port 1883.
+1679739000: Client BME280Client disconnected, not authorised.
+1679739002: New connection from 172.18.0.1:41038 on port 1883.
+1679739002: Client BME280Client disconnected, not authorised.
+1679739004: New connection from 172.18.0.1:41046 on port 1883.
+1679739004: Client BME280Client disconnected, not authorised.
+1679739006: New connection from 172.18.0.1:41062 on port 1883.
+1679739006: Client BME280Client disconnected, not authorised.
+1679739008: New connection from 172.18.0.1:41066 on port 1883.
+1679739008: Client BME280Client disconnected, not authorised.
+1679739010: New connection from 172.18.0.1:48866 on port 1883.
+1679739010: Client BME280Client disconnected, not authorised.
+1679739012: New connection from 172.18.0.1:48880 on port 1883.
+1679739012: Client BME280Client disconnected, not authorised.
+1679739014: New connection from 172.18.0.1:48886 on port 1883.
+1679739014: Client BME280Client disconnected, not authorised.
+1679739017: New connection from 172.18.0.1:48902 on port 1883.
+1679739017: Client BME280Client disconnected, not authorised.
+1679739019: New connection from 172.18.0.1:53654 on port 1883.
+1679739019: Client BME280Client disconnected, not authorised.
+1679739021: New connection from 172.18.0.1:53662 on port 1883.
+1679739021: Client BME280Client disconnected, not authorised.
+1679739023: New connection from 172.18.0.1:53668 on port 1883.
+1679739023: Client BME280Client disconnected, not authorised.
+1679739025: New connection from 172.18.0.1:53670 on port 1883.
+1679739025: Client BME280Client disconnected, not authorised.
+1679739027: New connection from 172.18.0.1:53686 on port 1883.
+1679739027: Client BME280Client disconnected, not authorised.
+1679739029: New connection from 172.18.0.1:43692 on port 1883.
+1679739029: Client BME280Client disconnected, not authorised.
+1679739031: New connection from 172.18.0.1:43706 on port 1883.
+1679739031: Client BME280Client disconnected, not authorised.
+1679739033: New connection from 172.18.0.1:43716 on port 1883.
+1679739033: Client BME280Client disconnected, not authorised.
+1679739035: New connection from 172.18.0.1:43726 on port 1883.
+1679739035: Client BME280Client disconnected, not authorised.
+1679739037: New connection from 172.18.0.1:43740 on port 1883.
+1679739037: Client BME280Client disconnected, not authorised.
+1679739039: New connection from 172.18.0.1:46950 on port 1883.
+1679739039: Client BME280Client disconnected, not authorised.
+1679739041: New connection from 172.18.0.1:46956 on port 1883.
+1679739041: Client BME280Client disconnected, not authorised.
+1679739043: New connection from 172.18.0.1:46966 on port 1883.
+1679739043: Client BME280Client disconnected, not authorised.
+1679739046: New connection from 172.18.0.1:46970 on port 1883.
+1679739046: Client BME280Client disconnected, not authorised.
+1679739048: New connection from 172.18.0.1:46982 on port 1883.
+1679739048: Client BME280Client disconnected, not authorised.
+1679739050: New connection from 172.18.0.1:46942 on port 1883.
+1679739050: Client BME280Client disconnected, not authorised.
+1679739052: New connection from 172.18.0.1:46958 on port 1883.
+1679739052: Client BME280Client disconnected, not authorised.
+1679739054: New connection from 172.18.0.1:46974 on port 1883.
+1679739054: Client BME280Client disconnected, not authorised.
+1679739056: New connection from 172.18.0.1:46988 on port 1883.
+1679739056: Client BME280Client disconnected, not authorised.
+1679739059: New connection from 172.18.0.1:47002 on port 1883.
+1679739059: Client BME280Client disconnected, not authorised.
+1679739061: New connection from 172.18.0.1:53628 on port 1883.
+1679739061: Client BME280Client disconnected, not authorised.
+1679739063: New connection from 172.18.0.1:53630 on port 1883.
+1679739063: Client BME280Client disconnected, not authorised.
+1679739065: New connection from 172.18.0.1:53638 on port 1883.
+1679739065: Client BME280Client disconnected, not authorised.
+1679739067: New connection from 172.18.0.1:53652 on port 1883.
+1679739067: Client BME280Client disconnected, not authorised.
+1679739069: New connection from 172.18.0.1:36412 on port 1883.
+1679739069: Client BME280Client disconnected, not authorised.
+1679739071: New connection from 172.18.0.1:36418 on port 1883.
+1679739071: Client BME280Client disconnected, not authorised.
+1679739073: New connection from 172.18.0.1:36432 on port 1883.
+1679739073: Client BME280Client disconnected, not authorised.
+1679739075: New connection from 172.18.0.1:36434 on port 1883.
+1679739075: Client BME280Client disconnected, not authorised.
+1679739077: New connection from 172.18.0.1:36450 on port 1883.
+1679739077: Client BME280Client disconnected, not authorised.
+1679739079: New connection from 172.18.0.1:33592 on port 1883.
+1679739079: Client BME280Client disconnected, not authorised.
+1679739081: New connection from 172.18.0.1:33598 on port 1883.
+1679739081: Client BME280Client disconnected, not authorised.
+1679739083: New connection from 172.18.0.1:33606 on port 1883.
+1679739083: Client BME280Client disconnected, not authorised.
+1679739085: New connection from 172.18.0.1:33618 on port 1883.
+1679739085: Client BME280Client disconnected, not authorised.
+1679739087: New connection from 172.18.0.1:33622 on port 1883.
+1679739088: Client BME280Client disconnected, not authorised.
+1679739090: New connection from 172.18.0.1:33864 on port 1883.
+1679739090: Client BME280Client disconnected, not authorised.
+1679739092: New connection from 172.18.0.1:33868 on port 1883.
+1679739092: Client BME280Client disconnected, not authorised.
+1679739094: New connection from 172.18.0.1:33880 on port 1883.
+1679739094: Client BME280Client disconnected, not authorised.
+1679739096: New connection from 172.18.0.1:33886 on port 1883.
+1679739096: Client BME280Client disconnected, not authorised.
+1679739098: New connection from 172.18.0.1:33892 on port 1883.
+1679739098: Client BME280Client disconnected, not authorised.
+1679739100: New connection from 172.18.0.1:59946 on port 1883.
+1679739100: Client BME280Client disconnected, not authorised.
+1679739102: New connection from 172.18.0.1:59954 on port 1883.
+1679739102: Client BME280Client disconnected, not authorised.
+1679739104: New connection from 172.18.0.1:59968 on port 1883.
+1679739104: Client BME280Client disconnected, not authorised.
+1679739106: New connection from 172.18.0.1:59970 on port 1883.
+1679739106: Client BME280Client disconnected, not authorised.
+1679739108: New connection from 172.18.0.1:59986 on port 1883.
+1679739108: Client BME280Client disconnected, not authorised.
+1679739110: New connection from 172.18.0.1:57120 on port 1883.
+1679739110: Client BME280Client disconnected, not authorised.
+1679739112: New connection from 172.18.0.1:57134 on port 1883.
+1679739112: Client BME280Client disconnected, not authorised.
+1679739114: New connection from 172.18.0.1:57142 on port 1883.
+1679739114: Client BME280Client disconnected, not authorised.
+1679739116: New connection from 172.18.0.1:57146 on port 1883.
+1679739116: Client BME280Client disconnected, not authorised.
+1679739118: New connection from 172.18.0.1:57152 on port 1883.
+1679739118: Client BME280Client disconnected, not authorised.
+1679739120: New connection from 172.18.0.1:33874 on port 1883.
+1679739120: Client BME280Client disconnected, not authorised.
+1679739122: New connection from 172.18.0.1:33880 on port 1883.
+1679739122: Client BME280Client disconnected, not authorised.
+1679739124: New connection from 172.18.0.1:33882 on port 1883.
+1679739124: Client BME280Client disconnected, not authorised.
+1679739127: New connection from 172.18.0.1:33892 on port 1883.
+1679739127: Client BME280Client disconnected, not authorised.
+1679739129: New connection from 172.18.0.1:44382 on port 1883.
+1679739129: Client BME280Client disconnected, not authorised.
+1679739131: New connection from 172.18.0.1:44392 on port 1883.
+1679739131: Client BME280Client disconnected, not authorised.
+1679739133: New connection from 172.18.0.1:44402 on port 1883.
+1679739133: Client BME280Client disconnected, not authorised.
+1679739136: New connection from 172.18.0.1:44416 on port 1883.
+1679739136: Client BME280Client disconnected, not authorised.
+1679739138: New connection from 172.18.0.1:44426 on port 1883.
+1679739138: Client BME280Client disconnected, not authorised.
+1679739140: New connection from 172.18.0.1:53440 on port 1883.
+1679739140: Client BME280Client disconnected, not authorised.
+1679739142: New connection from 172.18.0.1:53450 on port 1883.
+1679739142: Client BME280Client disconnected, not authorised.
+1679739144: New connection from 172.18.0.1:53460 on port 1883.
+1679739144: Client BME280Client disconnected, not authorised.
+1679739146: New connection from 172.18.0.1:53462 on port 1883.
+1679739146: Client BME280Client disconnected, not authorised.
+1679739148: New connection from 172.18.0.1:53472 on port 1883.
+1679739148: Client BME280Client disconnected, not authorised.
+1679739150: New connection from 172.18.0.1:33516 on port 1883.
+1679739150: Client BME280Client disconnected, not authorised.
+1679739153: New connection from 172.18.0.1:33530 on port 1883.
+1679739153: Client BME280Client disconnected, not authorised.
+1679739155: New connection from 172.18.0.1:33546 on port 1883.
+1679739155: Client BME280Client disconnected, not authorised.
+1679739157: New connection from 172.18.0.1:33548 on port 1883.
+1679739157: Client BME280Client disconnected, not authorised.
+1679739159: New connection from 172.18.0.1:55288 on port 1883.
+1679739159: Client BME280Client disconnected, not authorised.
+1679739161: New connection from 172.18.0.1:55298 on port 1883.
+1679739161: Client BME280Client disconnected, not authorised.
+1679739163: New connection from 172.18.0.1:55308 on port 1883.
+1679739163: Client BME280Client disconnected, not authorised.
+1679739165: New connection from 172.18.0.1:55310 on port 1883.
+1679739165: Client BME280Client disconnected, not authorised.
+1679739167: New connection from 172.18.0.1:55324 on port 1883.
+1679739167: Client BME280Client disconnected, not authorised.
+1679739169: New connection from 172.18.0.1:54640 on port 1883.
+1679739169: Client BME280Client disconnected, not authorised.
+1679739171: New connection from 172.18.0.1:54656 on port 1883.
+1679739171: Client BME280Client disconnected, not authorised.
+1679739173: New connection from 172.18.0.1:54658 on port 1883.
+1679739173: Client BME280Client disconnected, not authorised.
+1679739175: New connection from 172.18.0.1:54670 on port 1883.
+1679739175: Client BME280Client disconnected, not authorised.
+1679739177: New connection from 172.18.0.1:54676 on port 1883.
+1679739177: Client BME280Client disconnected, not authorised.
+1679739180: New connection from 172.18.0.1:49886 on port 1883.
+1679739180: Client BME280Client disconnected, not authorised.
+1679739182: New connection from 172.18.0.1:49896 on port 1883.
+1679739182: Client BME280Client disconnected, not authorised.
+1679739184: New connection from 172.18.0.1:49904 on port 1883.
+1679739184: Client BME280Client disconnected, not authorised.
+1679739186: New connection from 172.18.0.1:49914 on port 1883.
+1679739186: Client BME280Client disconnected, not authorised.
+1679739189: New connection from 172.18.0.1:32934 on port 1883.
+1679739189: Client BME280Client disconnected, not authorised.
+1679739191: New connection from 172.18.0.1:32940 on port 1883.
+1679739191: Client BME280Client disconnected, not authorised.
+1679739193: New connection from 172.18.0.1:32954 on port 1883.
+1679739193: Client BME280Client disconnected, not authorised.
+1679739195: New connection from 172.18.0.1:32970 on port 1883.
+1679739195: Client BME280Client disconnected, not authorised.
+1679739197: New connection from 172.18.0.1:32976 on port 1883.
+1679739197: Client BME280Client disconnected, not authorised.
+1679739199: New connection from 172.18.0.1:33264 on port 1883.
+1679739199: Client BME280Client disconnected, not authorised.
+1679739201: New connection from 172.18.0.1:33276 on port 1883.
+1679739201: Client BME280Client disconnected, not authorised.
+1679739203: New connection from 172.18.0.1:33292 on port 1883.
+1679739203: Client BME280Client disconnected, not authorised.
+1679739205: New connection from 172.18.0.1:33302 on port 1883.
+1679739205: Client BME280Client disconnected, not authorised.
+1679739207: New connection from 172.18.0.1:33304 on port 1883.
+1679739207: Client BME280Client disconnected, not authorised.
+1679739209: New connection from 172.18.0.1:56952 on port 1883.
+1679739209: Client BME280Client disconnected, not authorised.
+1679739211: New connection from 172.18.0.1:56964 on port 1883.
+1679739211: Client BME280Client disconnected, not authorised.
+1679739213: New connection from 172.18.0.1:56978 on port 1883.
+1679739213: Client BME280Client disconnected, not authorised.
+1679739215: New connection from 172.18.0.1:56980 on port 1883.
+1679739215: Client BME280Client disconnected, not authorised.
+1679739217: New connection from 172.18.0.1:56994 on port 1883.
+1679739217: Client BME280Client disconnected, not authorised.
+1679739219: New connection from 172.18.0.1:39538 on port 1883.
+1679739219: Client BME280Client disconnected, not authorised.
+1679739221: New connection from 172.18.0.1:39554 on port 1883.
+1679739221: Client BME280Client disconnected, not authorised.
+1679739223: New connection from 172.18.0.1:39562 on port 1883.
+1679739223: Client BME280Client disconnected, not authorised.
+1679739225: New connection from 172.18.0.1:39576 on port 1883.
+1679739225: Client BME280Client disconnected, not authorised.
+1679739227: New connection from 172.18.0.1:39586 on port 1883.
+1679739227: Client BME280Client disconnected, not authorised.
+1679739230: New connection from 172.18.0.1:44900 on port 1883.
+1679739230: Client BME280Client disconnected, not authorised.
+1679739232: New connection from 172.18.0.1:44910 on port 1883.
+1679739232: Client BME280Client disconnected, not authorised.
+1679739234: New connection from 172.18.0.1:44924 on port 1883.
+1679739234: Client BME280Client disconnected, not authorised.
+1679739236: New connection from 172.18.0.1:44926 on port 1883.
+1679739236: Client BME280Client disconnected, not authorised.
+1679739238: New connection from 172.18.0.1:44932 on port 1883.
+1679739238: Client BME280Client disconnected, not authorised.
+1679739240: New connection from 172.18.0.1:42500 on port 1883.
+1679739240: Client BME280Client disconnected, not authorised.
+1679739243: New connection from 172.18.0.1:42512 on port 1883.
+1679739243: Client BME280Client disconnected, not authorised.
+1679739245: New connection from 172.18.0.1:42514 on port 1883.
+1679739245: Client BME280Client disconnected, not authorised.
+1679739247: New connection from 172.18.0.1:42526 on port 1883.
+1679739247: Client BME280Client disconnected, not authorised.
+1679739249: New connection from 172.18.0.1:39824 on port 1883.
+1679739249: Client BME280Client disconnected, not authorised.
+1679739251: New connection from 172.18.0.1:39828 on port 1883.
+1679739251: Client BME280Client disconnected, not authorised.
+1679739253: New connection from 172.18.0.1:39844 on port 1883.
+1679739253: Client BME280Client disconnected, not authorised.
+1679739255: New connection from 172.18.0.1:39858 on port 1883.
+1679739255: Client BME280Client disconnected, not authorised.
+1679739257: New connection from 172.18.0.1:39872 on port 1883.
+1679739257: Client BME280Client disconnected, not authorised.
+1679739259: New connection from 172.18.0.1:58712 on port 1883.
+1679739259: Client BME280Client disconnected, not authorised.
+1679739261: New connection from 172.18.0.1:58714 on port 1883.
+1679739261: Client BME280Client disconnected, not authorised.
+1679739263: New connection from 172.18.0.1:58722 on port 1883.
+1679739263: Client BME280Client disconnected, not authorised.
+1679739265: New connection from 172.18.0.1:58738 on port 1883.
+1679739265: Client BME280Client disconnected, not authorised.
+1679739267: New connection from 172.18.0.1:58754 on port 1883.
+1679739267: Client BME280Client disconnected, not authorised.
+1679739269: New connection from 172.18.0.1:53680 on port 1883.
+1679739269: Client BME280Client disconnected, not authorised.
+1679739272: New connection from 172.18.0.1:53696 on port 1883.
+1679739272: Client BME280Client disconnected, not authorised.
+1679739274: New connection from 172.18.0.1:53706 on port 1883.
+1679739274: Client BME280Client disconnected, not authorised.
+1679739276: New connection from 172.18.0.1:53716 on port 1883.
+1679739276: Client BME280Client disconnected, not authorised.
+1679739278: New connection from 172.18.0.1:53724 on port 1883.
+1679739278: Client BME280Client disconnected, not authorised.
+1679739280: New connection from 172.18.0.1:57400 on port 1883.
+1679739280: Client BME280Client disconnected, not authorised.
+1679739282: New connection from 172.18.0.1:57402 on port 1883.
+1679739282: Client BME280Client disconnected, not authorised.
+1679739284: New connection from 172.18.0.1:57410 on port 1883.
+1679739284: Client BME280Client disconnected, not authorised.
+1679739286: New connection from 172.18.0.1:57424 on port 1883.
+1679739286: Client BME280Client disconnected, not authorised.
+1679739288: New connection from 172.18.0.1:57426 on port 1883.
+1679739288: Client BME280Client disconnected, not authorised.
+1679739290: New connection from 172.18.0.1:58002 on port 1883.
+1679739290: Client BME280Client disconnected, not authorised.
+1679739292: New connection from 172.18.0.1:58016 on port 1883.
+1679739292: Client BME280Client disconnected, not authorised.
+1679739294: New connection from 172.18.0.1:58028 on port 1883.
+1679739294: Client BME280Client disconnected, not authorised.
+1679739296: New connection from 172.18.0.1:58034 on port 1883.
+1679739296: Client BME280Client disconnected, not authorised.
+1679739298: New connection from 172.18.0.1:58036 on port 1883.
+1679739298: Client BME280Client disconnected, not authorised.
+1679739300: New connection from 172.18.0.1:47218 on port 1883.
+1679739300: Client BME280Client disconnected, not authorised.
+1679739302: New connection from 172.18.0.1:47226 on port 1883.
+1679739302: Client BME280Client disconnected, not authorised.
+1679739304: New connection from 172.18.0.1:47240 on port 1883.
+1679739304: Client BME280Client disconnected, not authorised.
+1679739307: New connection from 172.18.0.1:47248 on port 1883.
+1679739307: Client BME280Client disconnected, not authorised.
+1679739309: New connection from 172.18.0.1:58718 on port 1883.
+1679739309: Client BME280Client disconnected, not authorised.
+1679739311: New connection from 172.18.0.1:58730 on port 1883.
+1679739311: Client BME280Client disconnected, not authorised.
+1679739313: New connection from 172.18.0.1:58738 on port 1883.
+1679739313: Client BME280Client disconnected, not authorised.
+1679739315: New connection from 172.18.0.1:58754 on port 1883.
+1679739315: Client BME280Client disconnected, not authorised.
+1679739317: New connection from 172.18.0.1:58758 on port 1883.
+1679739317: Client BME280Client disconnected, not authorised.
+1679739319: New connection from 172.18.0.1:32908 on port 1883.
+1679739319: Client BME280Client disconnected, not authorised.
+1679739321: New connection from 172.18.0.1:32912 on port 1883.
+1679739321: Client BME280Client disconnected, not authorised.
+1679739323: New connection from 172.18.0.1:32920 on port 1883.
+1679739323: Client BME280Client disconnected, not authorised.
+1679739325: New connection from 172.18.0.1:32930 on port 1883.
+1679739325: Client BME280Client disconnected, not authorised.
+1679739327: New connection from 172.18.0.1:32944 on port 1883.
+1679739327: Client BME280Client disconnected, not authorised.
+1679739330: New connection from 172.18.0.1:60042 on port 1883.
+1679739330: Client BME280Client disconnected, not authorised.
+1679739332: New connection from 172.18.0.1:60054 on port 1883.
+1679739332: Client BME280Client disconnected, not authorised.
+1679739334: New connection from 172.18.0.1:60060 on port 1883.
+1679739334: Client BME280Client disconnected, not authorised.
+1679739336: New connection from 172.18.0.1:60072 on port 1883.
+1679739336: Client BME280Client disconnected, not authorised.
+1679739339: New connection from 172.18.0.1:35498 on port 1883.
+1679739339: Client BME280Client disconnected, not authorised.
+1679739341: New connection from 172.18.0.1:35514 on port 1883.
+1679739341: Client BME280Client disconnected, not authorised.
+1679739343: New connection from 172.18.0.1:35516 on port 1883.
+1679739343: Client BME280Client disconnected, not authorised.
+1679739345: New connection from 172.18.0.1:35532 on port 1883.
+1679739345: Client BME280Client disconnected, not authorised.
+1679739347: New connection from 172.18.0.1:35546 on port 1883.
+1679739347: Client BME280Client disconnected, not authorised.
+1679739350: New connection from 172.18.0.1:35234 on port 1883.
+1679739350: Client BME280Client disconnected, not authorised.
+1679739352: New connection from 172.18.0.1:35238 on port 1883.
+1679739352: Client BME280Client disconnected, not authorised.
+1679739354: New connection from 172.18.0.1:35242 on port 1883.
+1679739354: Client BME280Client disconnected, not authorised.
+1679739356: New connection from 172.18.0.1:35246 on port 1883.
+1679739356: Client BME280Client disconnected, not authorised.
+1679739358: New connection from 172.18.0.1:35262 on port 1883.
+1679739358: Client BME280Client disconnected, not authorised.
+1679739360: New connection from 172.18.0.1:55766 on port 1883.
+1679739360: Client BME280Client disconnected, not authorised.
+1679739362: New connection from 172.18.0.1:55768 on port 1883.
+1679739362: Client BME280Client disconnected, not authorised.
+1679739364: New connection from 172.18.0.1:55776 on port 1883.
+1679739364: Client BME280Client disconnected, not authorised.
+1679739366: New connection from 172.18.0.1:55790 on port 1883.
+1679739366: Client BME280Client disconnected, not authorised.
+1679739368: New connection from 172.18.0.1:55806 on port 1883.
+1679739368: Client BME280Client disconnected, not authorised.
+1679739370: New connection from 172.18.0.1:59928 on port 1883.
+1679739370: Client BME280Client disconnected, not authorised.
+1679739372: New connection from 172.18.0.1:59932 on port 1883.
+1679739372: Client BME280Client disconnected, not authorised.
+1679739374: New connection from 172.18.0.1:59948 on port 1883.
+1679739374: Client BME280Client disconnected, not authorised.
+1679739376: New connection from 172.18.0.1:59954 on port 1883.
+1679739376: Client BME280Client disconnected, not authorised.
+1679739378: New connection from 172.18.0.1:59956 on port 1883.
+1679739378: Client BME280Client disconnected, not authorised.
+1679739380: New connection from 172.18.0.1:54010 on port 1883.
+1679739380: Client BME280Client disconnected, not authorised.
+1679739382: New connection from 172.18.0.1:54024 on port 1883.
+1679739382: Client BME280Client disconnected, not authorised.
+1679739385: New connection from 172.18.0.1:54030 on port 1883.
+1679739385: Client BME280Client disconnected, not authorised.
+1679739387: New connection from 172.18.0.1:54042 on port 1883.
+1679739387: Client BME280Client disconnected, not authorised.
+1679739389: New connection from 172.18.0.1:37924 on port 1883.
+1679739389: Client BME280Client disconnected, not authorised.
+1679739391: New connection from 172.18.0.1:37936 on port 1883.
+1679739391: Client BME280Client disconnected, not authorised.
+1679739393: New connection from 172.18.0.1:37948 on port 1883.
+1679739393: Client BME280Client disconnected, not authorised.
+1679739395: New connection from 172.18.0.1:37956 on port 1883.
+1679739395: Client BME280Client disconnected, not authorised.
+1679739397: New connection from 172.18.0.1:37970 on port 1883.
+1679739397: Client BME280Client disconnected, not authorised.
+1679739399: New connection from 172.18.0.1:56758 on port 1883.
+1679739399: Client BME280Client disconnected, not authorised.
+1679739401: New connection from 172.18.0.1:56760 on port 1883.
+1679739401: Client BME280Client disconnected, not authorised.
+1679739403: New connection from 172.18.0.1:56764 on port 1883.
+1679739403: Client BME280Client disconnected, not authorised.
+1679739405: New connection from 172.18.0.1:56780 on port 1883.
+1679739405: Client BME280Client disconnected, not authorised.
+1679739407: New connection from 172.18.0.1:56796 on port 1883.
+1679739407: Client BME280Client disconnected, not authorised.
+1679739410: New connection from 172.18.0.1:38652 on port 1883.
+1679739410: Client BME280Client disconnected, not authorised.
+1679739412: New connection from 172.18.0.1:38668 on port 1883.
+1679739412: Client BME280Client disconnected, not authorised.
+1679739414: New connection from 172.18.0.1:38672 on port 1883.
+1679739414: Client BME280Client disconnected, not authorised.
+1679739416: New connection from 172.18.0.1:38684 on port 1883.
+1679739416: Client BME280Client disconnected, not authorised.
+1679739418: New connection from 172.18.0.1:38690 on port 1883.
+1679739418: Client BME280Client disconnected, not authorised.
+1679739420: New connection from 172.18.0.1:57246 on port 1883.
+1679739420: Client BME280Client disconnected, not authorised.
+1679739422: New connection from 172.18.0.1:57262 on port 1883.
+1679739422: Client BME280Client disconnected, not authorised.
+1679739424: New connection from 172.18.0.1:57266 on port 1883.
+1679739424: Client BME280Client disconnected, not authorised.
+1679739426: New connection from 172.18.0.1:57272 on port 1883.
+1679739426: Client BME280Client disconnected, not authorised.
+1679739428: New connection from 172.18.0.1:57286 on port 1883.
+1679739428: Client BME280Client disconnected, not authorised.
+1679739430: New connection from 172.18.0.1:58966 on port 1883.
+1679739430: Client BME280Client disconnected, not authorised.
+1679739432: New connection from 172.18.0.1:58976 on port 1883.
+1679739432: Client BME280Client disconnected, not authorised.
+1679739434: New connection from 172.18.0.1:58992 on port 1883.
+1679739434: Client BME280Client disconnected, not authorised.
+1679739437: New connection from 172.18.0.1:59002 on port 1883.
+1679739437: Client BME280Client disconnected, not authorised.
+1679739439: New connection from 172.18.0.1:34104 on port 1883.
+1679739439: Client BME280Client disconnected, not authorised.
+1679739441: New connection from 172.18.0.1:34114 on port 1883.
+1679739441: Client BME280Client disconnected, not authorised.
+1679739443: New connection from 172.18.0.1:34122 on port 1883.
+1679739443: Client BME280Client disconnected, not authorised.
+1679739445: New connection from 172.18.0.1:34132 on port 1883.
+1679739445: Client BME280Client disconnected, not authorised.
+1679739447: New connection from 172.18.0.1:34140 on port 1883.
+1679739447: Client BME280Client disconnected, not authorised.
+1679739449: New connection from 172.18.0.1:37830 on port 1883.
+1679739449: Client BME280Client disconnected, not authorised.
+1679739451: New connection from 172.18.0.1:37832 on port 1883.
+1679739451: Client BME280Client disconnected, not authorised.
+1679739453: New connection from 172.18.0.1:37848 on port 1883.
+1679739453: Client BME280Client disconnected, not authorised.
+1679739455: New connection from 172.18.0.1:37850 on port 1883.
+1679739455: Client BME280Client disconnected, not authorised.
+1679739457: New connection from 172.18.0.1:37858 on port 1883.
+1679739457: Client BME280Client disconnected, not authorised.
+1679739459: New connection from 172.18.0.1:38400 on port 1883.
+1679739459: Client BME280Client disconnected, not authorised.
+1679739461: New connection from 172.18.0.1:38408 on port 1883.
+1679739461: Client BME280Client disconnected, not authorised.
+1679739463: New connection from 172.18.0.1:38416 on port 1883.
+1679739463: Client BME280Client disconnected, not authorised.
+1679739465: New connection from 172.18.0.1:38424 on port 1883.
+1679739465: Client BME280Client disconnected, not authorised.
+1679739467: New connection from 172.18.0.1:38432 on port 1883.
+1679739467: Client BME280Client disconnected, not authorised.
+1679739469: New connection from 172.18.0.1:55468 on port 1883.
+1679739469: Client BME280Client disconnected, not authorised.
+1679739474: New connection from 172.18.0.1:55472 on port 1883.
+1679739474: Client BME280Client disconnected, not authorised.
+1679739476: New connection from 172.18.0.1:55478 on port 1883.
+1679739476: Client BME280Client disconnected, not authorised.
+1679739478: New connection from 172.18.0.1:55484 on port 1883.
+1679739478: Client BME280Client disconnected, not authorised.
+1679739480: New connection from 172.18.0.1:59956 on port 1883.
+1679739480: Client BME280Client disconnected, not authorised.
+1679739482: New connection from 172.18.0.1:59970 on port 1883.
+1679739482: Client BME280Client disconnected, not authorised.
+1679739484: New connection from 172.18.0.1:59980 on port 1883.
+1679739484: Client BME280Client disconnected, not authorised.
+1679739486: New connection from 172.18.0.1:59992 on port 1883.
+1679739486: Client BME280Client disconnected, not authorised.
+1679739488: New connection from 172.18.0.1:59996 on port 1883.
+1679739488: Client BME280Client disconnected, not authorised.
+1679739491: New connection from 172.18.0.1:51044 on port 1883.
+1679739491: Client BME280Client disconnected, not authorised.
+1679739493: New connection from 172.18.0.1:51056 on port 1883.
+1679739493: Client BME280Client disconnected, not authorised.
+1679739495: New connection from 172.18.0.1:51068 on port 1883.
+1679739495: Client BME280Client disconnected, not authorised.
+1679739497: New connection from 172.18.0.1:51076 on port 1883.
+1679739497: Client BME280Client disconnected, not authorised.
+1679739499: New connection from 172.18.0.1:52396 on port 1883.
+1679739499: Client BME280Client disconnected, not authorised.
+1679739504: New connection from 172.18.0.1:52408 on port 1883.
+1679739504: Client BME280Client disconnected, not authorised.
+1679739506: New connection from 172.18.0.1:52410 on port 1883.
+1679739506: Client BME280Client disconnected, not authorised.
+1679739508: New connection from 172.18.0.1:52414 on port 1883.
+1679739508: Client BME280Client disconnected, not authorised.
+1679739510: New connection from 172.18.0.1:40250 on port 1883.
+1679739510: Client BME280Client disconnected, not authorised.
+1679739512: New connection from 172.18.0.1:40266 on port 1883.
+1679739512: Client BME280Client disconnected, not authorised.
+1679739514: New connection from 172.18.0.1:40282 on port 1883.
+1679739514: Client BME280Client disconnected, not authorised.
+1679739516: New connection from 172.18.0.1:40292 on port 1883.
+1679739516: Client BME280Client disconnected, not authorised.
+1679739518: New connection from 172.18.0.1:40302 on port 1883.
+1679739518: Client BME280Client disconnected, not authorised.
+1679739520: New connection from 172.18.0.1:40822 on port 1883.
+1679739520: Client BME280Client disconnected, not authorised.
+1679739522: New connection from 172.18.0.1:40836 on port 1883.
+1679739522: Client BME280Client disconnected, not authorised.
+1679739524: New connection from 172.18.0.1:40838 on port 1883.
+1679739524: Client BME280Client disconnected, not authorised.
+1679739526: New connection from 172.18.0.1:40840 on port 1883.
+1679739526: Client BME280Client disconnected, not authorised.
+1679739528: New connection from 172.18.0.1:40854 on port 1883.
+1679739528: Client BME280Client disconnected, not authorised.
+1679739530: New connection from 172.18.0.1:52038 on port 1883.
+1679739530: Client BME280Client disconnected, not authorised.
+1679739532: New connection from 172.18.0.1:52050 on port 1883.
+1679739532: Client BME280Client disconnected, not authorised.
+1679739534: New connection from 172.18.0.1:52058 on port 1883.
+1679739534: Client BME280Client disconnected, not authorised.
+1679739536: New connection from 172.18.0.1:52062 on port 1883.
+1679739536: Client BME280Client disconnected, not authorised.
+1679739538: New connection from 172.18.0.1:52076 on port 1883.
+1679739538: Client BME280Client disconnected, not authorised.
+1679739541: New connection from 172.18.0.1:58482 on port 1883.
+1679739541: Client BME280Client disconnected, not authorised.
+1679739543: New connection from 172.18.0.1:58498 on port 1883.
+1679739543: Client BME280Client disconnected, not authorised.
+1679739545: New connection from 172.18.0.1:58508 on port 1883.
+1679739545: Client BME280Client disconnected, not authorised.
+1679739547: New connection from 172.18.0.1:58522 on port 1883.
+1679739547: Client BME280Client disconnected, not authorised.
+1679739549: New connection from 172.18.0.1:40772 on port 1883.
+1679739549: Client BME280Client disconnected, not authorised.
+1679739551: New connection from 172.18.0.1:40780 on port 1883.
+1679739551: Client BME280Client disconnected, not authorised.
+1679739553: New connection from 172.18.0.1:40782 on port 1883.
+1679739553: Client BME280Client disconnected, not authorised.
+1679739555: New connection from 172.18.0.1:40784 on port 1883.
+1679739555: Client BME280Client disconnected, not authorised.
+1679739557: New connection from 172.18.0.1:40786 on port 1883.
+1679739557: Client BME280Client disconnected, not authorised.
+1679739559: New connection from 172.18.0.1:46992 on port 1883.
+1679739559: Client BME280Client disconnected, not authorised.
+1679739561: New connection from 172.18.0.1:47006 on port 1883.
+1679739561: Client BME280Client disconnected, not authorised.
+1679739563: New connection from 172.18.0.1:47008 on port 1883.
+1679739563: Client BME280Client disconnected, not authorised.
+1679739565: New connection from 172.18.0.1:47018 on port 1883.
+1679739565: Client BME280Client disconnected, not authorised.
+1679739568: New connection from 172.18.0.1:47026 on port 1883.
+1679739568: Client BME280Client disconnected, not authorised.
+1679739570: New connection from 172.18.0.1:54876 on port 1883.
+1679739570: Client BME280Client disconnected, not authorised.
+1679739572: New connection from 172.18.0.1:54878 on port 1883.
+1679739572: Client BME280Client disconnected, not authorised.
+1679739574: New connection from 172.18.0.1:54884 on port 1883.
+1679739574: Client BME280Client disconnected, not authorised.
+1679739577: New connection from 172.18.0.1:54900 on port 1883.
+1679739577: Client BME280Client disconnected, not authorised.
+1679739579: New connection from 172.18.0.1:43140 on port 1883.
+1679739579: Client BME280Client disconnected, not authorised.
+1679739581: New connection from 172.18.0.1:43148 on port 1883.
+1679739581: Client BME280Client disconnected, not authorised.
+1679739583: New connection from 172.18.0.1:43156 on port 1883.
+1679739583: Client BME280Client disconnected, not authorised.
+1679739585: New connection from 172.18.0.1:43162 on port 1883.
+1679739585: Client BME280Client disconnected, not authorised.
+1679739587: New connection from 172.18.0.1:43178 on port 1883.
+1679739587: Client BME280Client disconnected, not authorised.
+1679739589: New connection from 172.18.0.1:47630 on port 1883.
+1679739589: Client BME280Client disconnected, not authorised.
+1679739591: New connection from 172.18.0.1:47636 on port 1883.
+1679739591: Client BME280Client disconnected, not authorised.
+1679739593: New connection from 172.18.0.1:47640 on port 1883.
+1679739593: Client BME280Client disconnected, not authorised.
+1679739595: New connection from 172.18.0.1:47644 on port 1883.
+1679739595: Client BME280Client disconnected, not authorised.
+1679739597: New connection from 172.18.0.1:47650 on port 1883.
+1679739597: Client BME280Client disconnected, not authorised.
+1679739599: New connection from 172.18.0.1:53410 on port 1883.
+1679739599: Client BME280Client disconnected, not authorised.
+1679739601: New connection from 172.18.0.1:53414 on port 1883.
+1679739601: Client BME280Client disconnected, not authorised.
+1679739603: New connection from 172.18.0.1:53416 on port 1883.
+1679739603: Client BME280Client disconnected, not authorised.
+1679739605: New connection from 172.18.0.1:53422 on port 1883.
+1679739605: Client BME280Client disconnected, not authorised.
+1679739607: New connection from 172.18.0.1:53434 on port 1883.
+1679739607: Client BME280Client disconnected, not authorised.
+1679739609: New connection from 172.18.0.1:48190 on port 1883.
+1679739609: Client BME280Client disconnected, not authorised.
+1679739611: New connection from 172.18.0.1:48198 on port 1883.
+1679739611: Client BME280Client disconnected, not authorised.
+1679739613: New connection from 172.18.0.1:48214 on port 1883.
+1679739613: Client BME280Client disconnected, not authorised.
+1679739615: New connection from 172.18.0.1:48218 on port 1883.
+1679739615: Client BME280Client disconnected, not authorised.
+1679739617: New connection from 172.18.0.1:48222 on port 1883.
+1679739617: Client BME280Client disconnected, not authorised.
+1679739619: New connection from 172.18.0.1:47414 on port 1883.
+1679739619: Client BME280Client disconnected, not authorised.
+1679739622: New connection from 172.18.0.1:47420 on port 1883.
+1679739622: Client BME280Client disconnected, not authorised.
+1679739624: New connection from 172.18.0.1:47428 on port 1883.
+1679739624: Client BME280Client disconnected, not authorised.
+1679739626: New connection from 172.18.0.1:47444 on port 1883.
+1679739626: Client BME280Client disconnected, not authorised.
+1679739628: New connection from 172.18.0.1:47456 on port 1883.
+1679739628: Client BME280Client disconnected, not authorised.
+1679739630: New connection from 172.18.0.1:48372 on port 1883.
+1679739630: Client BME280Client disconnected, not authorised.
+1679739632: New connection from 172.18.0.1:48374 on port 1883.
+1679739632: Client BME280Client disconnected, not authorised.
+1679739635: New connection from 172.18.0.1:48376 on port 1883.
+1679739635: Client BME280Client disconnected, not authorised.
+1679739637: New connection from 172.18.0.1:48390 on port 1883.
+1679739637: Client BME280Client disconnected, not authorised.
+1679739639: New connection from 172.18.0.1:55764 on port 1883.
+1679739639: Client BME280Client disconnected, not authorised.
+1679739642: New connection from 172.18.0.1:55766 on port 1883.
+1679739642: Client BME280Client disconnected, not authorised.
+1679739644: New connection from 172.18.0.1:55776 on port 1883.
+1679739644: Client BME280Client disconnected, not authorised.
+1679739646: New connection from 172.18.0.1:55784 on port 1883.
+1679739646: Client BME280Client disconnected, not authorised.
+1679739648: New connection from 172.18.0.1:55796 on port 1883.
+1679739648: Client BME280Client disconnected, not authorised.
+1679739650: New connection from 172.18.0.1:42468 on port 1883.
+1679739650: Client BME280Client disconnected, not authorised.
+1679739652: New connection from 172.18.0.1:42484 on port 1883.
+1679739652: Client BME280Client disconnected, not authorised.
+1679739654: New connection from 172.18.0.1:42486 on port 1883.
+1679739654: Client BME280Client disconnected, not authorised.
+1679739656: New connection from 172.18.0.1:42502 on port 1883.
+1679739656: Client BME280Client disconnected, not authorised.
+1679739661: New connection from 172.18.0.1:36376 on port 1883.
+1679739661: Client BME280Client disconnected, not authorised.
+1679739663: New connection from 172.18.0.1:36384 on port 1883.
+1679739663: Client BME280Client disconnected, not authorised.
+1679739665: New connection from 172.18.0.1:36386 on port 1883.
+1679739665: Client BME280Client disconnected, not authorised.
+1679739667: New connection from 172.18.0.1:36398 on port 1883.
+1679739667: Client BME280Client disconnected, not authorised.
+1679739669: New connection from 172.18.0.1:49676 on port 1883.
+1679739669: Client BME280Client disconnected, not authorised.
+1679739671: New connection from 172.18.0.1:49692 on port 1883.
+1679739671: Client BME280Client disconnected, not authorised.
+1679739673: New connection from 172.18.0.1:49704 on port 1883.
+1679739673: Client BME280Client disconnected, not authorised.
+1679739675: New connection from 172.18.0.1:49716 on port 1883.
+1679739675: Client BME280Client disconnected, not authorised.
+1679739677: New connection from 172.18.0.1:49724 on port 1883.
+1679739677: Client BME280Client disconnected, not authorised.
+1679739679: New connection from 172.18.0.1:37858 on port 1883.
+1679739679: Client BME280Client disconnected, not authorised.
+1679739681: New connection from 172.18.0.1:37862 on port 1883.
+1679739681: Client BME280Client disconnected, not authorised.
+1679739683: New connection from 172.18.0.1:37868 on port 1883.
+1679739683: Client BME280Client disconnected, not authorised.
+1679739685: New connection from 172.18.0.1:37872 on port 1883.
+1679739685: Client BME280Client disconnected, not authorised.
+1679739687: New connection from 172.18.0.1:37884 on port 1883.
+1679739687: Client BME280Client disconnected, not authorised.
+1679739690: New connection from 172.18.0.1:40380 on port 1883.
+1679739690: Client BME280Client disconnected, not authorised.
+1679739692: New connection from 172.18.0.1:40386 on port 1883.
+1679739692: Client BME280Client disconnected, not authorised.
+1679739694: New connection from 172.18.0.1:40390 on port 1883.
+1679739694: Client BME280Client disconnected, not authorised.
+1679739696: New connection from 172.18.0.1:40402 on port 1883.
+1679739696: Client BME280Client disconnected, not authorised.
+1679739698: New connection from 172.18.0.1:40414 on port 1883.
+1679739698: Client BME280Client disconnected, not authorised.
+1679739700: New connection from 172.18.0.1:55722 on port 1883.
+1679739700: Client BME280Client disconnected, not authorised.
+1679739702: New connection from 172.18.0.1:55730 on port 1883.
+1679739702: Client BME280Client disconnected, not authorised.
+1679739704: New connection from 172.18.0.1:55742 on port 1883.
+1679739704: Client BME280Client disconnected, not authorised.
+1679739706: New connection from 172.18.0.1:55758 on port 1883.
+1679739706: Client BME280Client disconnected, not authorised.
+1679739708: New connection from 172.18.0.1:55760 on port 1883.
+1679739708: Client BME280Client disconnected, not authorised.
+1679739710: New connection from 172.18.0.1:45210 on port 1883.
+1679739710: Client BME280Client disconnected, not authorised.
+1679739713: New connection from 172.18.0.1:45220 on port 1883.
+1679739713: Client BME280Client disconnected, not authorised.
+1679739715: New connection from 172.18.0.1:45228 on port 1883.
+1679739715: Client BME280Client disconnected, not authorised.
+1679739717: New connection from 172.18.0.1:45240 on port 1883.
+1679739717: Client BME280Client disconnected, not authorised.
+1679739719: New connection from 172.18.0.1:44934 on port 1883.
+1679739719: Client BME280Client disconnected, not authorised.
+1679739721: New connection from 172.18.0.1:44938 on port 1883.
+1679739721: Client BME280Client disconnected, not authorised.
+1679739723: New connection from 172.18.0.1:44948 on port 1883.
+1679739723: Client BME280Client disconnected, not authorised.
+1679739725: New connection from 172.18.0.1:44958 on port 1883.
+1679739725: Client BME280Client disconnected, not authorised.
+1679739727: New connection from 172.18.0.1:44960 on port 1883.
+1679739727: Client BME280Client disconnected, not authorised.
+1679739729: New connection from 172.18.0.1:57454 on port 1883.
+1679739729: Client BME280Client disconnected, not authorised.
+1679739731: New connection from 172.18.0.1:57458 on port 1883.
+1679739731: Client BME280Client disconnected, not authorised.
+1679739733: New connection from 172.18.0.1:57464 on port 1883.
+1679739733: Client BME280Client disconnected, not authorised.
+1679739735: New connection from 172.18.0.1:57466 on port 1883.
+1679739735: Client BME280Client disconnected, not authorised.
+1679739737: New connection from 172.18.0.1:57482 on port 1883.
+1679739737: Client BME280Client disconnected, not authorised.
+1679739739: New connection from 172.18.0.1:50226 on port 1883.
+1679739739: Client BME280Client disconnected, not authorised.
+1679739741: New connection from 172.18.0.1:50230 on port 1883.
+1679739741: Client BME280Client disconnected, not authorised.
+1679739743: New connection from 172.18.0.1:50238 on port 1883.
+1679739743: Client BME280Client disconnected, not authorised.
+1679739745: New connection from 172.18.0.1:50254 on port 1883.
+1679739745: Client BME280Client disconnected, not authorised.
+1679739747: New connection from 172.18.0.1:50262 on port 1883.
+1679739747: Client BME280Client disconnected, not authorised.
+1679739749: New connection from 172.18.0.1:51088 on port 1883.
+1679739749: Client BME280Client disconnected, not authorised.
+1679739751: New connection from 172.18.0.1:51104 on port 1883.
+1679739751: Client BME280Client disconnected, not authorised.
+1679739754: New connection from 172.18.0.1:51118 on port 1883.
+1679739754: Client BME280Client disconnected, not authorised.
+1679739756: New connection from 172.18.0.1:51126 on port 1883.
+1679739756: Client BME280Client disconnected, not authorised.
+1679739758: New connection from 172.18.0.1:51132 on port 1883.
+1679739758: Client BME280Client disconnected, not authorised.
+1679739760: New connection from 172.18.0.1:53148 on port 1883.
+1679739760: Client BME280Client disconnected, not authorised.
+1679739762: New connection from 172.18.0.1:53160 on port 1883.
+1679739762: Client BME280Client disconnected, not authorised.
+1679739764: New connection from 172.18.0.1:53164 on port 1883.
+1679739764: Client BME280Client disconnected, not authorised.
+1679739766: New connection from 172.18.0.1:53166 on port 1883.
+1679739766: Client BME280Client disconnected, not authorised.
+1679739769: New connection from 172.18.0.1:59300 on port 1883.
+1679739769: Client BME280Client disconnected, not authorised.
+1679739771: New connection from 172.18.0.1:59302 on port 1883.
+1679739771: Client BME280Client disconnected, not authorised.
+1679739773: New connection from 172.18.0.1:59312 on port 1883.
+1679739773: Client BME280Client disconnected, not authorised.
+1679739775: New connection from 172.18.0.1:59316 on port 1883.
+1679739775: Client BME280Client disconnected, not authorised.
+1679739777: New connection from 172.18.0.1:59322 on port 1883.
+1679739777: Client BME280Client disconnected, not authorised.
+1679739779: New connection from 172.18.0.1:35800 on port 1883.
+1679739779: Client BME280Client disconnected, not authorised.
+1679739781: New connection from 172.18.0.1:35816 on port 1883.
+1679739781: Client BME280Client disconnected, not authorised.
+1679739783: New connection from 172.18.0.1:35822 on port 1883.
+1679739783: Client BME280Client disconnected, not authorised.
+1679739785: New connection from 172.18.0.1:35826 on port 1883.
+1679739785: Client BME280Client disconnected, not authorised.
+1679739787: New connection from 172.18.0.1:35842 on port 1883.
+1679739787: Client BME280Client disconnected, not authorised.
+1679739789: New connection from 172.18.0.1:41740 on port 1883.
+1679739789: Client BME280Client disconnected, not authorised.
+1679739791: New connection from 172.18.0.1:41742 on port 1883.
+1679739791: Client BME280Client disconnected, not authorised.
+1679739793: New connection from 172.18.0.1:41748 on port 1883.
+1679739793: Client BME280Client disconnected, not authorised.
+1679739795: New connection from 172.18.0.1:41750 on port 1883.
+1679739795: Client BME280Client disconnected, not authorised.
+1679739797: New connection from 172.18.0.1:41754 on port 1883.
+1679739797: Client BME280Client disconnected, not authorised.
+1679739799: New connection from 172.18.0.1:55446 on port 1883.
+1679739799: Client BME280Client disconnected, not authorised.
+1679739801: New connection from 172.18.0.1:55452 on port 1883.
+1679739801: Client BME280Client disconnected, not authorised.
+1679739803: New connection from 172.18.0.1:55460 on port 1883.
+1679739803: Client BME280Client disconnected, not authorised.
+1679739805: New connection from 172.18.0.1:55466 on port 1883.
+1679739805: Client BME280Client disconnected, not authorised.
+1679739808: New connection from 172.18.0.1:55470 on port 1883.
+1679739808: Client BME280Client disconnected, not authorised.
+1679739810: New connection from 172.18.0.1:52980 on port 1883.
+1679739810: Client BME280Client disconnected, not authorised.
+1679739812: New connection from 172.18.0.1:52984 on port 1883.
+1679739812: Client BME280Client disconnected, not authorised.
+1679739814: New connection from 172.18.0.1:53000 on port 1883.
+1679739814: Client BME280Client disconnected, not authorised.
+1679739816: New connection from 172.18.0.1:53008 on port 1883.
+1679739816: Client BME280Client disconnected, not authorised.
+1679739818: New connection from 172.18.0.1:53020 on port 1883.
+1679739818: Client BME280Client disconnected, not authorised.
+1679739821: New connection from 172.18.0.1:46760 on port 1883.
+1679739821: Client BME280Client disconnected, not authorised.
+1679739823: New connection from 172.18.0.1:46764 on port 1883.
+1679739823: Client BME280Client disconnected, not authorised.
+1679739825: New connection from 172.18.0.1:46770 on port 1883.
+1679739825: Client BME280Client disconnected, not authorised.
+1679739827: New connection from 172.18.0.1:46778 on port 1883.
+1679739827: Client BME280Client disconnected, not authorised.
+1679739829: New connection from 172.18.0.1:57168 on port 1883.
+1679739829: Client BME280Client disconnected, not authorised.
+1679739831: New connection from 172.18.0.1:57172 on port 1883.
+1679739831: Client BME280Client disconnected, not authorised.
+1679739833: New connection from 172.18.0.1:57182 on port 1883.
+1679739833: Client BME280Client disconnected, not authorised.
+1679739835: New connection from 172.18.0.1:57190 on port 1883.
+1679739835: Client BME280Client disconnected, not authorised.
+1679739837: New connection from 172.18.0.1:57198 on port 1883.
+1679739837: Client BME280Client disconnected, not authorised.
+1679739839: New connection from 172.18.0.1:43438 on port 1883.
+1679739839: Client BME280Client disconnected, not authorised.
+1679739841: New connection from 172.18.0.1:43442 on port 1883.
+1679739841: Client BME280Client disconnected, not authorised.
+1679739843: New connection from 172.18.0.1:43448 on port 1883.
+1679739843: Client BME280Client disconnected, not authorised.
+1679739845: New connection from 172.18.0.1:43458 on port 1883.
+1679739845: Client BME280Client disconnected, not authorised.
+1679739847: New connection from 172.18.0.1:43470 on port 1883.
+1679739847: Client BME280Client disconnected, not authorised.
+1679739849: New connection from 172.18.0.1:47270 on port 1883.
+1679739849: Client BME280Client disconnected, not authorised.
+1679739851: New connection from 172.18.0.1:47272 on port 1883.
+1679739851: Client BME280Client disconnected, not authorised.
+1679739853: New connection from 172.18.0.1:47274 on port 1883.
+1679739853: Client BME280Client disconnected, not authorised.
+1679739855: New connection from 172.18.0.1:47278 on port 1883.
+1679739855: Client BME280Client disconnected, not authorised.
+1679739857: New connection from 172.18.0.1:47286 on port 1883.
+1679739857: Client BME280Client disconnected, not authorised.
+1679739859: New connection from 172.18.0.1:50678 on port 1883.
+1679739859: Client BME280Client disconnected, not authorised.
+1679739862: New connection from 172.18.0.1:50688 on port 1883.
+1679739862: Client BME280Client disconnected, not authorised.
+1679739864: New connection from 172.18.0.1:50692 on port 1883.
+1679739864: Client BME280Client disconnected, not authorised.
+1679739866: New connection from 172.18.0.1:50698 on port 1883.
+1679739866: Client BME280Client disconnected, not authorised.
+1679739868: New connection from 172.18.0.1:50700 on port 1883.
+1679739868: Client BME280Client disconnected, not authorised.
+1679739870: New connection from 172.18.0.1:56310 on port 1883.
+1679739870: Client BME280Client disconnected, not authorised.
+1679739872: New connection from 172.18.0.1:56324 on port 1883.
+1679739872: Client BME280Client disconnected, not authorised.
+1679739874: New connection from 172.18.0.1:56326 on port 1883.
+1679739874: Client BME280Client disconnected, not authorised.
+1679739876: New connection from 172.18.0.1:56338 on port 1883.
+1679739876: Client BME280Client disconnected, not authorised.
+1679739878: New connection from 172.18.0.1:56344 on port 1883.
+1679739878: Client BME280Client disconnected, not authorised.
