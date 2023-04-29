@@ -4,6 +4,10 @@ import { AppService } from './app.service';
 import { MqttController } from './mqtt.controller';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { InfluxDbModule } from './influx.module';
+import { MongooseModule } from '@nestjs/mongoose';
+import { UserModule } from './user/user.module';
+import { SensorModule } from './sensor/sensor.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -18,6 +22,12 @@ import { InfluxDbModule } from './influx.module';
       },
       inject: [ConfigService],
     }),
+    MongooseModule.forRoot(
+      'mongodb://root:root@mongodb:27017/moldApp?authSource=admin',
+    ),
+    UserModule,
+    SensorModule,
+    AuthModule,
   ],
   controllers: [AppController, MqttController],
   providers: [AppService],
