@@ -9,13 +9,13 @@ export class AuthService {
     private jwtService: JwtService,
   ) {}
 
-  async signIn(username, pass) {
-    const user = await this.userService.findOne(username);
+  async signIn(email, pass) {
+    const user = await this.userService.findUserByEmail(email);
     if (user?.password !== pass) {
       throw new UnauthorizedException();
     }
     return {
-      access_token: await this.jwtService.signAsync({ username }),
+      access_token: await this.jwtService.signAsync({ email }),
     };
   }
 }
