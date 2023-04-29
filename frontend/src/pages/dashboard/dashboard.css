@@ -1,0 +1,26 @@
+.dashboard-container {
+  height: 100%;
+  margin: 32px 16px 16px 16px;
+}
+
+.dashboard-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.dashboard-content-without-sensors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 400px;
+  gap: 32px;
+}
+
+.dashboard-footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 40px;
+}
