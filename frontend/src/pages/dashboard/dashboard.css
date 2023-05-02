@@ -10,6 +10,11 @@
   line-height: 29px;
 }
 
+.dashboard-top-container {
+  display: flex;
+  align-items: center;
+}
+
 .dashboard-content-without-sensors {
   display: flex;
   flex-direction: column;
@@ -18,9 +23,230 @@
   gap: 32px;
 }
 
-.dashboard-footer{
+.dashboard-footer {
   width: 100%;
   display: flex;
   justify-content: center;
   bottom: 40px;
+}
+
+.dashboard-add-sensor-container {
+  background-color: white;
+  bottom: 0;
+  position: absolute;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  width: 100%;
+}
+
+.dashboard-add-sensor-container-first-step {
+  height: 80%;
+  animation: expand 1s;
+}
+
+.dashboard-add-sensor-container-next-step {
+  height: 50%;
+  animation: reduce 1s;
+}
+
+.dashboard-add-sensor-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 16px 0 16px;
+  gap: 16px;
+}
+
+.dashboard-add-sensor-icon {
+  display: flex;
+  width: 110px;
+  height: 110px;
+  background: #f7f7f7;
+  border-radius: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-add-sensor-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.dashboard-add-sensor-input {
+  width: 100%;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
+
+.dashboard-add-sensor-dropdown {
+  width: 100%;
+}
+
+.dashboard-add-sensor-rooms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.dashboard-add-sensor-room {
+  padding: 8px 10px;
+  width: 100px;
+  height: 32px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+}
+
+.dashboard-add-sensor-room:active {
+  background: #adc7ef;
+}
+
+.dashboard-add-sensor-room:focus {
+  background: #adc7ef;
+}
+
+.dashboard-add-sensor-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  gap: 64px;
+  width: 100%;
+}
+
+.dashboard-add-sensor-complete {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.dashboard-add-sensor-complete-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.dashboard-add-sensor-complete-buttons {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 16px;
+  gap: 8px;
+  flex-direction: column;
+  width: 100%;
+  margin: 16px;
+}
+
+.dashboard-with-sensors {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  height: 100%;
+  margin-top: 32px;
+}
+
+.dashboard-with-sensors-top-section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.dashboard-with-sensors-bottom-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.scene {
+  background-color: #f7f7f7;
+  padding: 12px 16px;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 12px;
+}
+
+.scene-content {
+  align-items: center;
+  display: flex;
+}
+
+.scene-text {
+  font-size: 16px;
+  line-height: 19px;
+  margin: 8px;
+}
+
+.scene-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+
+.sensor {
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  padding: 16px;
+  gap: 16px;
+}
+
+.sensor-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sensor-text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  margin-top: 4px;
+}
+
+.sensor-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+
+@keyframes expand {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 80%;
+  }
+}
+
+@keyframes reduce {
+  0% {
+    opacity: 1;
+    height: 80%;
+  }
+  100% {
+    opacity: 1;
+    height: 50%;
+  }
 }

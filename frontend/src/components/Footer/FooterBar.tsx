@@ -1,3 +1,4 @@
+import classnames from "classnames";
 import "./footer.css";
 
 export function Footer({ children }: { children: React.ReactNode }) {
@@ -17,7 +18,7 @@ export function FooterItem({
 }) {
   return (
     <div
-      className={active ? "footer-item footer-item-active" : "footer-item"}
+      className={classnames("footer-item", { "footer-item-active": active })}
       onClick={onClick}
     >
       <div className="footer-icon">{children}</div>

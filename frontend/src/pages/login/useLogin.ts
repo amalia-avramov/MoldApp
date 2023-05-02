@@ -1,18 +1,8 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-
-type User = {
-  _id: string;
-  name: string;
-  email: string;
-  password: string;
-};
-
-type LoginUser = {
-  user: User;
-  accessToken: string;
-};
+import { server } from "../../utils";
+import { LoginUser, User } from "../../types";
 
 export function useLogin() {
   const {
@@ -21,14 +11,13 @@ export function useLogin() {
     formState: { errors },
     getValues,
   } = useForm<User>({ mode: "onChange" });
-  const [loginUser, setLoginUser] = useState<LoginUser>();
   const [alert, setAlert] = useState(false);
   const navigate = useNavigate();
 
   const onSubmit = async () => {
     setAlert(false);
     const postData = getValues();
-    const result = await fetch("http://localhost:3000/auth/login", {
+    const result = await fetch(`${server}/auth/login`, {
       method: "post",
       headers: {
         "Content-Type": "application/json",
@@ -39,8 +28,9 @@ export function useLogin() {
     if (!result.ok) {
       setAlert(true);
     } else {
-      const data = await result.json();
-      setLoginUser(data);
+      const data: LoginUser = await result.json();
+      localStorage.setItem('loggedUserId', data.user?._id);
+      console.log(data);
       navigate("/dashboard");
     }
   };
@@ -48,7 +38,6 @@ export function useLogin() {
   return {
     alert,
     errors,
-    loginUser: loginUser,
     register,
     onSubmit: handleSubmit(onSubmit),
   };

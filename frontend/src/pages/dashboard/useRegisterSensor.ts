@@ -1,21 +1,20 @@
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
+import { Sensor } from "../../types";
 import { server } from "../../utils";
-import { User } from "../../types";
 
-
-export function useRegister() {
+export function useRegisterSensor() {
   const {
     register,
-    handleSubmit,
     formState: { errors },
+    handleSubmit,
     getValues,
-  } = useForm<User>({ mode: "onChange" });
-  const navigate = useNavigate();
+    setValue,
+  } = useForm<Sensor>();
 
   const onSubmit = async () => {
+    setValue("userId", localStorage.getItem("loggedUserId") ?? "");
     const postData = getValues();
-    const result = await fetch(`${server}/users`, {
+    const result = await fetch(`${server}/sensors`, {
       method: "post",
       headers: {
         "Content-Type": "application/json",
@@ -26,9 +25,8 @@ export function useRegister() {
     if (!result.ok) {
       console.log(result);
     } else {
-      navigate("/dashboard");
+      console.log("sensor added");
     }
   };
-
-  return { register, errors, onSubmit: handleSubmit(onSubmit) };
+  return { register, getValues, setValue, onSubmit: handleSubmit(onSubmit) };
 }
