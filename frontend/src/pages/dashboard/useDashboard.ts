@@ -1,22 +1,20 @@
-import { useEffect, useState } from "react";
 import { server } from "../../utils";
-import { Sensor } from "../../types";
+import { Room, Sensor } from "../../types";
+import useSWR from "swr";
 
 export function useDashboard() {
   const userId = localStorage.getItem("loggedUserId");
-  const [sensors, setSensors] = useState<Sensor[]>([]);
 
-  useEffect(() => {
-    fetch(`${server}/sensors/user/${userId}`)
-      .then((res) => res.json())
-      .then((data: Sensor[]) => {
-        console.log(data);
-        setSensors(data);
-      })
-      .catch((err) => {
-        console.log(err.message);
-      });
-  }, []);
+  const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-  return {sensors}
+  const { data: sensors, isLoading } = useSWR<Sensor[]>(
+    `${server}/sensors/user/${userId}`,
+    fetcher
+  );
+
+  const { data: rooms } = useSWR<Room[]>(
+    `${server}/sensors/rooms/${userId}`,
+    fetcher
+  );
+  return { sensors: sensors ?? [], rooms: rooms ?? [], isLoading };
 }

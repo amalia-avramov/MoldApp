@@ -11,10 +11,14 @@ export type LoginUser = {
 };
 
 export type Sensor = {
-    _id: string;
-    userId: string;
-    name: string;
-    room: string;
-    ipAddress: string;
-    wallType: string;
-}
+  _id: string;
+  userId: string;
+  name: string;
+  room: string;
+  ipAddress: string;
+  wallType: string;
+};
+
+export type Room = {
+  name: string;
+};

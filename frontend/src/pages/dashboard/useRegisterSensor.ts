@@ -5,7 +5,6 @@ import { server } from "../../utils";
 export function useRegisterSensor() {
   const {
     register,
-    formState: { errors },
     handleSubmit,
     getValues,
     setValue,

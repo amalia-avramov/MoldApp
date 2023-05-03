@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import { Start } from "./pages/start/Start";
 import { Login } from "./pages/login/Login";
 import { Dashboard } from "./pages/dashboard/Dashboard";

@@ -6,21 +6,24 @@ import SoupKitchenIcon from "@mui/icons-material/SoupKitchen";
 import ChairIcon from "@mui/icons-material/Chair";
 import DoorBackOutlinedIcon from "@mui/icons-material/DoorBackOutlined";
 import SingleBedIcon from "@mui/icons-material/SingleBed";
+import BathtubIcon from "@mui/icons-material/Bathtub";
+import GarageIcon from "@mui/icons-material/Garage";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import { useState } from "react";
 import { useDashboard } from "./useDashboard";
 import { AddSensor } from "./AddSensor";
 import SensorsIcon from "@mui/icons-material/Sensors";
+import { Room, Sensor } from "../../types";
 
 export function Dashboard() {
-  const { sensors } = useDashboard();
+  const { sensors, rooms, isLoading } = useDashboard();
   const [addSensor, setAddSensor] = useState(false);
   return (
     <div className="dashboard-container">
       <div className="dashboard-top-container">
         <div className="dashboard-title">My home</div>
-        {sensors.length !== 0 && (
+        {sensors.length !== 0 && !isLoading && (
           <Button
             style={{ color: "black", position: "absolute", right: "0" }}
             onClick={() => setAddSensor(true)}
@@ -29,27 +32,10 @@ export function Dashboard() {
           </Button>
         )}
       </div>
-      {sensors.length === 0 ? (
-        <DashboardWithoutSensors />
-      ) : (
-        <div className="dashboard-with-sensors">
-          <div className="dashboard-with-sensors-top-section">
-            <DashboardScene name="Bedroom">
-              <SingleBedIcon />
-            </DashboardScene>
-            <DashboardScene name="Living room">
-              <ChairIcon />
-            </DashboardScene>
-            <DashboardScene name="Kitchen">
-              <SoupKitchenIcon />
-            </DashboardScene>
-          </div>
-          <div className="dashboard-with-sensors-bottom-section">
-            <DashboardSensor name="Sensor 1"/>
-            <DashboardSensor name="Sensor 2"/>
-            <DashboardSensor name="Sensor 3"/>
-          </div>
-        </div>
+      {sensors.length === 0 && !isLoading && <DashboardWithoutSensors />}
+      {sensors.length === 0 && isLoading && <DashboardSkeleton />}
+      {sensors.length > 0 && !isLoading && (
+        <DashboardWithSensors sensors={sensors} rooms={rooms} />
       )}
       <div className="dashboard-footer">
         <Footer>
@@ -92,17 +78,40 @@ function DashboardWithoutSensors() {
   );
 }
 
-function DashboardScene({
-  name,
-  children,
+function DashboardWithSensors({
+  sensors,
+  rooms,
 }: {
-  name: string;
-  children: React.ReactNode;
+  sensors: Sensor[];
+  rooms: Room[];
 }) {
+  return (
+    <div className="dashboard-with-sensors">
+      <div>
+        <div className="dashboard-with-sensors-text">Scenes</div>
+        <div className="dashboard-with-sensors-top-section">
+          {rooms.map((room) => (
+            <DashboardScene name={room.name} />
+          ))}
+        </div>
+      </div>
+      <div>
+        <div className="dashboard-with-sensors-text">Sensors</div>
+        <div className="dashboard-with-sensors-bottom-section">
+          {sensors.map((sensor) => (
+            <DashboardSensor name={sensor.name} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function DashboardScene({ name }: { name: string }) {
   return (
     <div className="scene">
       <div className="scene-content">
-        <div className="scene-icon">{children}</div>
+        <div className="scene-icon">{getRoomIcon(name)}</div>
         <div className="scene-text">{name}</div>
       </div>
       <Switch defaultChecked style={{ color: "white" }} />
@@ -110,11 +119,7 @@ function DashboardScene({
   );
 }
 
-function DashboardSensor({
-  name,
-}: {
-  name: string;
-}) {
+function DashboardSensor({ name }: { name: string }) {
   return (
     <div className="sensor">
       <div className="sensor-content">
@@ -126,4 +131,40 @@ function DashboardSensor({
       <div className="sensor-text">{name}</div>
     </div>
   );
+}
+
+function DashboardSkeleton() {
+  return (
+    <div className="dashboard-with-sensors">
+      <div className="dashboard-with-sensors-top-section">
+        {Array.from(Array(5).keys()).map((column) => (
+          <div className="scene" />
+        ))}
+      </div>
+      <div className="dashboard-with-sensors-bottom-section">
+        {Array.from(Array(6).keys()).map((column) => (
+          <div className="sensor" />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export function getRoomIcon(roomName: string) {
+  switch (roomName) {
+    case "Living room":
+      return <ChairIcon />;
+    case "Kitchen":
+      return <SoupKitchenIcon />;
+    case "Bedroom 1":
+      return <SingleBedIcon />;
+    case "Bedroom 2":
+      return <SingleBedIcon />;
+    case "Bathroom":
+      return <BathtubIcon />;
+    case "Garage":
+      return <GarageIcon />;
+    default:
+      return;
+  }
 }

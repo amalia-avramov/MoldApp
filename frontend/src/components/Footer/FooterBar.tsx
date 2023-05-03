@@ -22,7 +22,7 @@ export function FooterItem({
       onClick={onClick}
     >
       <div className="footer-icon">{children}</div>
-      {active && <a className="footer-item-label">{label}</a>}
+      {active && <div className="footer-item-label">{label}</div>}
     </div>
   );
 }
