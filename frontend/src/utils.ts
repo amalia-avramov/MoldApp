@@ -22,23 +22,22 @@ export const availableRooms = [
 ];
 
 export const wallTypes = [
-    {
-        name:'Concrete'
-    },
-    {
-        name:'Spruce board'
-    },
-    {
-        name:'Glass wool'
-    },
-    {
-        name:'Polyester wool'
-    },
-    {
-        name:' PUR with polished surface'
-    },
-    {
-        name:'PUR with paper surface'
-    },
-
-]
+  {
+    name: "Concrete",
+  },
+  {
+    name: "Spruce board",
+  },
+  {
+    name: "Glass wool",
+  },
+  {
+    name: "Polyester wool",
+  },
+  {
+    name: " PUR with polished surface",
+  },
+  {
+    name: "PUR with paper surface",
+  },
+];

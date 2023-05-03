@@ -1,20 +1,17 @@
 import { Button, Switch } from "@mui/material";
 import "./dashboard.css";
-import { Footer, FooterItem } from "../../components/Footer/FooterBar";
-import DashboardOutlinedIcon from "@mui/icons-material/DashboardOutlined";
 import SoupKitchenIcon from "@mui/icons-material/SoupKitchen";
 import ChairIcon from "@mui/icons-material/Chair";
-import DoorBackOutlinedIcon from "@mui/icons-material/DoorBackOutlined";
 import SingleBedIcon from "@mui/icons-material/SingleBed";
 import BathtubIcon from "@mui/icons-material/Bathtub";
 import GarageIcon from "@mui/icons-material/Garage";
-import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import { useState } from "react";
 import { useDashboard } from "./useDashboard";
 import { AddSensor } from "./AddSensor";
 import SensorsIcon from "@mui/icons-material/Sensors";
 import { Room, Sensor } from "../../types";
+import { FooterBar } from "../../components/Footer/FooterBar";
 
 export function Dashboard() {
   const { sensors, rooms, isLoading } = useDashboard();
@@ -37,19 +34,7 @@ export function Dashboard() {
       {sensors.length > 0 && !isLoading && (
         <DashboardWithSensors sensors={sensors} rooms={rooms} />
       )}
-      <div className="dashboard-footer">
-        <Footer>
-          <FooterItem label="Dashboard" active>
-            <DashboardOutlinedIcon style={{ color: "white" }} />
-          </FooterItem>
-          <FooterItem label="Rooms">
-            <DoorBackOutlinedIcon style={{ color: "white" }} />
-          </FooterItem>
-          <FooterItem label="Notifications">
-            <NotificationsNoneOutlinedIcon style={{ color: "white" }} />
-          </FooterItem>
-        </Footer>
-      </div>
+      <FooterBar/>
       <AddSensor open={addSensor} onClose={() => setAddSensor(false)} />
     </div>
   );
@@ -91,7 +76,7 @@ function DashboardWithSensors({
         <div className="dashboard-with-sensors-text">Scenes</div>
         <div className="dashboard-with-sensors-top-section">
           {rooms.map((room) => (
-            <DashboardScene name={room.name} />
+            <DashboardScene name={room.name} key={room.name}/>
           ))}
         </div>
       </div>
@@ -99,7 +84,7 @@ function DashboardWithSensors({
         <div className="dashboard-with-sensors-text">Sensors</div>
         <div className="dashboard-with-sensors-bottom-section">
           {sensors.map((sensor) => (
-            <DashboardSensor name={sensor.name} />
+            <DashboardSensor name={sensor.name} key={sensor.name}/>
           ))}
         </div>
       </div>
@@ -138,12 +123,12 @@ function DashboardSkeleton() {
     <div className="dashboard-with-sensors">
       <div className="dashboard-with-sensors-top-section">
         {Array.from(Array(5).keys()).map((column) => (
-          <div className="scene" />
+          <div className="scene" key={column} />
         ))}
       </div>
       <div className="dashboard-with-sensors-bottom-section">
         {Array.from(Array(6).keys()).map((column) => (
-          <div className="sensor" />
+          <div className="sensor" key={column}/>
         ))}
       </div>
     </div>

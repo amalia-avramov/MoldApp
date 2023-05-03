@@ -1,28 +1,35 @@
-import classnames from "classnames";
-import "./footer.css";
+import { Footer, FooterItem } from "./Footer";
+import DashboardOutlinedIcon from "@mui/icons-material/DashboardOutlined";
+import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
+import DoorBackOutlinedIcon from "@mui/icons-material/DoorBackOutlined";
 
-export function Footer({ children }: { children: React.ReactNode }) {
-  return <div className="footer">{children}</div>;
-}
-
-export function FooterItem({
-  label,
-  active,
-  children,
-  onClick,
-}: {
-  label: string;
-  children?: React.ReactNode;
-  active?: boolean;
-  onClick?: React.MouseEventHandler;
-}) {
+export function FooterBar() {
+  const activePath = window.location.pathname;
   return (
-    <div
-      className={classnames("footer-item", { "footer-item-active": active })}
-      onClick={onClick}
-    >
-      <div className="footer-icon">{children}</div>
-      {active && <div className="footer-item-label">{label}</div>}
+    <div className="footer-bar">
+      <Footer>
+        <FooterItem
+          label="Dashboard"
+          href="/dashboard"
+          active={activePath === "/dashboard"}
+        >
+          <DashboardOutlinedIcon style={{ color: "white" }} />
+        </FooterItem>
+        <FooterItem
+          label="Rooms"
+          href="/rooms"
+          active={activePath === "/rooms"}
+        >
+          <DoorBackOutlinedIcon style={{ color: "white" }} />
+        </FooterItem>
+        <FooterItem
+          label="Notifications"
+          href="/notifications"
+          active={activePath === "/notifications"}
+        >
+          <NotificationsNoneOutlinedIcon style={{ color: "white" }} />
+        </FooterItem>
+      </Footer>
     </div>
   );
 }

@@ -23,13 +23,6 @@
   gap: 32px;
 }
 
-.dashboard-footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  bottom: 40px;
-}
-
 .dashboard-add-sensor-container {
   background-color: white;
   bottom: 0;
