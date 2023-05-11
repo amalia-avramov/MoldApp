@@ -9,12 +9,14 @@ export function useDashboard() {
 
   const { data: sensors, isLoading } = useSWR<Sensor[]>(
     `${server}/sensors/user/${userId}`,
-    fetcher
+    fetcher,
+    { refreshInterval: 1000 }
   );
 
   const { data: rooms } = useSWR<Room[]>(
     `${server}/sensors/rooms/${userId}`,
-    fetcher
+    fetcher,
+    { refreshInterval: 1000 }
   );
   return { sensors: sensors ?? [], rooms: rooms ?? [], isLoading };
 }

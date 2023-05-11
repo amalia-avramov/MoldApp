@@ -20,5 +20,12 @@ export type Sensor = {
 };
 
 export type Room = {
+  sensorId: string;
   name: string;
+};
+
+export type SensorData = {
+  temperature: number;
+  humidity: number;
+  moldIndex: number;
 };

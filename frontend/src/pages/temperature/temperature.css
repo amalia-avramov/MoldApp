@@ -101,7 +101,7 @@
 .horizontal-bar-text {
   font-size: 24px;
   line-height: 29px;
-  margin-left: 150px;
+  height: 100%;
   transform: rotate(90deg);
 }
 

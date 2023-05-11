@@ -29,6 +29,7 @@ export function useLogin() {
       setAlert(true);
     } else {
       const data: LoginUser = await result.json();
+      console.log(data.user._id)
       localStorage.setItem('loggedUserId', data.user?._id);
       console.log(data);
       navigate("/dashboard");

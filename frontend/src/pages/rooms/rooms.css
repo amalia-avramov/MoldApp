@@ -24,7 +24,7 @@
 
 .rooms-body-first-section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -40,6 +40,12 @@
   padding: 8px;
   display: flex;
   gap: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.room-active {
+  background-color: #adc7ef;
 }
 
 .room-text {
@@ -88,4 +94,28 @@
   font-size: 16px;
   line-height: 19px;
   font-weight: bold;
+}
+
+.delete-modal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: white;
+  height: 45%;
+}
+
+.delete-modal-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.delete-modal-buttons {
+  display: flex;
+  gap: 32px;
 }

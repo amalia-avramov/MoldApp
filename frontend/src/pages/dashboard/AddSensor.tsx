@@ -258,6 +258,7 @@ export function AddSensor({ open, onClose }: { open: boolean; onClose: () => voi
     selectedRoom: string;
     onClose: () => void;
   }) {
+    console.log(selectedRoom)
     return (
       <AddSensorStep
         button1Text="Done"
@@ -270,7 +271,7 @@ export function AddSensor({ open, onClose }: { open: boolean; onClose: () => voi
             style={{ fontSize: "100px", color: "#ADC7EF" }}
           />
           <div className="dashboard-add-sensor-complete-text">
-            Sensor added to "{selectedRoom}"
+            Sensor added!
           </div>
         </div>
       </AddSensorStep>

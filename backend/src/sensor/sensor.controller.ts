@@ -38,6 +38,11 @@ export class SensorController {
     return this.sensorService.findSensorsByUserId(userId);
   }
 
+  @Get('/rooms/:userId')
+  async findRooms(@Param('userId') userId: string) {
+    return this.sensorService.findRooms(userId);
+  }
+
   @Put(':id')
   async updateSensorById(
     @Param('id') id: string,

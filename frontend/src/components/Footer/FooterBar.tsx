@@ -18,7 +18,7 @@ export function FooterBar() {
         <FooterItem
           label="Rooms"
           href="/rooms"
-          active={activePath === "/rooms"}
+          active={activePath.includes("/rooms")}
         >
           <DoorBackOutlinedIcon style={{ color: "white" }} />
         </FooterItem>

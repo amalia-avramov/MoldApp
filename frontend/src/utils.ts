@@ -1,4 +1,4 @@
-export const server = "http://localhost:3000";
+export const server = "http://localhost:3001";
 
 export const availableRooms = [
   {
@@ -29,13 +29,16 @@ export const wallTypes = [
     name: "Spruce board",
   },
   {
+    name: "Pine sapwood",
+  },
+  {
     name: "Glass wool",
   },
   {
     name: "Polyester wool",
   },
   {
-    name: " PUR with polished surface",
+    name: "PUR with polished surface",
   },
   {
     name: "PUR with paper surface",

@@ -75,7 +75,7 @@ function DashboardWithSensors({
       <div>
         <div className="dashboard-with-sensors-text">Scenes</div>
         <div className="dashboard-with-sensors-top-section">
-          {rooms.map((room) => (
+          {rooms?.map((room) => (
             <DashboardScene name={room.name} key={room.name}/>
           ))}
         </div>
@@ -83,8 +83,8 @@ function DashboardWithSensors({
       <div>
         <div className="dashboard-with-sensors-text">Sensors</div>
         <div className="dashboard-with-sensors-bottom-section">
-          {sensors.map((sensor) => (
-            <DashboardSensor name={sensor.name} key={sensor.name}/>
+          {sensors?.map((sensor) => (
+            <DashboardSensor name={sensor.name} key={sensor._id}/>
           ))}
         </div>
       </div>

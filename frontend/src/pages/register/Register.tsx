@@ -1,10 +1,13 @@
-import { Button, TextField } from "@mui/material";
+import { Button, Modal, TextField } from "@mui/material";
 import { TitleWithLogo } from "../../components/TitleWithLogo";
 import { useRegister } from "./useRegister";
+import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import "./register.css";
+import { useNavigate } from "react-router-dom";
 
 export function Register() {
-  const { register, errors, onSubmit } = useRegister();
+  const { register, showModal, errors, onSubmit } = useRegister();
+  const navigate = useNavigate();
 
   return (
     <div className="register-container">
@@ -68,6 +71,30 @@ export function Register() {
         >
           CREATE ACCOUNT
         </Button>
+        {showModal && (
+          <Modal open={true}>
+            <div className="register-modal">
+              <CheckCircleOutlineIcon
+                style={{ fontSize: "100px", color: "#ADC7EF" }}
+              />
+              <div className="register-modal-text">
+                Account was successfully created!
+              </div>
+              <Button
+                style={{
+                  backgroundColor: "#ADC7EF",
+                  color: "black",
+                  fontWeight: "bold",
+                  marginTop: "64px",
+                }}
+                disableElevation
+                onClick={() => navigate("/login")}
+              >
+                Go to login
+              </Button>
+            </div>
+          </Modal>
+        )}
       </form>
     </div>
   );

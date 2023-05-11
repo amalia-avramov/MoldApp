@@ -12,6 +12,9 @@ export class Sensor {
   ipAddress: string;
 
   @Prop()
+  name: string;
+
+  @Prop()
   wallType: string;
 
   @Prop()

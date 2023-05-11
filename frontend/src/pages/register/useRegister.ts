@@ -1,8 +1,7 @@
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
 import { server } from "../../utils";
 import { User } from "../../types";
-
+import { useState } from "react";
 
 export function useRegister() {
   const {
@@ -11,7 +10,7 @@ export function useRegister() {
     formState: { errors },
     getValues,
   } = useForm<User>({ mode: "onChange" });
-  const navigate = useNavigate();
+  const [showModal, setShowModal] = useState(false);
 
   const onSubmit = async () => {
     const postData = getValues();
@@ -26,9 +25,9 @@ export function useRegister() {
     if (!result.ok) {
       console.log(result);
     } else {
-      navigate("/dashboard");
+      setShowModal(true);
     }
   };
 
-  return { register, errors, onSubmit: handleSubmit(onSubmit) };
+  return { register, showModal, errors, onSubmit: handleSubmit(onSubmit) };
 }

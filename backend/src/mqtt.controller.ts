@@ -1,4 +1,4 @@
-import { Controller, Inject } from '@nestjs/common';
+import { Controller, Get, Inject, Param } from '@nestjs/common';
 import {
   Ctx,
   MessagePattern,
@@ -7,14 +7,25 @@ import {
 } from '@nestjs/microservices';
 import { InfluxDbService } from './influx.service';
 
-@Controller()
+export interface SensorValues {
+  sensorId: string;
+  time: Date;
+  temperature: number;
+  humidity: number;
+}
+@Controller('sensor')
 export class MqttController {
   constructor(
     @Inject(InfluxDbService) private readonly influxdbService: InfluxDbService,
   ) {}
-  @MessagePattern('sensors/#')
-  getNotification(@Payload() data: any, @Ctx() context: MqttContext) {
-    console.log(data, context.getTopic());
-    this.influxdbService.saveData();
+
+  @MessagePattern('sensor/#')
+  getNotification(@Payload() data: SensorValues, @Ctx() context: MqttContext) {
+    this.influxdbService.saveData(data, context.getTopic());
+  }
+
+  @Get(':id/data')
+  async getData(@Param('id') id: string) {
+    return this.influxdbService.readData(id);
   }
 }
