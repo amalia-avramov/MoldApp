@@ -258,7 +258,6 @@ export function AddSensor({ open, onClose }: { open: boolean; onClose: () => voi
     selectedRoom: string;
     onClose: () => void;
   }) {
-    console.log(selectedRoom)
     return (
       <AddSensorStep
         button1Text="Done"
