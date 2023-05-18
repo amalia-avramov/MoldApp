@@ -1,0 +1,18 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 36px;
+  font-style: normal;
+  margin-left: -10px;
+}
+
+.logo {
+  transform: scale(0.7);
+  transform-origin: left;
+}

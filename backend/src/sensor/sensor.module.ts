@@ -10,5 +10,6 @@ import { SensorSchema } from '../schemas/sensor.schema';
   ],
   controllers: [SensorController],
   providers: [SensorService],
+  exports: [SensorService],
 })
 export class SensorModule {}

@@ -32,6 +32,25 @@ export class SensorService {
     return sensors.map((sensor) => sensor.toObject());
   }
 
+  async findRooms(userId: string) {
+    const distinctRooms = await this.sensorModel.distinct('room', {
+      userId,
+    });
+    const sensors = await Promise.all(
+      distinctRooms.map(async (room) => {
+        const sensorsForRoom = await this.sensorModel.find({
+          userId,
+          room,
+        });
+        return sensorsForRoom.map((sensor) => ({
+          sensorId: sensor._id,
+          name: room,
+        }));
+      }),
+    );
+    return sensors.flat();
+  }
+
   async delete(id: string) {
     const deletedSensor = await this.sensorModel
       .findByIdAndRemove({ _id: id })

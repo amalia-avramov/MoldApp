@@ -1,0 +1,117 @@
+.temperature-container {
+  height: 100%;
+  margin: 32px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.temperature-top-section {
+  display: flex;
+  align-items: center;
+}
+
+.temperature {
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  padding: 16px;
+  width: 90%;
+}
+
+.temperature-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temperature-text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  margin-top: 4px;
+}
+
+.temperature-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+
+.temperature-degree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temperature-degree {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+}
+
+.temperature-text-with-opacity {
+  font-size: 18px;
+  line-height: 17px;
+  opacity: 0.6;
+}
+
+.vertical-bar {
+  background-color: #f7f7f7;
+  width: 340px;
+  height: 130px;
+  margin: 16px;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  transform: rotate(-90deg);
+}
+
+.horizontal-bar {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 64px;
+  margin: 16px;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+}
+
+.bar-color {
+  background-color: #adc7ef;
+  height: 100%;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-text {
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 16px;
+}
+
+.horizontal-bar-text {
+  font-size: 24px;
+  line-height: 29px;
+  height: 100%;
+  transform: rotate(90deg);
+}
+
+.bar-line {
+  background-color: white;
+  color: white;
+  height: 35px;
+  margin-right: 8px;
+}
+
+.humidity-bar {
+  margin-top: 64px;
+}

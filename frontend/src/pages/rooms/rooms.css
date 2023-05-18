@@ -1,0 +1,121 @@
+.rooms-container {
+  height: 100%;
+  margin: 32px 16px 16px 16px;
+}
+
+.rooms-top-container {
+  display: flex;
+  align-items: center;
+}
+
+.rooms-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.rooms-body {
+  display: grid;
+  gap: 20px;
+  height: 100%;
+  margin-top: 32px;
+}
+
+.rooms-body-first-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.rooms-body-second-section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.room {
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.room-active {
+  background-color: #adc7ef;
+}
+
+.room-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 4px;
+}
+
+.room-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.factor {
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.factor-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.factor-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 21px;
+}
+
+.factor-name {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
+.delete-modal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: white;
+  height: 45%;
+}
+
+.delete-modal-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.delete-modal-buttons {
+  display: flex;
+  gap: 32px;
+}

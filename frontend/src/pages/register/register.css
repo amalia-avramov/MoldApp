@@ -1,0 +1,53 @@
+.register-container {
+  height: 100%;
+  margin: 32px 16px 16px 16px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 32px 0;
+}
+
+.register-title {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  margin: 16px 0;
+}
+
+.register-description {
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4a4863;
+}
+
+.register-error {
+  color: red;
+  font-style: italic;
+  margin-top: -16px;
+}
+
+.register-modal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: white;
+  height: 65%;
+}
+
+.register-modal-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+}

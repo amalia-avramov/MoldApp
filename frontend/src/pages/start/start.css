@@ -1,0 +1,38 @@
+.start-container {
+  background-color: white;
+  height: 100%;
+  text-align: center;
+}
+
+.start-top-container {
+  background: #2b2b2b;
+  border-radius: 0px 0px 32px 32px;
+  height: 300px;
+}
+
+.start-logo {
+  margin-top: -40px;
+}
+
+.start-title {
+  font-weight: bold;
+  line-height: 57px;
+  font-size: 48px;
+  font-style: normal;
+  margin: 32px;
+}
+
+.start-description {
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.start-button {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 40px;
+}
