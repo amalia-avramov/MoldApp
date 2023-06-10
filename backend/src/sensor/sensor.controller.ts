@@ -10,15 +10,31 @@ import {
 import { SensorService } from './sensor.service';
 import { SensorDTO } from '../dtos/sensor.dto';
 import { Sensor } from '../schemas/sensor.schema';
-
 @Controller('sensors')
 export class SensorController {
   constructor(private readonly sensorService: SensorService) {}
 
   @Post()
   async create(@Body() createSensorDto: SensorDTO) {
-    console.log(createSensorDto);
-    await this.sensorService.create(createSensorDto);
+    const sensor = await this.sensorService.create(createSensorDto);
+    const body = {
+      mqttServer: '192.168.1.138',
+      mqttUsername: 'hta-sensor',
+      mqttPassword: 'amalia',
+      mqttPort: '1883',
+      sensorId: sensor._id.toString(),
+    };
+
+    await fetch(`http://${sensor.ipAddress}/onboard`,  {method: 'POST',
+    headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify})
+      .then((res) => console.log(res.statusText))
+      .catch((error) => {
+        console.log(error);
+      });
   }
 
   @Get()

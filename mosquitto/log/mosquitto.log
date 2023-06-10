@@ -2788,3 +2788,749 @@
 1683818408: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1683820209: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1683822443: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684519392: mosquitto version 2.0.15 starting
+1684519392: Config loaded from /mosquitto/config/mosquitto.conf.
+1684519392: Opening ipv4 listen socket on port 1883.
+1684519392: mosquitto version 2.0.15 running
+1684519489: mosquitto version 2.0.15 starting
+1684519489: Config loaded from /mosquitto/config/mosquitto.conf.
+1684519489: Opening ipv4 listen socket on port 1883.
+1684519489: mosquitto version 2.0.15 running
+1684519642: New connection from 172.18.0.6:58254 on port 1883.
+1684519642: New client connected from 172.18.0.6:58254 as mqttjs_9338134a (p2, c1, k60, u'hta-sensor').
+1684519825: New connection from 172.18.0.1:60804 on port 1883.
+1684519825: Client <unknown> disconnected due to protocol error.
+1684519842: New connection from 172.18.0.1:45290 on port 1883.
+1684519842: Client <unknown> disconnected due to protocol error.
+1684519859: New connection from 172.18.0.1:40508 on port 1883.
+1684519859: Client <unknown> disconnected due to protocol error.
+1684519876: New connection from 172.18.0.1:32948 on port 1883.
+1684519876: Client <unknown> disconnected due to protocol error.
+1684519893: New connection from 172.18.0.1:47668 on port 1883.
+1684519893: Client <unknown> disconnected due to protocol error.
+1684519910: New connection from 172.18.0.1:53234 on port 1883.
+1684519910: Client <unknown> disconnected due to protocol error.
+1684519927: New connection from 172.18.0.1:40676 on port 1883.
+1684519927: Client <unknown> disconnected due to protocol error.
+1684519944: New connection from 172.18.0.1:60840 on port 1883.
+1684519944: Client <unknown> disconnected due to protocol error.
+1684519961: New connection from 172.18.0.1:54358 on port 1883.
+1684519961: Client <unknown> disconnected due to protocol error.
+1684519979: New connection from 172.18.0.1:35904 on port 1883.
+1684519979: Client <unknown> disconnected due to protocol error.
+1684519996: New connection from 172.18.0.1:54986 on port 1883.
+1684519996: Client <unknown> disconnected due to protocol error.
+1684520013: New connection from 172.18.0.1:43396 on port 1883.
+1684520013: Client <unknown> disconnected due to protocol error.
+1684520030: New connection from 172.18.0.1:40730 on port 1883.
+1684520030: Client <unknown> disconnected due to protocol error.
+1684520047: New connection from 172.18.0.1:45640 on port 1883.
+1684520047: Client <unknown> disconnected due to protocol error.
+1684520064: New connection from 172.18.0.1:41204 on port 1883.
+1684520064: Client <unknown> disconnected due to protocol error.
+1684520081: New connection from 172.18.0.1:58246 on port 1883.
+1684520081: Client <unknown> disconnected due to protocol error.
+1684520098: New connection from 172.18.0.1:40936 on port 1883.
+1684520098: Client <unknown> disconnected due to protocol error.
+1684520115: New connection from 172.18.0.1:38890 on port 1883.
+1684520115: Client <unknown> disconnected due to protocol error.
+1684520132: New connection from 172.18.0.1:48822 on port 1883.
+1684520132: Client <unknown> disconnected due to protocol error.
+1684520149: New connection from 172.18.0.1:55800 on port 1883.
+1684520149: Client <unknown> disconnected due to protocol error.
+1684520166: New connection from 172.18.0.1:34204 on port 1883.
+1684520166: Client <unknown> disconnected due to protocol error.
+1684520183: New connection from 172.18.0.1:48932 on port 1883.
+1684520183: Client <unknown> disconnected due to protocol error.
+1684520200: New connection from 172.18.0.1:47186 on port 1883.
+1684520200: Client <unknown> disconnected due to protocol error.
+1684520217: New connection from 172.18.0.1:51806 on port 1883.
+1684520217: Client <unknown> disconnected due to protocol error.
+1684570858: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684576332: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684578133: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684579934: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684581992: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684583793: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684585890: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684587691: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684592890: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684594691: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684596167: Client mqttjs_9338134a closed its connection.
+1684596688: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684598489: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684600290: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684602091: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684608341: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684610141: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684622516: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684654264: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684656455: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684658734: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684667136: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684668937: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684670738: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684672539: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684677364: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684681418: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684684643: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684700563: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684756808: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684770406: New connection from 172.18.0.6:41606 on port 1883.
+1684770406: New client connected from 172.18.0.6:41606 as mqttjs_2d6dad49 (p2, c1, k60, u'hta-sensor').
+1684771905: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684772452: New connection from 172.18.0.1:36888 on port 1883.
+1684772452: New client connected from 172.18.0.1:36888 as auto-7806FBAF-D86B-0AC8-0CF5-1F99072F9FDD (p2, c1, k60, u'hta-sensor').
+1684772452: Client auto-7806FBAF-D86B-0AC8-0CF5-1F99072F9FDD disconnected.
+1684772452: Client mqttjs_2d6dad49 closed its connection.
+1684772467: New connection from 172.18.0.1:38612 on port 1883.
+1684772467: New client connected from 172.18.0.1:38612 as auto-8EB45256-83AD-7016-FF9A-F71A051BAC58 (p2, c1, k60, u'hta-sensor').
+1684772467: Client auto-8EB45256-83AD-7016-FF9A-F71A051BAC58 disconnected.
+1684772505: New connection from 172.18.0.1:37128 on port 1883.
+1684772505: New client connected from 172.18.0.1:37128 as auto-DE7F7DBA-3964-145A-F968-C899DDB91A8E (p2, c1, k60, u'hta-sensor').
+1684772505: Client auto-DE7F7DBA-3964-145A-F968-C899DDB91A8E disconnected.
+1684772515: New connection from 172.18.0.1:37288 on port 1883.
+1684772515: New client connected from 172.18.0.1:37288 as auto-3AEAC456-0869-EED9-2091-47079A9B6E03 (p2, c1, k60, u'hta-sensor').
+1684772515: Client auto-3AEAC456-0869-EED9-2091-47079A9B6E03 disconnected.
+1684772543: New connection from 172.18.0.1:37252 on port 1883.
+1684772543: New client connected from 172.18.0.1:37252 as auto-69045926-82BE-7816-B060-1865C1E6E97B (p2, c1, k60, u'hta-sensor').
+1684772543: Client auto-69045926-82BE-7816-B060-1865C1E6E97B disconnected.
+1684772632: New connection from 172.18.0.1:52552 on port 1883.
+1684772632: New client connected from 172.18.0.1:52552 as auto-EDD5A817-3B73-1647-F523-A42F772D5C5C (p2, c1, k60, u'hta-sensor').
+1684772632: Client auto-EDD5A817-3B73-1647-F523-A42F772D5C5C disconnected.
+1684772676: New connection from 172.18.0.6:36100 on port 1883.
+1684772676: New client connected from 172.18.0.6:36100 as mqttjs_77cfd48e (p2, c1, k60, u'hta-sensor').
+1684772685: New connection from 172.18.0.1:49652 on port 1883.
+1684772685: New client connected from 172.18.0.1:49652 as auto-E96215A4-87EB-3B7D-DBC6-FAE402CEED66 (p2, c1, k60, u'hta-sensor').
+1684772685: Client auto-E96215A4-87EB-3B7D-DBC6-FAE402CEED66 disconnected.
+1684772685: Client mqttjs_77cfd48e closed its connection.
+1684772749: New connection from 172.18.0.6:41296 on port 1883.
+1684772749: New client connected from 172.18.0.6:41296 as mqttjs_edd0afd1 (p2, c1, k60, u'hta-sensor').
+1684772830: New connection from 172.18.0.1:50886 on port 1883.
+1684772830: New client connected from 172.18.0.1:50886 as auto-B78AA092-0698-28D8-B9DA-195E66611EDC (p2, c1, k60, u'hta-sensor').
+1684772830: Client auto-B78AA092-0698-28D8-B9DA-195E66611EDC disconnected.
+1684772890: New connection from 172.18.0.1:54262 on port 1883.
+1684772890: New client connected from 172.18.0.1:54262 as auto-F2429524-8989-0384-281B-2FC6D803FB50 (p2, c1, k60, u'hta-sensor').
+1684772890: Client auto-F2429524-8989-0384-281B-2FC6D803FB50 disconnected.
+1684772890: Client mqttjs_edd0afd1 closed its connection.
+1684773039: New connection from 172.18.0.6:39816 on port 1883.
+1684773039: New client connected from 172.18.0.6:39816 as mqttjs_e2a5381c (p2, c1, k60, u'hta-sensor').
+1684773048: New connection from 172.18.0.1:52740 on port 1883.
+1684773048: New client connected from 172.18.0.1:52740 as auto-4E5A6153-012B-2D63-3E38-2514175091B6 (p2, c1, k60, u'hta-sensor').
+1684773048: Client auto-4E5A6153-012B-2D63-3E38-2514175091B6 disconnected.
+1684773048: Client mqttjs_e2a5381c closed its connection.
+1684773706: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684776232: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684778148: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684779748: New connection from 172.18.0.6:38670 on port 1883.
+1684779748: New client connected from 172.18.0.6:38670 as mqttjs_400b0bde (p2, c1, k60, u'hta-sensor').
+1684779789: New connection from 172.18.0.1:42964 on port 1883.
+1684779789: Client <unknown> disconnected due to protocol error.
+1684779806: New connection from 172.18.0.1:46136 on port 1883.
+1684779806: Client <unknown> disconnected due to protocol error.
+1684779823: New connection from 172.18.0.1:43702 on port 1883.
+1684779823: Client <unknown> disconnected due to protocol error.
+1684779840: New connection from 172.18.0.1:39780 on port 1883.
+1684779840: Client <unknown> disconnected due to protocol error.
+1684779857: New connection from 172.18.0.1:36318 on port 1883.
+1684779857: Client <unknown> disconnected due to protocol error.
+1684779874: New connection from 172.18.0.1:49112 on port 1883.
+1684779874: Client <unknown> disconnected due to protocol error.
+1684779892: New connection from 172.18.0.1:42344 on port 1883.
+1684779892: Client <unknown> disconnected due to protocol error.
+1684779909: New connection from 172.18.0.1:49110 on port 1883.
+1684779909: Client <unknown> disconnected due to protocol error.
+1684779926: New connection from 172.18.0.1:43274 on port 1883.
+1684779926: Client <unknown> disconnected due to protocol error.
+1684779943: New connection from 172.18.0.1:33902 on port 1883.
+1684779943: Client <unknown> disconnected due to protocol error.
+1684779949: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684779960: New connection from 172.18.0.1:37066 on port 1883.
+1684779960: Client <unknown> disconnected due to protocol error.
+1684779977: New connection from 172.18.0.1:51310 on port 1883.
+1684779977: Client <unknown> disconnected due to protocol error.
+1684853342: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684928941: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684929945: Client mqttjs_400b0bde closed its connection.
+1684930265: mosquitto version 2.0.15 starting
+1684930265: Config loaded from /mosquitto/config/mosquitto.conf.
+1684930265: Opening ipv4 listen socket on port 1883.
+1684930265: mosquitto version 2.0.15 running
+1684930431: New connection from 172.18.0.5:37994 on port 1883.
+1684930431: New client connected from 172.18.0.5:37994 as mqttjs_17321f1b (p2, c1, k60, u'hta-sensor').
+1684935467: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684946918: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684951495: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1684951568: Client mqttjs_17321f1b closed its connection.
+1684951585: New connection from 172.18.0.5:41940 on port 1883.
+1684951585: New client connected from 172.18.0.5:41940 as mqttjs_4841c95a (p2, c1, k60, u'hta-sensor').
+1684968084: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685007677: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685009477: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685018239: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685020040: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685021841: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685023642: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685025443: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685027385: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685032492: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685091203: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685094348: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685096298: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685098099: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685100198: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685103155: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685109355: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685111156: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685112957: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685116506: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685121930: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685170652: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685172453: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685173659: Client mqttjs_4841c95a closed its connection.
+1685173662: New connection from 172.18.0.5:57174 on port 1883.
+1685173662: New client connected from 172.18.0.5:57174 as mqttjs_46f0eb84 (p2, c1, k60, u'hta-sensor').
+1685174254: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685176055: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685177856: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685180796: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685182626: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685186779: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685188580: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685192665: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685198165: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685199986: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685202463: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685210050: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685257303: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685259104: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685260905: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685262706: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685264507: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685267229: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685269030: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685271171: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685272972: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685275963: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685276133: New connection from 172.18.0.1:40628 on port 1883.
+1685276133: New client connected from 172.18.0.1:40628 as auto-62DBF3C5-07C0-1952-6BBC-C99F67814A1A (p2, c1, k60, u'hta-sensor').
+1685276133: Client auto-62DBF3C5-07C0-1952-6BBC-C99F67814A1A disconnected.
+1685279310: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685287455: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685289256: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685291057: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685295769: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685297571: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685305787: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685307588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685309389: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685311190: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685348525: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685352162: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685355065: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685358954: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685366063: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685367864: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685369665: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685371466: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685373267: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685375068: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685377981: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685433198: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685447220: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685459066: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685460867: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685585440: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685692447: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685694779: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685698417: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685699508: Client mqttjs_46f0eb84 closed its connection.
+1685699522: New connection from 172.18.0.5:36936 on port 1883.
+1685699522: New client connected from 172.18.0.5:36936 as mqttjs_88f8322d (p2, c1, k60, u'hta-sensor').
+1685701655: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685709772: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685711573: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685715001: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685716802: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685719240: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685721041: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685780256: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685780369: New connection from 172.18.0.1:42400 on port 1883.
+1685780369: New client connected from 172.18.0.1:42400 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685781251: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685782057: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685783858: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685784093: New connection from 172.18.0.1:59478 on port 1883.
+1685784093: New client connected from 172.18.0.1:59478 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685784389: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685784510: New connection from 172.18.0.1:48288 on port 1883.
+1685784510: New client connected from 172.18.0.1:48288 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685784731: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685784756: New connection from 172.18.0.1:58382 on port 1883.
+1685784756: New client connected from 172.18.0.1:58382 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685785553: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685785659: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685785706: New connection from 172.18.0.1:33242 on port 1883.
+1685785706: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785716: New connection from 172.18.0.1:39294 on port 1883.
+1685785716: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785726: New connection from 172.18.0.1:38042 on port 1883.
+1685785726: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785736: New connection from 172.18.0.1:38762 on port 1883.
+1685785736: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785746: New connection from 172.18.0.1:43166 on port 1883.
+1685785746: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785756: New connection from 172.18.0.1:48978 on port 1883.
+1685785756: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785766: New connection from 172.18.0.1:59972 on port 1883.
+1685785766: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785845: New connection from 172.18.0.1:54490 on port 1883.
+1685785845: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785855: New connection from 172.18.0.1:60490 on port 1883.
+1685785855: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785865: New connection from 172.18.0.1:47916 on port 1883.
+1685785865: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785875: New connection from 172.18.0.1:36082 on port 1883.
+1685785875: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785885: New connection from 172.18.0.1:44726 on port 1883.
+1685785885: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785895: New connection from 172.18.0.1:39532 on port 1883.
+1685785895: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785905: New connection from 172.18.0.1:48144 on port 1883.
+1685785905: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785915: New connection from 172.18.0.1:52940 on port 1883.
+1685785915: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685785925: New connection from 172.18.0.1:53064 on port 1883.
+1685785925: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685786891: New connection from 172.18.0.1:51350 on port 1883.
+1685786891: New client connected from 172.18.0.1:51350 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685787065: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685787460: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685788303: New connection from 172.18.0.1:60924 on port 1883.
+1685788303: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788308: New connection from 172.18.0.1:40074 on port 1883.
+1685788308: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788313: New connection from 172.18.0.1:40076 on port 1883.
+1685788313: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788318: New connection from 172.18.0.1:52400 on port 1883.
+1685788318: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788324: New connection from 172.18.0.1:52408 on port 1883.
+1685788324: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788329: New connection from 172.18.0.1:56650 on port 1883.
+1685788329: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788334: New connection from 172.18.0.1:56666 on port 1883.
+1685788334: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788339: New connection from 172.18.0.1:44120 on port 1883.
+1685788339: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788344: New connection from 172.18.0.1:44134 on port 1883.
+1685788344: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788349: New connection from 172.18.0.1:41744 on port 1883.
+1685788349: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788355: New connection from 172.18.0.1:41756 on port 1883.
+1685788355: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788360: New connection from 172.18.0.1:41972 on port 1883.
+1685788360: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788365: New connection from 172.18.0.1:41976 on port 1883.
+1685788365: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788370: New connection from 172.18.0.1:49540 on port 1883.
+1685788370: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788375: New connection from 172.18.0.1:49552 on port 1883.
+1685788375: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788381: New connection from 172.18.0.1:54264 on port 1883.
+1685788381: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788386: New connection from 172.18.0.1:54266 on port 1883.
+1685788386: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788391: New connection from 172.18.0.1:42150 on port 1883.
+1685788391: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788396: New connection from 172.18.0.1:42152 on port 1883.
+1685788396: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788401: New connection from 172.18.0.1:51010 on port 1883.
+1685788401: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788406: New connection from 172.18.0.1:51016 on port 1883.
+1685788406: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788411: New connection from 172.18.0.1:43954 on port 1883.
+1685788411: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788416: New connection from 172.18.0.1:43968 on port 1883.
+1685788416: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788421: New connection from 172.18.0.1:60706 on port 1883.
+1685788421: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788426: New connection from 172.18.0.1:60708 on port 1883.
+1685788426: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788431: New connection from 172.18.0.1:43344 on port 1883.
+1685788431: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788436: New connection from 172.18.0.1:43352 on port 1883.
+1685788436: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788441: New connection from 172.18.0.1:49656 on port 1883.
+1685788441: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788446: New connection from 172.18.0.1:49666 on port 1883.
+1685788446: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788451: New connection from 172.18.0.1:60156 on port 1883.
+1685788451: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788456: New connection from 172.18.0.1:60158 on port 1883.
+1685788456: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788461: New connection from 172.18.0.1:37166 on port 1883.
+1685788461: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788466: New connection from 172.18.0.1:37182 on port 1883.
+1685788466: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788471: New connection from 172.18.0.1:50554 on port 1883.
+1685788471: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788476: New connection from 172.18.0.1:50568 on port 1883.
+1685788476: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788481: New connection from 172.18.0.1:50410 on port 1883.
+1685788481: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788486: New connection from 172.18.0.1:50422 on port 1883.
+1685788486: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788492: New connection from 172.18.0.1:57640 on port 1883.
+1685788492: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788497: New connection from 172.18.0.1:57644 on port 1883.
+1685788497: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788502: New connection from 172.18.0.1:57322 on port 1883.
+1685788502: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788507: New connection from 172.18.0.1:57332 on port 1883.
+1685788507: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788512: New connection from 172.18.0.1:38584 on port 1883.
+1685788512: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788517: New connection from 172.18.0.1:38600 on port 1883.
+1685788517: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788522: New connection from 172.18.0.1:35620 on port 1883.
+1685788522: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788527: New connection from 172.18.0.1:35624 on port 1883.
+1685788527: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788533: New connection from 172.18.0.1:59196 on port 1883.
+1685788533: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788538: New connection from 172.18.0.1:59212 on port 1883.
+1685788538: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788543: New connection from 172.18.0.1:37666 on port 1883.
+1685788543: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788548: New connection from 172.18.0.1:60164 on port 1883.
+1685788548: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788553: New connection from 172.18.0.1:60178 on port 1883.
+1685788553: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788559: New connection from 172.18.0.1:49284 on port 1883.
+1685788559: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788564: New connection from 172.18.0.1:49290 on port 1883.
+1685788564: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788569: New connection from 172.18.0.1:50534 on port 1883.
+1685788569: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788574: New connection from 172.18.0.1:50542 on port 1883.
+1685788574: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788579: New connection from 172.18.0.1:59630 on port 1883.
+1685788579: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788584: New connection from 172.18.0.1:59636 on port 1883.
+1685788584: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788590: New connection from 172.18.0.1:52480 on port 1883.
+1685788590: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788595: New connection from 172.18.0.1:52496 on port 1883.
+1685788595: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788600: New connection from 172.18.0.1:38186 on port 1883.
+1685788600: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788810: New connection from 172.18.0.1:39730 on port 1883.
+1685788810: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788815: New connection from 172.18.0.1:39742 on port 1883.
+1685788815: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788821: New connection from 172.18.0.1:36218 on port 1883.
+1685788821: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788826: New connection from 172.18.0.1:36220 on port 1883.
+1685788826: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788831: New connection from 172.18.0.1:49494 on port 1883.
+1685788831: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788836: New connection from 172.18.0.1:49504 on port 1883.
+1685788836: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788841: New connection from 172.18.0.1:36800 on port 1883.
+1685788841: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788847: New connection from 172.18.0.1:36802 on port 1883.
+1685788847: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788852: New connection from 172.18.0.1:42470 on port 1883.
+1685788852: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788857: New connection from 172.18.0.1:42476 on port 1883.
+1685788857: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788862: New connection from 172.18.0.1:54902 on port 1883.
+1685788862: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788867: New connection from 172.18.0.1:54912 on port 1883.
+1685788867: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788872: New connection from 172.18.0.1:53720 on port 1883.
+1685788872: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788877: New connection from 172.18.0.1:53726 on port 1883.
+1685788877: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788883: New connection from 172.18.0.1:34520 on port 1883.
+1685788883: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788888: New connection from 172.18.0.1:34522 on port 1883.
+1685788888: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788893: New connection from 172.18.0.1:35148 on port 1883.
+1685788893: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788898: New connection from 172.18.0.1:35158 on port 1883.
+1685788898: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788903: New connection from 172.18.0.1:38550 on port 1883.
+1685788903: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788908: New connection from 172.18.0.1:43318 on port 1883.
+1685788908: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788914: New connection from 172.18.0.1:43324 on port 1883.
+1685788914: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788919: New connection from 172.18.0.1:33938 on port 1883.
+1685788919: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788924: New connection from 172.18.0.1:33944 on port 1883.
+1685788924: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788929: New connection from 172.18.0.1:41374 on port 1883.
+1685788929: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788934: New connection from 172.18.0.1:41390 on port 1883.
+1685788934: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788939: New connection from 172.18.0.1:60884 on port 1883.
+1685788939: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788944: New connection from 172.18.0.1:60900 on port 1883.
+1685788944: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788949: New connection from 172.18.0.1:40216 on port 1883.
+1685788949: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788954: New connection from 172.18.0.1:40230 on port 1883.
+1685788954: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788959: New connection from 172.18.0.1:51850 on port 1883.
+1685788959: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788964: New connection from 172.18.0.1:51862 on port 1883.
+1685788964: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788969: New connection from 172.18.0.1:50656 on port 1883.
+1685788969: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788974: New connection from 172.18.0.1:50666 on port 1883.
+1685788974: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788979: New connection from 172.18.0.1:45076 on port 1883.
+1685788979: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788984: New connection from 172.18.0.1:45084 on port 1883.
+1685788984: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788989: New connection from 172.18.0.1:55298 on port 1883.
+1685788989: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788994: New connection from 172.18.0.1:55314 on port 1883.
+1685788994: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685788999: New connection from 172.18.0.1:48562 on port 1883.
+1685788999: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789004: New connection from 172.18.0.1:48570 on port 1883.
+1685789004: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789010: New connection from 172.18.0.1:53288 on port 1883.
+1685789010: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789015: New connection from 172.18.0.1:53290 on port 1883.
+1685789015: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789020: New connection from 172.18.0.1:48426 on port 1883.
+1685789020: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789025: New connection from 172.18.0.1:48432 on port 1883.
+1685789025: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789030: New connection from 172.18.0.1:43848 on port 1883.
+1685789030: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789035: New connection from 172.18.0.1:43854 on port 1883.
+1685789035: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789040: New connection from 172.18.0.1:53542 on port 1883.
+1685789040: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789046: New connection from 172.18.0.1:53554 on port 1883.
+1685789046: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789051: New connection from 172.18.0.1:34022 on port 1883.
+1685789051: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789056: New connection from 172.18.0.1:34030 on port 1883.
+1685789056: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789061: New connection from 172.18.0.1:58884 on port 1883.
+1685789061: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789214: New connection from 172.18.0.1:38098 on port 1883.
+1685789214: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789219: New connection from 172.18.0.1:42282 on port 1883.
+1685789219: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789224: New connection from 172.18.0.1:42296 on port 1883.
+1685789224: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789229: New connection from 172.18.0.1:35886 on port 1883.
+1685789229: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789234: New connection from 172.18.0.1:35896 on port 1883.
+1685789234: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789239: New connection from 172.18.0.1:49580 on port 1883.
+1685789239: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789245: New connection from 172.18.0.1:49594 on port 1883.
+1685789245: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789250: New connection from 172.18.0.1:52578 on port 1883.
+1685789250: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789255: New connection from 172.18.0.1:52586 on port 1883.
+1685789255: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789260: New connection from 172.18.0.1:52630 on port 1883.
+1685789260: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789261: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685789265: New connection from 172.18.0.1:52632 on port 1883.
+1685789265: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789270: New connection from 172.18.0.1:48020 on port 1883.
+1685789270: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789275: New connection from 172.18.0.1:48022 on port 1883.
+1685789275: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789280: New connection from 172.18.0.1:44052 on port 1883.
+1685789280: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789285: New connection from 172.18.0.1:44066 on port 1883.
+1685789285: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789291: New connection from 172.18.0.1:50618 on port 1883.
+1685789291: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789296: New connection from 172.18.0.1:50622 on port 1883.
+1685789296: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685789366: New connection from 172.18.0.1:60718 on port 1883.
+1685789366: New client connected from 172.18.0.1:60718 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685789453: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685789628: New connection from 172.18.0.1:49760 on port 1883.
+1685789628: New client connected from 172.18.0.1:49760 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685789861: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685790208: New connection from 172.18.0.1:49852 on port 1883.
+1685790208: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790213: New connection from 172.18.0.1:46534 on port 1883.
+1685790213: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790218: New connection from 172.18.0.1:46536 on port 1883.
+1685790218: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790223: New connection from 172.18.0.1:37598 on port 1883.
+1685790223: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790228: New connection from 172.18.0.1:41756 on port 1883.
+1685790228: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790233: New connection from 172.18.0.1:41766 on port 1883.
+1685790233: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790238: New connection from 172.18.0.1:35340 on port 1883.
+1685790238: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790244: New connection from 172.18.0.1:35342 on port 1883.
+1685790244: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790249: New connection from 172.18.0.1:36128 on port 1883.
+1685790249: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790254: New connection from 172.18.0.1:36144 on port 1883.
+1685790254: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790259: New connection from 172.18.0.1:57454 on port 1883.
+1685790259: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790264: New connection from 172.18.0.1:57464 on port 1883.
+1685790264: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790269: New connection from 172.18.0.1:55850 on port 1883.
+1685790269: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790274: New connection from 172.18.0.1:55856 on port 1883.
+1685790274: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790279: New connection from 172.18.0.1:48102 on port 1883.
+1685790279: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790284: New connection from 172.18.0.1:48118 on port 1883.
+1685790284: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790290: New connection from 172.18.0.1:34816 on port 1883.
+1685790290: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790295: New connection from 172.18.0.1:34828 on port 1883.
+1685790295: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685790300: New connection from 172.18.0.1:47054 on port 1883.
+1685790300: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791062: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685791440: New connection from 172.18.0.1:39268 on port 1883.
+1685791440: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791445: New connection from 172.18.0.1:39282 on port 1883.
+1685791445: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791450: New connection from 172.18.0.1:59632 on port 1883.
+1685791450: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791455: New connection from 172.18.0.1:59636 on port 1883.
+1685791455: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791460: New connection from 172.18.0.1:41228 on port 1883.
+1685791460: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791466: New connection from 172.18.0.1:41230 on port 1883.
+1685791466: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791471: New connection from 172.18.0.1:38442 on port 1883.
+1685791471: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791476: New connection from 172.18.0.1:38446 on port 1883.
+1685791476: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791481: New connection from 172.18.0.1:51708 on port 1883.
+1685791481: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791486: New connection from 172.18.0.1:51716 on port 1883.
+1685791486: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791491: New connection from 172.18.0.1:51794 on port 1883.
+1685791491: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791497: New connection from 172.18.0.1:51796 on port 1883.
+1685791497: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791502: New connection from 172.18.0.1:51644 on port 1883.
+1685791502: Client 647344986891b21cab9e0c35 disconnected, not authorised.
+1685791577: New connection from 172.18.0.1:35840 on port 1883.
+1685791577: New client connected from 172.18.0.1:35840 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685791631: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685791687: New connection from 172.18.0.1:57162 on port 1883.
+1685791687: New client connected from 172.18.0.1:57162 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685792039: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685792863: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685796366: New connection from 172.18.0.1:59166 on port 1883.
+1685796366: New client connected from 172.18.0.1:59166 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685797380: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685797546: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685797559: New connection from 172.18.0.1:49696 on port 1883.
+1685797559: New client connected from 172.18.0.1:49696 as 647344986891b21cab9e0c35 (p2, c1, k15, u'hta-sensor').
+1685797559: Client mqttjs_88f8322d closed its connection.
+1685797813: Client 647344986891b21cab9e0c35 has exceeded timeout, disconnecting.
+1685797924: New connection from 172.18.0.5:44574 on port 1883.
+1685797924: New client connected from 172.18.0.5:44574 as mqttjs_a130c9fc (p2, c1, k60, u'hta-sensor').
+1685799346: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685865234: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685904595: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685953303: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685957380: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685959181: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685965157: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685975132: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685976933: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686053408: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686119035: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686124488: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686141254: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686142322: Client mqttjs_a130c9fc closed its connection.
+1686142338: New connection from 172.18.0.5:39772 on port 1883.
+1686142338: New client connected from 172.18.0.5:39772 as mqttjs_cf2f2e1d (p2, c1, k60, u'hta-sensor').
+1686143055: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686144856: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686144950: New connection from 172.18.0.1:35028 on port 1883.
+1686145042: Client <unknown> has exceeded timeout, disconnecting.
+1686145190: New connection from 172.18.0.1:35834 on port 1883.
+1686145190: New client connected from 172.18.0.1:35834 as 1222 (p2, c1, k15, u'hta-sensor').
+1686145255: Client 1222 disconnected due to malformed packet.
+1686146620: New connection from 172.18.0.1:51756 on port 1883.
+1686146620: New client connected from 172.18.0.1:51756 as 1222 (p2, c1, k15, u'hta-sensor').
+1686146630: Client 1222 disconnected due to malformed packet.
+1686146657: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686146863: New connection from 172.18.0.1:58412 on port 1883.
+1686146863: New client connected from 172.18.0.1:58412 as 1222 (p2, c1, k15, u'hta-sensor').
+1686146873: Client 1222 disconnected due to malformed packet.
+1686147104: New connection from 172.18.0.1:35940 on port 1883.
+1686147104: New client connected from 172.18.0.1:35940 as 1222 (p2, c1, k15, u'hta-sensor').
+1686147124: Client 1222 disconnected due to malformed packet.
+1686147775: New connection from 172.18.0.1:59676 on port 1883.
+1686147775: New client connected from 172.18.0.1:59676 as 1222 (p2, c1, k15, u'hta-sensor').
+1686147802: Client 1222 has exceeded timeout, disconnecting.
+1686147816: New connection from 172.18.0.1:55218 on port 1883.
+1686147816: New client connected from 172.18.0.1:55218 as 1222 (p2, c1, k15, u'hta-sensor').
+1686147844: Client 1222 has exceeded timeout, disconnecting.
+1686147972: New connection from 172.18.0.1:60194 on port 1883.
+1686147972: New client connected from 172.18.0.1:60194 as 1222 (p2, c1, k15, u'hta-sensor').
+1686147977: Client 1222 disconnected due to malformed packet.
+1686148141: New connection from 172.18.0.1:35104 on port 1883.
+1686148141: New client connected from 172.18.0.1:35104 as 1222 (p2, c1, k15, u'hta-sensor').
+1686148141: Client 1222 disconnected.
+1686148141: New connection from 172.18.0.1:35108 on port 1883.
+1686148141: New client connected from 172.18.0.1:35108 as 1222 (p2, c1, k15, u'hta-sensor').
+1686148141: Client 1222 disconnected.
+1686148141: New connection from 172.18.0.1:35118 on port 1883.
+1686148141: Client <unknown> disconnected due to protocol error.
+1686148362: New connection from 172.18.0.1:46316 on port 1883.
+1686148362: New client connected from 172.18.0.1:46316 as 1222 (p2, c1, k60, u'hta-sensor').
+1686148382: Client 1222 disconnected due to malformed packet.
+1686148435: New connection from 172.18.0.1:39634 on port 1883.
+1686148435: New client connected from 172.18.0.1:39634 as 1222 (p2, c1, k60, u'hta-sensor').
+1686148458: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686148470: Client 1222 disconnected due to malformed packet.
+1686148687: New connection from 172.18.0.1:51932 on port 1883.
+1686148687: New client connected from 172.18.0.1:51932 as 1222 (p2, c1, k60, u'hta-sensor').
+1686148747: Client 1222 disconnected due to malformed packet.
+1686149245: New connection from 172.18.0.1:51646 on port 1883.
+1686149245: New client connected from 172.18.0.1:51646 as 1222 (p2, c1, k60, u'hta-sensor').
+1686149855: Client 1222 disconnected: No error information.
+1686152152: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686155384: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686162003: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686207943: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686219333: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686231886: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686233375: New connection from 172.18.0.1:43896 on port 1883.
+1686233375: New client connected from 172.18.0.1:43896 as 1222 (p2, c1, k60, u'hta-sensor').
+1686233440: Client 1222 disconnected due to malformed packet.
+1686233687: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686236672: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686289176: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686305487: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686335921: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686391211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686392570: New connection from 172.18.0.1:55454 on port 1883.
+1686392570: New client connected from 172.18.0.1:55454 as 1222 (p2, c1, k60, u'hta-sensor').
+1686392679: Client 1222 has exceeded timeout, disconnecting.
+1686392858: New connection from 172.18.0.1:48600 on port 1883.
+1686392858: New client connected from 172.18.0.1:48600 as 1222 (p2, c1, k60, u'hta-sensor').
+1686392868: Client 1222 disconnected due to malformed packet.
+1686393012: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686393538: New connection from 172.18.0.1:42902 on port 1883.
+1686393538: New client connected from 172.18.0.1:42902 as 1222 (p2, c1, k60, u'hta-sensor').
