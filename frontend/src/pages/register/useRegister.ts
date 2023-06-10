@@ -10,6 +10,7 @@ export function useRegister() {
     formState: { errors },
     getValues,
   } = useForm<User>({ mode: "onChange" });
+  
   const [showModal, setShowModal] = useState(false);
 
   const onSubmit = async () => {

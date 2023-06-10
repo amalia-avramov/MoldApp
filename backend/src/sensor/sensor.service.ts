@@ -8,8 +8,10 @@ import { SensorDTO } from '../dtos/sensor.dto';
 export class SensorService {
   constructor(@InjectModel('sensors') private sensorModel: Model<Sensor>) {}
 
-  async create(createSensorDto: SensorDTO): Promise<Sensor> {
-    return this.sensorModel.create(createSensorDto);
+  async create(createSensorDto: SensorDTO) {
+    const newSensor = new this.sensorModel(createSensorDto);
+    const savedSensor = newSensor.save();
+    return (await savedSensor).toObject();
   }
 
   async findAll(): Promise<Sensor[]> {

@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>ESP8266 WiFi Connection</title>
-</head>
-<body style="text-align: center;">
-  <h1>ESP8266 WiFi Connection</h1>
-  <form id="wifi-form">
-    <label for="ssid">SSID:</label>
-    <input type="text" id="ssid" name="ssid"><br><br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password"><br><br>
-    <button type="submit">Connect</button>
-  </form>
- 
-  <script>
-    const form = document.querySelector('#wifi-form');
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body style="text-align: center">
+    <h1>ESP8266 WiFi Connection</h1>
+    <form id="wifi-form" action="/connect">
+      <label for="ssid">SSID:</label>
+      <select id="ssid" name="ssid">
+        <option>Choose a network</option></select
+      ><br /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><br /><br />
+      <button type="submit">Connect</button>
+    </form>
+    <script>
+      async function populateNetworks() {
+        var select = document.getElementById("ssid");
+        select.replaceChildren();
+        var options = await fetch("/networks")
+          .then((res) => res.json())
+          .then((result) => result.map((network) => network.ssid));
 
-    form.addEventListener('submit', async (event) => {
-      event.preventDefault();
-      const data = {};
-      data.ssid = form.elements.ssid.value;
-      data.password = form.elements.password.value;
-      const response = await fetch('http://192.168.4.1:80/connect', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      });
-
-      if (response.ok) {
-        alert('Successfully connected to WiFi network!');
-      } else {
-        alert('Failed to connect to WiFi network!');
+        for (var i = 0; i < options.length; i++) {
+          var opt = options[i];
+          var el = document.createElement("option");
+          el.textContent = opt;
+          el.value = opt;
+          select.appendChild(el);
+        }
       }
-    });
-  </script>
-</body>
+      setInterval(populateNetworks, 10000);
+    </script>
+  </body>
 </html>

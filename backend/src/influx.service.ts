@@ -10,11 +10,11 @@ export class InfluxDbService {
   connection: InfluxDB | null;
   constructor(
     @Inject('INFLUX_DB_OPTIONS')
-    private readonly config: InfluxModuleOptions,
-    private sensorService: SensorService,
+  private readonly config: InfluxModuleOptions,
+  private sensorService: SensorService,
   ) {
-    this.connection = null;
-    this.connect();
+  this.connection = null;
+  this.connect();
   }
 
   public connect(): void {
@@ -66,6 +66,7 @@ export class InfluxDbService {
       .floatField('temperature', data.temperature)
       .floatField('humidity', data.humidity);
     writeAPI.writePoint(point);
+    writeAPI.flush();
     writeAPI.close().then(() => console.log(point));
   }
 }
