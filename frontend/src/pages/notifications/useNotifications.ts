@@ -3,9 +3,10 @@ import { server } from "../../utils";
 import { NotificationDTO } from "../../types";
 
 export function useNotifications() {
+  const userId = localStorage.getItem("loggedUserId");
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-  const { data, mutate: refresh } = useSWR<NotificationDTO[]>(`${server}/notifications`, fetcher);
+  const { data, mutate: refresh } = useSWR<NotificationDTO[]>(`${server}/notifications/${userId}`, fetcher);
 
   const handleViewButton = async (notification: NotificationDTO) => {
     const updatedNotification = { ...notification, viewed: true };

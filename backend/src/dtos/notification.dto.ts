@@ -4,4 +4,5 @@ export class NotificationDTO {
   readonly message: string;
   readonly viewed: boolean;
   readonly created_at: Date;
+  readonly userId: string;
 }

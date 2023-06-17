@@ -36,6 +36,13 @@ export class NotificationController {
     return this.notificationService.findAll();
   }
 
+  @Get(':userId')
+  async findSensorsByUserId(
+    @Param('userId') userId: string,
+  ): Promise<Notification[]> {
+    return this.notificationService.findNotificationsByUserId(userId);
+  }
+
   @Delete(':id')
   async delete(@Param('id') id: string) {
     return this.notificationService.delete(id);

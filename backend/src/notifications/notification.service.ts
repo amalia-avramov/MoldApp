@@ -32,6 +32,12 @@ export class NotificationService {
     return (await this.notificationModel.find().exec()).reverse();
   }
 
+  async findNotificationsByUserId(userId: string): Promise<Notification[]> {
+    return (
+      await this.notificationModel.find({ userId: userId }).exec()
+    ).reverse();
+  }
+
   async delete(id: string) {
     const deletedNotification = await this.notificationModel
       .findByIdAndRemove({ _id: id })

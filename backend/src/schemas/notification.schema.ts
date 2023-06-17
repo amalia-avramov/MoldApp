@@ -25,6 +25,9 @@ export class Notification {
 
   @Prop()
   created_at: Date;
+
+  @Prop()
+  userId: string;
 }
 
 export const NotificationSchema = SchemaFactory.createForClass(Notification);

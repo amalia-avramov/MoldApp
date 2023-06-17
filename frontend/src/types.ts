@@ -37,4 +37,5 @@ export type NotificationDTO = {
   message: string;
   viewed: boolean;
   created_at: Date;
+  userId: string;
 };

@@ -15,11 +15,18 @@ export class NotificationJob {
   @Cron(CronExpression.EVERY_10_HOURS)
   async handleCron() {
     const sensors = await this.sensorService.findAll();
-    const ids = sensors.map((sensor) => sensor._id.toString());
-    const currentValues = ids.map((id) => this.influxdbService.readData(id));
+    const currentValues = sensors.map(async (sensor) => {
+      return {
+        parameters: await this.influxdbService.readData(sensor._id.toString()),
+        userId: sensor.userId,
+      };
+    });
     Promise.all(currentValues).then((results) => {
       results.map((result) => {
-        if (result.moldIndex >= 2 && result.moldIndex < 4) {
+        if (
+          result.parameters.moldIndex >= 2 &&
+          result.parameters.moldIndex < 4
+        ) {
           const date = new Date();
           this.notificationService.create({
             type: '1',
@@ -27,8 +34,9 @@ export class NotificationJob {
             message: 'Mold index is high. Take necessary precautions.',
             viewed: false,
             created_at: date,
+            userId: result.userId,
           });
-        } else if (result.moldIndex >= 4) {
+        } else if (result.parameters.moldIndex >= 4) {
           const date = new Date();
           this.notificationService.create({
             type: '2',
@@ -36,8 +44,12 @@ export class NotificationJob {
             message: 'Mold index is extremely high. Immediate action required!',
             viewed: false,
             created_at: date,
+            userId: result.userId,
           });
-        } else if (result.moldIndex >= 0 && result.moldIndex < 2) {
+        } else if (
+          result.parameters.moldIndex >= 0 &&
+          result.parameters.moldIndex < 2
+        ) {
           const date = new Date();
           this.notificationService.create({
             type: '3',
@@ -45,6 +57,7 @@ export class NotificationJob {
             message: 'Mold index is within acceptable range.',
             viewed: false,
             created_at: date,
+            userId: result.userId,
           });
         }
       });
