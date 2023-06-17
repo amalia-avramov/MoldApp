@@ -8,6 +8,9 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { UserModule } from './user/user.module';
 import { SensorModule } from './sensor/sensor.module';
 import { AuthModule } from './auth/auth.module';
+import { ScheduleModule } from '@nestjs/schedule';
+import { NotificationJobModule } from './cronjobs/NotificationJob.module';
+import { NotificationModule } from './notifications/notification.module';
 
 @Module({
   imports: [
@@ -28,6 +31,9 @@ import { AuthModule } from './auth/auth.module';
     UserModule,
     SensorModule,
     AuthModule,
+    ScheduleModule.forRoot(),
+    NotificationJobModule,
+    NotificationModule,
   ],
   controllers: [AppController, MqttController],
   providers: [AppService],

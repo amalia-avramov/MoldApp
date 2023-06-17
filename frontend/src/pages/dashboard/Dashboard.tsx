@@ -76,7 +76,7 @@ function DashboardWithSensors({
         <div className="dashboard-with-sensors-text">Scenes</div>
         <div className="dashboard-with-sensors-top-section">
           {rooms?.map((room) => (
-            <DashboardScene name={room.name} key={room.name}/>
+            <DashboardScene name={room.name} key={room.sensorId}/>
           ))}
         </div>
       </div>
