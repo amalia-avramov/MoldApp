@@ -98,11 +98,12 @@
   margin-left: 16px;
 }
 
-.horizontal-bar-text {
+.vertical-bar-text {
   font-size: 24px;
   line-height: 29px;
   height: 100%;
   transform: rotate(90deg);
+  margin-left: -50px;
 }
 
 .bar-line {

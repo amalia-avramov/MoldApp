@@ -10,6 +10,7 @@ import {
 import { SensorService } from './sensor.service';
 import { SensorDTO } from '../dtos/sensor.dto';
 import { Sensor } from '../schemas/sensor.schema';
+
 @Controller('sensors')
 export class SensorController {
   constructor(private readonly sensorService: SensorService) {}
@@ -17,6 +18,7 @@ export class SensorController {
   @Post()
   async create(@Body() createSensorDto: SensorDTO) {
     const sensor = await this.sensorService.create(createSensorDto);
+
     const body = {
       mqttServer: '192.168.1.138',
       mqttUsername: 'hta-sensor',

@@ -46,6 +46,7 @@ export class SensorService {
         });
         return sensorsForRoom.map((sensor) => ({
           sensorId: sensor._id,
+          isActive: sensor.isActive,
           name: room,
         }));
       }),

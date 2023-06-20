@@ -4,4 +4,5 @@ export class SensorDTO {
   readonly name: string;
   readonly wallType: string;
   readonly room: string;
+  readonly isActive: boolean;
 }

@@ -5,7 +5,6 @@ import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useSensorData } from "./useSensorData";
-import { server } from "../../utils";
 
 export function Temperature() {
   const navigate = useNavigate();
@@ -28,7 +27,6 @@ export function Temperature() {
           <div className="temperature-icon">
             <ThermostatIcon />
           </div>
-          <Switch defaultChecked style={{ color: "white" }} />
         </div>
         <div className="temperature-text">Temperature</div>
       </div>
@@ -63,7 +61,6 @@ export function Humidity() {
           <div className="temperature-icon">
             <ThermostatIcon />
           </div>
-          <Switch defaultChecked style={{ color: "white" }} />
         </div>
         <div className="temperature-text">Humidity</div>
       </div>
@@ -79,7 +76,7 @@ export function MoldIndex() {
   const sensorId = location.state.sensorId;
   const { sensorData } = useSensorData(sensorId);
 
-  const moldIndex = Math.round((sensorData?.moldIndex ?? 0) * 10) / 10;
+  const moldIndex = Math.round((sensorData?.moldIndex ?? 0) * 100) / 100;
 
   return (
     <div className="temperature-container">
@@ -94,7 +91,6 @@ export function MoldIndex() {
           <div className="temperature-icon">
             <ThermostatIcon />
           </div>
-          <Switch defaultChecked style={{ color: "white" }} />
         </div>
         <div className="temperature-text">Mold index</div>
       </div>
@@ -129,7 +125,7 @@ function VerticalBar({ value, maxValue, text }: { value: number; maxValue: numbe
   return (
     <div className="vertical-bar">
       <div className="bar-color" style={style}>
-        <div className="horizontal-bar-text">{text}</div>
+        <div className="vertical-bar-text">{text}</div>
         <div className="bar-line">|</div>
       </div>
     </div>

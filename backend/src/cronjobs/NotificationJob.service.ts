@@ -24,7 +24,7 @@ export class NotificationJob {
     Promise.all(currentValues).then((results) => {
       results.map((result) => {
         if (
-          result.parameters.moldIndex >= 2 &&
+          result.parameters.moldIndex > 1 &&
           result.parameters.moldIndex < 4
         ) {
           const date = new Date();
@@ -48,7 +48,7 @@ export class NotificationJob {
           });
         } else if (
           result.parameters.moldIndex >= 0 &&
-          result.parameters.moldIndex < 2
+          result.parameters.moldIndex <= 1
         ) {
           const date = new Date();
           this.notificationService.create({

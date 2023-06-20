@@ -82,7 +82,7 @@ export function calculateMoldIndex(
   let deltaM = 0;
   let k1 = 0;
   let k2 = 0;
-  for (let t = 0; t < 24 * 7 * 26; t = t + 1) {
+  for (let t = 0; t < 10; t = t + 1) {
     k1 = currentM < 1 ? k1MLowerThan1 : k1MGreaterThan1;
     k2 = Math.max(1 - Math.exp(2.3 * (currentM - mMax)), 0);
     deltaM =

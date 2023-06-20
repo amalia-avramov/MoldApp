@@ -22,6 +22,9 @@ export class Sensor {
 
   @Prop()
   room: string;
+
+  @Prop()
+  isActive: boolean;
 }
 
 export const SensorSchema = SchemaFactory.createForClass(Sensor);
