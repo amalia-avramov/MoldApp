@@ -102,3 +102,9 @@ export function calculateMoldIndex(
   }
   return data;
 }
+
+export type Parameters = {
+  temperature: number;
+  humidity: number;
+  moldIndex: number;
+};

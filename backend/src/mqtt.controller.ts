@@ -13,6 +13,7 @@ export interface SensorValues {
   temperature: number;
   humidity: number;
 }
+
 @Controller('sensor')
 export class MqttController {
   constructor(
@@ -21,7 +22,6 @@ export class MqttController {
 
   @MessagePattern('sensor/#')
   getNotification(@Payload() data: SensorValues, @Ctx() context: MqttContext) {
-    console.log(data);
     this.influxdbService.saveData(data, context.getTopic());
   }
 

@@ -4,12 +4,13 @@ import { Login } from "./pages/login/Login";
 import { Dashboard } from "./pages/dashboard/Dashboard";
 import { Register } from "./pages/register/Register";
 import { Rooms, SelectedRooms } from "./pages/rooms/Rooms";
-import { Notifications } from "./pages/notifications/Notifications";
+
 import {
   Humidity,
   Temperature,
   MoldIndex,
-} from "./pages/temperature/Temperature";
+} from "./pages/parameters/Parameters";
+import { NotificationPage } from "./pages/notifications/Notifications";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Route path="/temperature" element={<Temperature />} />
         <Route path="/humidity" element={<Humidity />} />
         <Route path="/mold" element={<MoldIndex />} />
-        <Route path="/notifications" element={<Notifications />} />
+        <Route path="/notifications" element={<NotificationPage />} />
       </Routes>
     </BrowserRouter>
   );

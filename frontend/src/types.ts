@@ -29,3 +29,13 @@ export type SensorData = {
   humidity: number;
   moldIndex: number;
 };
+
+export type NotificationDTO = {
+  _id: string;
+  type: string;
+  title: string;
+  message: string;
+  viewed: boolean;
+  created_at: Date;
+  userId: string;
+};

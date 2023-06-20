@@ -18,6 +18,20 @@
   text-decoration: none;
 }
 
+.footer-item-number{
+  position: relative;
+  top: -5px;
+  left: -5px;
+  background-color: #ADC7EF;
+  color: black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-icon{
     display: flex;
 }

@@ -1,10 +1,13 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { Document } from 'mongoose';
+import { Document, SchemaTypes, Types } from 'mongoose';
 
 export type SensorDocument = Sensor & Document;
 
 @Schema()
 export class Sensor {
+  @Prop({ type: SchemaTypes.ObjectId })
+  _id: Types.ObjectId;
+
   @Prop()
   userId: string;
 

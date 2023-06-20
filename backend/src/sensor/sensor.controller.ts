@@ -25,12 +25,14 @@ export class SensorController {
       sensorId: sensor._id.toString(),
     };
 
-    await fetch(`http://${sensor.ipAddress}/onboard`,  {method: 'POST',
-    headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify})
+    await fetch(`http://${sensor.ipAddress}/onboard`, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body),
+    })
       .then((res) => console.log(res.statusText))
       .catch((error) => {
         console.log(error);
