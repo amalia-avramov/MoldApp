@@ -4,13 +4,10 @@ import { Login } from "./pages/login/Login";
 import { Dashboard } from "./pages/dashboard/Dashboard";
 import { Register } from "./pages/register/Register";
 import { Rooms, SelectedRooms } from "./pages/rooms/Rooms";
-
-import {
-  Humidity,
-  Temperature,
-  MoldIndex,
-} from "./pages/parameters/Parameters";
 import { NotificationPage } from "./pages/notifications/Notifications";
+import { Temperature } from "./pages/parameters/Temperature";
+import { Humidity } from "./pages/parameters/Humidity";
+import { MoldIndex } from "./pages/parameters/MoldIndex";
 
 function App() {
   return (
