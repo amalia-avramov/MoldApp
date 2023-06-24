@@ -7,26 +7,41 @@ import { User } from '../schemas/user.schema';
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
-  @Post()
-  async create(@Body() createdDto: UserDTO) {
-    await this.userService.create(createdDto);
-  }
-
+  // ----------------------------------------------------
+  // GET all users endpoint
+  // ----------------------------------------------------
   @Get()
   async findAll(): Promise<User[]> {
     return this.userService.findAll();
   }
 
+  // ----------------------------------------------------
+  // GET user by ID endpoint
+  // ----------------------------------------------------
   @Get(':id')
   async findOne(@Param('id') id: string): Promise<User> {
     return this.userService.findOne(id);
   }
 
+  // ----------------------------------------------------
+  // GET user by email endpoint
+  // ----------------------------------------------------
   @Get(':email')
-  async findUsername(@Param('email') email: string): Promise<User> {
+  async findUserByEmail(@Param('email') email: string): Promise<User> {
     return this.userService.findUserByEmail(email);
   }
 
+  // ----------------------------------------------------
+  // PUT user endpoint
+  // ----------------------------------------------------
+  @Post()
+  async create(@Body() createdDto: UserDTO) {
+    await this.userService.create(createdDto);
+  }
+
+  // ----------------------------------------------------
+  // DELETE user endpoint
+  // ----------------------------------------------------
   @Delete(':id')
   async delete(@Param('id') id: string) {
     return this.userService.delete(id);

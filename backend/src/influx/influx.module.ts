@@ -1,7 +1,7 @@
 import { DynamicModule, Module, Global } from '@nestjs/common';
 import { InfluxDbService } from './influx.service';
 import { InfluxModuleAsyncOptions, InfluxModuleOptions } from './influx.types';
-import { SensorModule } from './sensor/sensor.module';
+import { SensorModule } from '../sensor/sensor.module';
 
 @Global()
 @Module({})

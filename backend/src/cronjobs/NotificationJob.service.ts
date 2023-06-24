@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
-import { InfluxDbService } from 'src/influx.service';
+import { InfluxDbService } from 'src/influx/influx.service';
 import { NotificationService } from 'src/notifications/notification.service';
 import { SensorService } from 'src/sensor/sensor.service';
 
@@ -12,8 +12,12 @@ export class NotificationJob {
     private readonly sensorService: SensorService,
   ) {}
 
+  // ----------------------------------------------------------
+  // Notification Cron Job
+  // ----------------------------------------------------------
   @Cron(CronExpression.EVERY_10_HOURS)
   async handleCron() {
+    // Get all sensors from database and read values
     const sensors = await this.sensorService.findAll();
     const currentValues = sensors.map(async (sensor) => {
       return {
@@ -21,6 +25,8 @@ export class NotificationJob {
         userId: sensor.userId,
       };
     });
+
+    // Verify mold index value
     Promise.all(currentValues).then((results) => {
       results.map((result) => {
         if (
@@ -28,6 +34,7 @@ export class NotificationJob {
           result.parameters.moldIndex < 4
         ) {
           const date = new Date();
+          // Add warning notification
           this.notificationService.create({
             type: '1',
             title: 'Hi there!',
@@ -38,6 +45,7 @@ export class NotificationJob {
           });
         } else if (result.parameters.moldIndex >= 4) {
           const date = new Date();
+          // Add critical notification
           this.notificationService.create({
             type: '2',
             title: 'Hi there!',
@@ -51,6 +59,7 @@ export class NotificationJob {
           result.parameters.moldIndex <= 1
         ) {
           const date = new Date();
+          // Add informational notification
           this.notificationService.create({
             type: '3',
             title: 'Hi there!',

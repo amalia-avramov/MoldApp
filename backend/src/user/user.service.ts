@@ -8,19 +8,31 @@ import { UserDTO } from '../dtos/user.dto';
 export class UserService {
   constructor(@InjectModel('users') private userModel: Model<User>) {}
 
+  // ----------------------------------------------------
+  // Create user function
+  // ----------------------------------------------------
   async create(createUserDto: UserDTO): Promise<User> {
     const createdUser = new this.userModel(createUserDto);
     return createdUser.save();
   }
 
+  // ----------------------------------------------------
+  // Find all users function
+  // ----------------------------------------------------
   async findAll(): Promise<User[]> {
     return this.userModel.find().exec();
   }
 
+  // ----------------------------------------------------
+  // Find user function
+  // ----------------------------------------------------
   async findOne(id: string): Promise<User> {
     return this.userModel.findOne({ _id: id }).exec();
   }
 
+  // ----------------------------------------------------
+  // Find user by email function
+  // ----------------------------------------------------
   async findUserByEmail(email: string): Promise<User> {
     return this.userModel.findOne({ email: email }).exec();
   }

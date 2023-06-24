@@ -1,14 +1,14 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { InfluxDB, Point } from '@influxdata/influxdb-client';
 import { InfluxModuleOptions } from './influx.types';
-import { SensorValues } from './mqtt.controller';
-import { SensorService } from './sensor/sensor.service';
+import { SensorValues } from '../mqtt/mqtt.controller';
+import { SensorService } from '../sensor/sensor.service';
 import {
   Parameters,
   calculateMmax,
   calculateMoldIndex,
   getClassParameters,
-} from './utils';
+} from '../utils';
 
 @Injectable()
 export class InfluxDbService {
@@ -26,7 +26,11 @@ export class InfluxDbService {
     this.connection = new InfluxDB(this.config);
   }
 
+  // ----------------------------------------------------
+  // Read data function
+  // ----------------------------------------------------
   async readData(id: string): Promise<Parameters> {
+    // Filter data by sensor ID
     const query = `from(bucket: "sensors") |> range(start: 0)|> filter(fn: (r) => r._measurement == "myMeasurement" and r.sensor=="sensor/${id}")`;
     const result = await this.connection
       ?.getQueryApi('moldApp')
@@ -36,13 +40,23 @@ export class InfluxDbService {
       field: row._field,
       value: row._value,
     }));
+
+    // Verify if sensor has measurements
     if (data.length > 0) {
+      // Get values for temperature
       const temperature = data?.filter((data) => data.field === 'temperature');
+      // Get values for humidity
       const humidity = data?.filter((data) => data.field === 'humidity');
       const lastTemperature = temperature?.pop().value ?? 0;
       const lastHumidity = humidity?.pop().value ?? 0;
+
+      // Get sensor information
       const sensor = this.sensorService.findOne(id);
+
+      // Get sensibility class for room wall type
       const parameters = getClassParameters((await sensor).wallType);
+
+      // Calculate maximum mold index
       const mMax = calculateMmax(
         parameters.k2.A,
         parameters.k2.B,
@@ -51,6 +65,8 @@ export class InfluxDbService {
         lastTemperature,
         90,
       );
+
+      // Calculate mold index
       const moldIndex = calculateMoldIndex(
         mMax,
         lastTemperature,
@@ -72,8 +88,10 @@ export class InfluxDbService {
       };
   }
 
+  // ----------------------------------------------------
+  // Save data function
+  // ----------------------------------------------------
   async saveData(data: SensorValues, topic: string) {
-    console.log(data);
     const writeAPI = this.connection.getWriteApi('moldApp', 'sensors');
     const point = new Point('myMeasurement')
       .tag('sensor', topic)

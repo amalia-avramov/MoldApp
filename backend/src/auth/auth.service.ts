@@ -9,8 +9,12 @@ export class AuthService {
     private jwtService: JwtService,
   ) {}
 
-  async signIn(email, pass) {
+  // ----------------------------------------------------------
+  // Authentification function
+  // ----------------------------------------------------------
+  async signIn(email: string, pass: string) {
     const user = await this.userService.findUserByEmail(email);
+    // Verify user password
     if (user?.password !== pass) {
       throw new UnauthorizedException();
     }

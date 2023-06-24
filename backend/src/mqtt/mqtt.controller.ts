@@ -5,7 +5,7 @@ import {
   MqttContext,
   Payload,
 } from '@nestjs/microservices';
-import { InfluxDbService } from './influx.service';
+import { InfluxDbService } from '../influx/influx.service';
 
 export interface SensorValues {
   sensorId: string;
@@ -20,11 +20,17 @@ export class MqttController {
     @Inject(InfluxDbService) private readonly influxdbService: InfluxDbService,
   ) {}
 
+  // ----------------------------------------------------------
+  // Subscribe function
+  // ----------------------------------------------------------
   @MessagePattern('sensor/#')
   getNotification(@Payload() data: SensorValues, @Ctx() context: MqttContext) {
     this.influxdbService.saveData(data, context.getTopic());
   }
 
+  // ----------------------------------------------------------
+  // GET endpoint for sensor data
+  // ----------------------------------------------------------
   @Get(':id/data')
   async getData(@Param('id') id: string) {
     return this.influxdbService.readData(id);
