@@ -1,4 +1,7 @@
+import { ObjectId } from 'mongoose';
+
 export class SensorDTO {
+  readonly _id: ObjectId;
   readonly userId: string;
   readonly ipAddress: string;
   readonly name: string;

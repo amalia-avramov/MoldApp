@@ -6,45 +6,54 @@
 #include <ArduinoJson.h>
 #include <ESPAsyncTCP.h>
 #include <ESPAsyncWebServer.h>
-#include "LittleFS.h"
 #include <AsyncJson.h>
-#include <config.h>
 
-#define SEALEVELPRESSURE_HPA (1013.25)
+// Define constant for the sea level pressure
+// 1013.25 is the standard pressure at sea level
+#define SEALEVELPRESSURE_HPA (1013.25) 
 
+
+// Initialize the sensor
 Adafruit_BME280 bme; // I2C
 
-// ESP8266 in AP mode
+// Credentials for ESP8266 in AP mode
 const char *AP_ssid = "ESP8266-Access-Point";
 const char *AP_password = "123456789";
 IPAddress apIP(192, 168, 1, 1);
 
-//ESP8266 in STA mode
-const char *ssid;
-const char *password;
+// Credentials for ESP8266 in STA mode
+const char *STA_ssid;
+const char *STA_password;
 
 // MQTT broker credentials
-// const char *mqttServer; //= "192.168.1.138";
-// int mqttPort; // = 1883;
-// const char *mqttUsername; // = "hta-sensor";
-// const char *mqttPassword;// = "amalia";
-// const char *sensorId;// = "1222";
+const char *mqttServer;  
+int mqttPort;            
+const char *mqttUsername; 
+const char *mqttPassword; 
+const char *sensorId;    
 
+// Enable the client to connect to the MQTT broker when receiving the credentials
 boolean mqttCredentials = false;
+
+// Enable to show IP address for WIFI
+boolean showWifiIP = false;
+
+// MQTT status
 char *mqttStatus = "disconnected";
 
-Config config;
-
-// Create AsyncWebServer object on port 80
+// Initialize AsyncWebServer object on port 80
 AsyncWebServer server(80);
 
+//
 WiFiClient wifiClient;
 PubSubClient client(wifiClient);
 
 unsigned long lastMsg = 0;
 const int READ_CYCLE_TIME = 5000;
 
-// HTML page for wifi connection
+// --------------------------------------------------------------
+// HTML page for WiFi connection
+// --------------------------------------------------------------
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE html>
 <html>
@@ -86,21 +95,44 @@ const char index_html[] PROGMEM = R"rawliteral(
 </html>
 )rawliteral";
 
+
+// --------------------------------------------------------------
+// BME280 sensor setup function
+// --------------------------------------------------------------
+void setupBME280()
+{
+    unsigned status;
+    // Begin BME280 sensor with address 0x76
+    status = bme.begin(0x76);
+
+    // Check if the sensor was successfully found
+    if (!status)
+    {
+        Serial.println("Could not find a valid BME280 sensor!");
+        while (1)
+            delay(10);
+    }
+}
+
+
+// --------------------------------------------------------------
+// MQTT Reconnect function
+// --------------------------------------------------------------
 void reconnect()
 {
-    // Loop until we're reconnected
+    // Loop until the client is not connected
     while (!client.connected())
     {
         Serial.print("Attempting MQTT connection...");
-
-        // Attempt to connect
-        if (client.connect(config.sensorId, config.mqttUsername, config.mqttPassword))
+        if (client.connect(sensorId, mqttUsername, mqttPassword))
         {
+            // Change status to connected
             mqttStatus = "connected";
             Serial.println("connected");
         }
         else
         {
+            // Change status to failed
             mqttStatus = "failed";
             Serial.print("failed, rc=");
             Serial.print(client.state());
@@ -111,26 +143,17 @@ void reconnect()
     }
 }
 
-void setupBME280()
-{
-    unsigned status;
-    // default settings
-    status = bme.begin(0x76);
-    if (!status)
-    {
-        Serial.println("Could not find a valid BME280 sensor!");
-        while (1)
-            delay(10);
-    }
-}
 
+// --------------------------------------------------------------
+// MQTT Send values function
+// --------------------------------------------------------------
 void loopMQTT()
 {
     // Read temperature, humidity and pressure from the BME280 sensor
     float temperature = bme.readTemperature();
     float humidity = bme.readHumidity();
     float pressure = bme.readPressure() / 100.0F;
-    float altitude = bme.readAltitude(1013.25); // 1013.25 is the standard pressure at sea level
+    float altitude = bme.readAltitude(SEALEVELPRESSURE_HPA); 
 
     // Allocate a temporary JsonDocument
     StaticJsonDocument<256> doc;
@@ -148,76 +171,42 @@ void loopMQTT()
         return;
     }
 
+    // Format the string using sensor ID
     char *topic;
-    asprintf(&topic, "%s/%s", "sensor/", config.sensorId);
+    asprintf(&topic, "%s/%s", "sensor", sensorId);
 
     Serial.println("Publish message: " + msg);
-    if(client.connect(config.sensorId, config.mqttUsername, config.mqttPassword)){
+    if (client.connect(sensorId, mqttUsername, mqttPassword))
+    {
+        // Publish the message
         client.publish(topic, msg.c_str());
     }
 }
 
-void setupFileSystem(void)
-{
-  SPIFFSConfig cfg;
-  cfg.setAutoFormat(true);
-  LittleFS.setConfig(cfg);
 
-  // mount file system
-  while (!LittleFS.begin())
-  {
-    Serial.println(F("Could not mount the FS"));
-    delay(500);
-  }
-}
-
-void printFile(const char *filename)
-{
-  // Open file for reading
-  File file = LittleFS.open(filename, "r");
-  if (!file)
-  {
-    Serial.println(F("Failed to read file"));
-    return;
-  }
-
-  // Extract each characters by one by one
-  while (file.available())
-  {
-    Serial.print((char)file.read());
-  }
-  Serial.println();
-
-  // Close the file
-  file.close();
-}
-
+// --------------------------------------------------------------
+// Setup function
+// --------------------------------------------------------------
 void setup()
 {
     Serial.begin(9600);
-    // setup bme280
+    // Call the setup function for the sensor
     setupBME280();
-    setupFileSystem();
-    config.load();
-    printFile("/config.txt");
 
-   
-    // setup ESP8266 in Access Point mode
+    // Setup ESP8266 in Access Point mode
     Serial.print("Setting AP (Access Point)…");
     WiFi.mode(WIFI_AP_STA);
     WiFi.softAPConfig(apIP, apIP, IPAddress(255, 255, 255, 0));
     WiFi.softAP(AP_ssid, AP_password);
-
     IPAddress IP = WiFi.softAPIP();
     Serial.print("AP IP address: ");
     Serial.println(IP);
-    
 
-
-    // Route for root / web page
+    // Route for root page
     server.on("/", HTTP_GET, [](AsyncWebServerRequest *request)
               { request->send_P(200, "text/html", index_html); });
-    // Route for available networks
+
+    // Route for scanning available networks
     server.on("/networks", HTTP_GET, [](AsyncWebServerRequest *request)
               { String json = "[";
                 int n = WiFi.scanComplete();
@@ -243,87 +232,102 @@ void setup()
                 Serial.println(json);
                 request->send(200, "application/json", json);
                 json = String(); });
-    // Route for connect to network
+
+    // Route for connecting to network
     server.on("/connect", HTTP_GET, [](AsyncWebServerRequest *request)
-              { 
+            { 
+                // Save credentials
                 if(request->hasParam("ssid")){
-                    ssid=request->getParam("ssid")->value().c_str();
+                    STA_ssid=request->getParam("ssid")->value().c_str();
                 };
                 if(request->hasParam("password")){
-                    password=request->getParam("password")->value().c_str();
+                    STA_password=request->getParam("password")->value().c_str();
                 }
                 WiFi.disconnect();
+                
+                // Change WIFI mode and connect
                 WiFi.mode(WIFI_STA);
-                WiFi.begin(ssid, password);
-
-                config.ssid=ssid;
-                config.password=password;
-                config.save();
+                WiFi.begin(STA_ssid, STA_password);
 
                 request->send(200, "text/plain", "OK"); });
-    // Route for setup mqtt credentials
-   
-    AsyncCallbackJsonWebHandler* onboardHandler = new AsyncCallbackJsonWebHandler("/onboard",[](AsyncWebServerRequest *request, JsonVariant &json)
-              { 
-                
+
+    // Route for onboard sensor
+    AsyncCallbackJsonWebHandler *onboardHandler = new AsyncCallbackJsonWebHandler("/onboard", [](AsyncWebServerRequest *request, JsonVariant &json)
+            { 
                 // Cast the Json Document to a Json Object
                 JsonObject obj = json.as<JsonObject>();
 
-                // Write the values from json object to the config
-                config.mqttServer = obj["mqttServer"];
-                config.mqttUsername = obj["mqttUsername"];
-                config.mqttPassword = obj["mqttPassword"];
-                config.mqttPort = obj["mqttPort"];
-                config.sensorId=obj["sensorId"];
+                // Save credentials
+                mqttServer = obj["mqttServer"];
+                mqttUsername = obj["mqttUsername"];
+                mqttPassword = obj["mqttPassword"];
+                mqttPort = obj["mqttPort"];
+                sensorId=obj["sensorId"];
 
-                // Connect to the MQTT broker
-                // client.setServer(mqttBroker, mqttPort);
+                // Disconnect from mqtt server
                 client.disconnect();
+                // Set a keep alive interval
                 client.setKeepAlive(60); 
+                // Set the socket timeout
                 client.setSocketTimeout(60);
-                client.setServer(config.mqttServer, config.mqttPort);
+
+                // Set the MQTT server
+                client.setServer(mqttServer, mqttPort);
 
                 mqttCredentials=true;
                 request->send(200, "text/plain", "OK"); });
+
+    // Register the onboardHandler function
     server.addHandler(onboardHandler);
     // Start server
     server.begin();
 }
 
+
+// --------------------------------------------------------------
+// Loop function
+// --------------------------------------------------------------
 void loop()
 {
-    if (!ssid)
+    // Verify if the credentials for WIFI connection are received
+    if (!STA_ssid)
     {
         return;
     }
 
+    // Waiting for connection
     while (WiFi.status() != WL_CONNECTED)
     {
         delay(500);
         Serial.print(".");
     }
 
-    if(!mqttCredentials) return;
+    if(WiFi.status() == WL_CONNECTED && !showWifiIP){
+        Serial.println("");
+        Serial.println("WiFi connected");
+        Serial.println("IP address: ");
+        // Print the IP address
+        Serial.println(WiFi.localIP());
+        // Set variable to true to show the IP only once
+        showWifiIP=true;
+    }
+        
+    if (!mqttCredentials){
+        return;
+    }
 
     // Listen for mqtt message and reconnect if disconnected
-    
     reconnect();
-    if(!client.loop()){
-        client.connect(config.sensorId, config.mqttUsername, config.mqttPassword);
+    if (!client.loop())
+    {
+        client.connect(sensorId, mqttUsername, mqttPassword);
     }
 
     unsigned long now = millis();
     if ((now - lastMsg) > READ_CYCLE_TIME)
     {
-        Serial.println("");
-        Serial.println("WiFi connected");
-        Serial.println("IP address: ");
-        Serial.println(WiFi.localIP());
-
         lastMsg = now;
-
         //  Publish MQTT messages
         loopMQTT();
     }
-    
 }

@@ -10,7 +10,8 @@
     {
       "src": "/logoSmall.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "196x196",
+      "purpose":"any maskable"
     }
   ],
   "start_url": ".",

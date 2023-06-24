@@ -73,6 +73,7 @@ export class InfluxDbService {
   }
 
   async saveData(data: SensorValues, topic: string) {
+    console.log(data);
     const writeAPI = this.connection.getWriteApi('moldApp', 'sensors');
     const point = new Point('myMeasurement')
       .tag('sensor', topic)

@@ -29,5 +29,12 @@ export function useDashboard() {
     }
   };
 
-  return { sensors: sensors ?? [], rooms: rooms ?? [], isLoading, onToggleChange: handleToggleChange };
+  return {
+    sensors: sensors ?? [],
+    rooms: rooms ?? [],
+    isLoading,
+    onToggleChange: handleToggleChange,
+    refresh,
+    refreshRooms,
+  };
 }

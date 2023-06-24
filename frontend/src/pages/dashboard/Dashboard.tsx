@@ -14,7 +14,7 @@ import { Room, Sensor } from "../../types";
 import { FooterBar } from "../../components/Footer/FooterBar";
 
 export function Dashboard() {
-  const { sensors, rooms, isLoading, onToggleChange } = useDashboard();
+  const { sensors, rooms, isLoading, onToggleChange, refresh, refreshRooms } = useDashboard();
   const [addSensor, setAddSensor] = useState(false);
   return (
     <div className="dashboard-container">
@@ -32,7 +32,14 @@ export function Dashboard() {
         <DashboardWithSensors sensors={sensors} rooms={rooms} onToggleChange={onToggleChange} />
       )}
       <FooterBar />
-      <AddSensor open={addSensor} onClose={() => setAddSensor(false)} />
+      <AddSensor
+        open={addSensor}
+        onClose={() => setAddSensor(false)}
+        refresh={() => {
+          refreshRooms();
+          refresh();
+        }}
+      />
     </div>
   );
 }
@@ -55,7 +62,7 @@ function DashboardWithoutSensors() {
       >
         Add sensor
       </Button>
-      <AddSensor open={addSensor} onClose={() => setAddSensor(false)} />
+      <AddSensor open={addSensor} onClose={() => setAddSensor(false)}/>
     </div>
   );
 }
@@ -83,11 +90,7 @@ function DashboardWithSensors({
         <div className="dashboard-with-sensors-text">Sensors</div>
         <div className="dashboard-with-sensors-bottom-section">
           {sensors?.map((sensor) => (
-            <DashboardSensor
-              sensor={sensor}
-              onToggleChange={onToggleChange}
-              key={sensor._id}
-            />
+            <DashboardSensor sensor={sensor} onToggleChange={onToggleChange} key={sensor._id} />
           ))}
         </div>
       </div>
@@ -107,20 +110,14 @@ function DashboardScene({ name, isActive }: { name: string; isActive: boolean })
   );
 }
 
-function DashboardSensor({
-  sensor,
-  onToggleChange,
-}: {
-  sensor: Sensor,
-  onToggleChange: (sensor: Sensor) => void;
-}) {
+function DashboardSensor({ sensor, onToggleChange }: { sensor: Sensor; onToggleChange: (sensor: Sensor) => void }) {
   return (
     <div className="sensor">
       <div className="sensor-content">
         <div className="sensor-icon">
           <SensorsIcon />
         </div>
-        <Switch style={{ color: "white" }} checked={sensor.isActive} onChange={()=> onToggleChange(sensor)}/>
+        <Switch style={{ color: "white" }} checked={sensor.isActive} onChange={() => onToggleChange(sensor)} />
       </div>
       <div className="sensor-text">{sensor.name}</div>
     </div>
