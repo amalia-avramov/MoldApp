@@ -7,11 +7,7 @@ export function useRoom() {
 
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-  const {
-    data: rooms,
-    isLoading,
-    mutate,
-  } = useSWR<Room[]>(`${server}/sensors/rooms/${userId}`, fetcher);
+  const { data: rooms, isLoading, mutate } = useSWR<Room[]>(`${server}/sensors/rooms/${userId}`, fetcher);
 
   const onDelete = async (id: string): Promise<void> => {
     try {
@@ -31,5 +27,5 @@ export function useRoom() {
     }
   };
 
-  return { rooms: rooms ?? [], isLoading, onDelete };
+  return { rooms: rooms ?? [], isLoading, onDelete, refresh: mutate };
 }

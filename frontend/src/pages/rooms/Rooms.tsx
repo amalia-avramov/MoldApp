@@ -21,7 +21,7 @@ import { useRoom } from "./useRooms";
 
 export function Rooms() {
   const [addSensor, setAddSensor] = useState(false);
-  const { rooms } = useRoom();
+  const { rooms, refresh } = useRoom();
   const path = window.location.pathname;
   return (
     <div className="rooms-container">
@@ -46,7 +46,7 @@ export function Rooms() {
           ))}
         </nav>
       </div>
-      <AddSensor open={addSensor} onClose={() => setAddSensor(false)} />
+      <AddSensor open={addSensor} onClose={() => setAddSensor(false)} refresh={refresh}/>
       <FooterBar />
     </div>
   );
@@ -181,6 +181,7 @@ function Room({
   return (
     <NavLink
       to={href}
+      onClick={()=> localStorage.setItem('roomName', name)}
       className={classnames("room", { "room-active": active })}
     >
       <div className="room-icon">{getRoomIcon(name)}</div>

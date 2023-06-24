@@ -13,7 +13,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
 		icons: [
 			{
         src: 'logoSmall.png',
-        sizes: '192x192',
+        sizes: '196x196',
         type: 'image/png'
       },
       {
@@ -28,10 +28,10 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
         purpose: 'any'
       },
       {
-        src: 'logoBig.png',
-        sizes: '512x512',
+        src: 'logoSmall.png',
+        sizes: '196x196',
         type: 'image/png',
-        purpose: 'maskable'
+        purpose: 'any maskable'
       }
 		],
 		theme_color: "#171717",

@@ -8,20 +8,32 @@ import { SensorDTO } from '../dtos/sensor.dto';
 export class SensorService {
   constructor(@InjectModel('sensors') private sensorModel: Model<Sensor>) {}
 
+  // ----------------------------------------------------
+  // Create sensor function
+  // ----------------------------------------------------
   async create(createSensorDto: SensorDTO) {
     const newSensor = new this.sensorModel(createSensorDto);
     const savedSensor = newSensor.save();
     return (await savedSensor).toObject();
   }
 
+  // ----------------------------------------------------
+  // Find all sensors function
+  // ----------------------------------------------------
   async findAll(): Promise<Sensor[]> {
     return this.sensorModel.find().exec();
   }
 
+  // ----------------------------------------------------
+  // Find sensor function
+  // ----------------------------------------------------
   async findOne(id: string): Promise<Sensor> {
     return this.sensorModel.findOne({ _id: id }).exec();
   }
 
+  // ----------------------------------------------------
+  // Update sensor function
+  // ----------------------------------------------------
   async updateSensorById(id: string, updatedSensor: Sensor): Promise<Sensor> {
     const sensor = await this.sensorModel
       .findByIdAndUpdate(id, updatedSensor, { new: true })
@@ -29,11 +41,17 @@ export class SensorService {
     return sensor;
   }
 
+  // ----------------------------------------------------
+  // Find sensor by user ID function
+  // ----------------------------------------------------
   async findSensorsByUserId(userId: string): Promise<Sensor[]> {
     const sensors = await this.sensorModel.find({ userId: userId }).exec();
     return sensors.map((sensor) => sensor.toObject());
   }
 
+  // ----------------------------------------------------
+  // Find rooms function
+  // ----------------------------------------------------
   async findRooms(userId: string) {
     const distinctRooms = await this.sensorModel.distinct('room', {
       userId,
@@ -46,13 +64,18 @@ export class SensorService {
         });
         return sensorsForRoom.map((sensor) => ({
           sensorId: sensor._id,
+          isActive: sensor.isActive,
           name: room,
         }));
       }),
     );
+
     return sensors.flat();
   }
 
+  // ----------------------------------------------------
+  // Delete sensor function
+  // ----------------------------------------------------
   async delete(id: string) {
     const deletedSensor = await this.sensorModel
       .findByIdAndRemove({ _id: id })

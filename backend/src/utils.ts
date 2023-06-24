@@ -1,33 +1,51 @@
+// ----------------------------------------------------
+// Class parameters fields
+// ----------------------------------------------------
 export type ClassParameters = {
   k1: { mLowerThan1: number; mGreaterThan1: number };
   k2: { A: number; B: number; C: number };
   RHmin: number;
 };
 
+// ----------------------------------------------------
+// Very sensitive class
+// ----------------------------------------------------
 export const VerySensitive: ClassParameters = {
   k1: { mLowerThan1: 1, mGreaterThan1: 2 },
   k2: { A: 1, B: 7, C: 2 },
   RHmin: 80,
 };
 
+// ----------------------------------------------------
+// Sensitive class
+// ----------------------------------------------------
 export const Sensitive: ClassParameters = {
   k1: { mLowerThan1: 0.578, mGreaterThan1: 0.386 },
   k2: { A: 0.3, B: 6, C: 1 },
   RHmin: 80,
 };
 
+// ----------------------------------------------------
+// Medium resistant class
+// ----------------------------------------------------
 export const MediumResistant: ClassParameters = {
   k1: { mLowerThan1: 0.072, mGreaterThan1: 0.097 },
   k2: { A: 0, B: 5, C: 1.5 },
   RHmin: 85,
 };
 
+// ----------------------------------------------------
+// Resistant class
+// ----------------------------------------------------
 export const Resistant: ClassParameters = {
   k1: { mLowerThan1: 0.033, mGreaterThan1: 0.014 },
   k2: { A: 0, B: 3, C: 1 },
   RHmin: 85,
 };
 
+// ----------------------------------------------------
+// Get class funtion
+// ----------------------------------------------------
 export function getClassParameters(wallType: string) {
   switch (wallType) {
     case 'Concrete':
@@ -47,6 +65,9 @@ export function getClassParameters(wallType: string) {
   }
 }
 
+// ----------------------------------------------------
+// Maximum mold index function
+// ----------------------------------------------------
 export function calculateMmax(
   A: number,
   B: number,
@@ -55,6 +76,7 @@ export function calculateMmax(
   temperature: number,
   relativeHumidity: number,
 ) {
+  // Calculate relative humidity critical
   const RHcrit =
     temperature < 20
       ? -0.00267 * Math.pow(temperature, 3) +
@@ -69,6 +91,9 @@ export function calculateMmax(
   );
 }
 
+// ----------------------------------------------------
+// Calculate mold inde function
+// ----------------------------------------------------
 export function calculateMoldIndex(
   mMax: number,
   temperature: number,
@@ -82,7 +107,7 @@ export function calculateMoldIndex(
   let deltaM = 0;
   let k1 = 0;
   let k2 = 0;
-  for (let t = 0; t < 24 * 7 * 26; t = t + 1) {
+  for (let t = 0; t < 10; t = t + 1) {
     k1 = currentM < 1 ? k1MLowerThan1 : k1MGreaterThan1;
     k2 = Math.max(1 - Math.exp(2.3 * (currentM - mMax)), 0);
     deltaM =

@@ -3828,3 +3828,381 @@
 1686938108: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1686986360: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1686986364: Client mqttjs_c50b82ef closed its connection.
+1686986863: New connection from 172.18.0.5:47544 on port 1883.
+1686986863: New client connected from 172.18.0.5:47544 as mqttjs_1d0ac3e5 (p2, c1, k60, u'hta-sensor').
+1686987803: Client mqttjs_1d0ac3e5 closed its connection.
+1686987807: New connection from 172.18.0.5:41308 on port 1883.
+1686987807: New client connected from 172.18.0.5:41308 as mqttjs_c94cccee (p2, c1, k60, u'hta-sensor').
+1686987935: Client mqttjs_c94cccee closed its connection.
+1686987938: New connection from 172.18.0.5:42120 on port 1883.
+1686987938: New client connected from 172.18.0.5:42120 as mqttjs_08405167 (p2, c1, k60, u'hta-sensor').
+1686987997: Client mqttjs_08405167 closed its connection.
+1686988000: New connection from 172.18.0.5:49246 on port 1883.
+1686988000: New client connected from 172.18.0.5:49246 as mqttjs_4b494dcd (p2, c1, k60, u'hta-sensor').
+1686988161: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686988802: Client mqttjs_4b494dcd closed its connection.
+1686988806: New connection from 172.18.0.5:54050 on port 1883.
+1686988806: New client connected from 172.18.0.5:54050 as mqttjs_587104a9 (p2, c1, k60, u'hta-sensor').
+1686988935: Client mqttjs_587104a9 closed its connection.
+1686988938: New connection from 172.18.0.5:33720 on port 1883.
+1686988938: New client connected from 172.18.0.5:33720 as mqttjs_410abf7c (p2, c1, k60, u'hta-sensor').
+1686988957: Client mqttjs_410abf7c closed its connection.
+1686988961: New connection from 172.18.0.5:47230 on port 1883.
+1686988961: New client connected from 172.18.0.5:47230 as mqttjs_61ccb052 (p2, c1, k60, u'hta-sensor').
+1686989205: Client mqttjs_61ccb052 closed its connection.
+1686989208: New connection from 172.18.0.5:47196 on port 1883.
+1686989208: New client connected from 172.18.0.5:47196 as mqttjs_9a08d406 (p2, c1, k60, u'hta-sensor').
+1686989486: Client mqttjs_9a08d406 closed its connection.
+1686989490: New connection from 172.18.0.5:54536 on port 1883.
+1686989490: New client connected from 172.18.0.5:54536 as mqttjs_dbd37f45 (p2, c1, k60, u'hta-sensor').
+1686989613: Client mqttjs_dbd37f45 closed its connection.
+1686989617: New connection from 172.18.0.5:38846 on port 1883.
+1686989617: New client connected from 172.18.0.5:38846 as mqttjs_c61d163d (p2, c1, k60, u'hta-sensor').
+1686989962: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686989980: Client mqttjs_c61d163d closed its connection.
+1686990239: New connection from 172.18.0.5:46928 on port 1883.
+1686990239: New client connected from 172.18.0.5:46928 as mqttjs_c9b971de (p2, c1, k60, u'hta-sensor').
+1686990243: Client mqttjs_c9b971de closed its connection.
+1686990246: New connection from 172.18.0.5:53282 on port 1883.
+1686990246: New client connected from 172.18.0.5:53282 as mqttjs_73e07055 (p2, c1, k60, u'hta-sensor').
+1686990248: Client mqttjs_73e07055 closed its connection.
+1686990252: New connection from 172.18.0.5:49864 on port 1883.
+1686990252: New client connected from 172.18.0.5:49864 as mqttjs_d83a9a22 (p2, c1, k60, u'hta-sensor').
+1686990259: Client mqttjs_d83a9a22 closed its connection.
+1686990262: New connection from 172.18.0.5:50264 on port 1883.
+1686990262: New client connected from 172.18.0.5:50264 as mqttjs_398f7c7b (p2, c1, k60, u'hta-sensor').
+1686991763: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686993564: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686995521: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686996445: Client mqttjs_398f7c7b closed its connection.
+1686996450: New connection from 172.18.0.5:42194 on port 1883.
+1686996450: New client connected from 172.18.0.5:42194 as mqttjs_8b9274e2 (p2, c1, k60, u'hta-sensor').
+1686996463: Client mqttjs_8b9274e2 closed its connection.
+1686996471: New connection from 172.18.0.5:41648 on port 1883.
+1686996471: New client connected from 172.18.0.5:41648 as mqttjs_26501734 (p2, c1, k60, u'hta-sensor').
+1686997322: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1686999123: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687000924: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687002725: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687005622: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687008838: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687010639: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687017908: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687019709: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687025437: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687027357: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687054031: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687084497: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687086298: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687092131: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687094116: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687095917: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687097718: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687099519: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687101320: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687165667: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687167467: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687169268: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687171069: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687172870: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687175280: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687177081: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687179952: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687181753: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687185425: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687187226: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687189027: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687196257: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687253492: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687255538: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687257339: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687263271: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687267032: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687270096: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687270295: Client mqttjs_26501734 closed its connection.
+1687270302: New connection from 172.18.0.5:33426 on port 1883.
+1687270302: New client connected from 172.18.0.5:33426 as mqttjs_3fb514f7 (p2, c1, k60, u'hta-sensor').
+1687270319: Client mqttjs_3fb514f7 closed its connection.
+1687270326: New connection from 172.18.0.5:52646 on port 1883.
+1687270326: New client connected from 172.18.0.5:52646 as mqttjs_2b7e013e (p2, c1, k60, u'hta-sensor').
+1687270330: Client mqttjs_2b7e013e closed its connection.
+1687270336: New connection from 172.18.0.5:48480 on port 1883.
+1687270336: New client connected from 172.18.0.5:48480 as mqttjs_ca896fee (p2, c1, k60, u'hta-sensor').
+1687270564: Client mqttjs_ca896fee closed its connection.
+1687270571: New connection from 172.18.0.5:59190 on port 1883.
+1687270571: New client connected from 172.18.0.5:59190 as mqttjs_74d62190 (p2, c1, k60, u'hta-sensor').
+1687271335: Client mqttjs_74d62190 closed its connection.
+1687271341: New connection from 172.18.0.5:39734 on port 1883.
+1687271341: New client connected from 172.18.0.5:39734 as mqttjs_850141af (p2, c1, k60, u'hta-sensor').
+1687271353: Client mqttjs_850141af closed its connection.
+1687271358: New connection from 172.18.0.5:54072 on port 1883.
+1687271358: New client connected from 172.18.0.5:54072 as mqttjs_a30a7bea (p2, c1, k60, u'hta-sensor').
+1687271897: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687273698: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687277488: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687279289: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687295903: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687297704: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687299505: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687301306: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687336891: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687356645: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687358732: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687360533: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687378979: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687380780: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687382953: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687422607: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687427285: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687429086: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687432496: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687437205: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687439006: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687440807: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687444575: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687446376: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687449216: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687451018: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687451816: Client mqttjs_a30a7bea closed its connection.
+1687451820: New connection from 172.18.0.5:56574 on port 1883.
+1687451820: New client connected from 172.18.0.5:56574 as mqttjs_6f8a65e8 (p2, c1, k60, u'hta-sensor').
+1687452085: Client mqttjs_6f8a65e8 closed its connection.
+1687452089: New connection from 172.18.0.5:55808 on port 1883.
+1687452089: New client connected from 172.18.0.5:55808 as mqttjs_d1778f3c (p2, c1, k60, u'hta-sensor').
+1687452239: Client mqttjs_d1778f3c closed its connection.
+1687452243: New connection from 172.18.0.5:50342 on port 1883.
+1687452243: New client connected from 172.18.0.5:50342 as mqttjs_6b832c48 (p2, c1, k60, u'hta-sensor').
+1687458143: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687459944: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687461745: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687466609: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687468410: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687470211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687472012: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687500601: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687504284: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687507035: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687508892: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687510693: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687517482: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687521662: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687523201: New connection from 172.18.0.1:44990 on port 1883.
+1687523201: New client connected from 172.18.0.1:44990 as 64958f8051872ec48c18f26f (p2, c1, k60, u'hta-sensor').
+1687523277: Client 64958f8051872ec48c18f26f disconnected due to malformed packet.
+1687523391: Client mqttjs_6b832c48 closed its connection.
+1687523397: New connection from 172.18.0.5:59656 on port 1883.
+1687523397: New client connected from 172.18.0.5:59656 as mqttjs_9d9904f2 (p2, c1, k60, u'hta-sensor').
+1687523472: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687526373: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687526637: New connection from 172.18.0.1:53582 on port 1883.
+1687526637: New client connected from 172.18.0.1:53582 as 64959cec69dc27754891bd27 (p2, c1, k60, u'hta-sensor').
+1687526867: Client mqttjs_9d9904f2 closed its connection.
+1687526873: New connection from 172.18.0.5:40600 on port 1883.
+1687526873: New client connected from 172.18.0.5:40600 as mqttjs_f9854d1c (p2, c1, k60, u'hta-sensor').
+1687526911: Client 64959cec69dc27754891bd27 has exceeded timeout, disconnecting.
+1687526967: New connection from 172.18.0.1:40028 on port 1883.
+1687526967: Client 1222 disconnected, not authorised.
+1687526968: New connection from 172.18.0.1:40038 on port 1883.
+1687526968: Client 1222 disconnected, not authorised.
+1687526969: New connection from 172.18.0.1:40040 on port 1883.
+1687526969: Client 1222 disconnected, not authorised.
+1687526971: New connection from 172.18.0.1:40046 on port 1883.
+1687526971: Client <unknown> disconnected due to protocol error.
+1687527123: New connection from 172.18.0.1:42672 on port 1883.
+1687527123: Client 1222 disconnected, not authorised.
+1687527124: New connection from 172.18.0.1:42678 on port 1883.
+1687527124: Client 1222 disconnected, not authorised.
+1687527125: New connection from 172.18.0.1:42686 on port 1883.
+1687527125: Client 1222 disconnected, not authorised.
+1687527126: New connection from 172.18.0.1:42694 on port 1883.
+1687527126: Client 1222 disconnected, not authorised.
+1687527127: New connection from 172.18.0.1:50238 on port 1883.
+1687527127: Client 1222 disconnected, not authorised.
+1687527688: New connection from 172.18.0.1:38448 on port 1883.
+1687527688: New client connected from 172.18.0.1:38448 as 1222 (p2, c1, k60, u'hta-sensor').
+1687527729: New connection from 172.18.0.1:35064 on port 1883.
+1687527729: New client connected from 172.18.0.1:35064 as 64958f8051872ec48c18f26f (p2, c1, k60, u'hta-sensor').
+1687527730: Client 1222 disconnected.
+1687527809: Client 64958f8051872ec48c18f26f disconnected due to malformed packet.
+1687528086: New connection from 172.18.0.1:46000 on port 1883.
+1687528086: New client connected from 172.18.0.1:46000 as 64958f8051872ec48c18f26f (p2, c1, k60, u'hta-sensor').
+1687528174: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687528176: Client 64958f8051872ec48c18f26f disconnected due to malformed packet.
+1687529046: New connection from 172.18.0.1:60272 on port 1883.
+1687529046: New client connected from 172.18.0.1:60272 as 6495a6551669fdda7a4609e4 (p2, c1, k60, u'hta-sensor').
+1687529111: Client 6495a6551669fdda7a4609e4 disconnected due to malformed packet.
+1687529975: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687530019: New connection from 172.18.0.1:34850 on port 1883.
+1687530019: New client connected from 172.18.0.1:34850 as 6495aa2209f8952a91ed71a2 (p2, c1, k60, u'hta-sensor').
+1687531615: Client 6495aa2209f8952a91ed71a2 has exceeded timeout, disconnecting.
+1687531776: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687533577: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687535378: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687537179: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687544171: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687590542: Client mqttjs_f9854d1c closed its connection.
+1687590548: New connection from 172.18.0.5:34914 on port 1883.
+1687590548: New client connected from 172.18.0.5:34914 as mqttjs_677c1018 (p2, c1, k60, u'hta-sensor').
+1687590590: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687592391: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687592609: Client mqttjs_677c1018 closed its connection.
+1687592616: New connection from 172.18.0.5:48330 on port 1883.
+1687592616: New client connected from 172.18.0.5:48330 as mqttjs_c566d50b (p2, c1, k60, u'hta-sensor').
+1687594192: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687596418: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687598219: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687600020: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687601821: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687603809: Client mqttjs_c566d50b closed its connection.
+1687603816: New connection from 172.18.0.5:57264 on port 1883.
+1687603816: New client connected from 172.18.0.5:57264 as mqttjs_17bc9b78 (p2, c1, k60, u'hta-sensor').
+1687603822: Client mqttjs_17bc9b78 closed its connection.
+1687603826: New connection from 172.18.0.5:59816 on port 1883.
+1687603826: New client connected from 172.18.0.5:59816 as mqttjs_e5a56a6a (p2, c1, k60, u'hta-sensor').
+1687603833: Client mqttjs_e5a56a6a closed its connection.
+1687603838: New connection from 172.18.0.5:41712 on port 1883.
+1687603838: New client connected from 172.18.0.5:41712 as mqttjs_5e00c8d7 (p2, c1, k60, u'hta-sensor').
+1687603845: Client mqttjs_5e00c8d7 closed its connection.
+1687603850: New connection from 172.18.0.5:44272 on port 1883.
+1687603850: New client connected from 172.18.0.5:44272 as mqttjs_ac5b1f1e (p2, c1, k60, u'hta-sensor').
+1687603856: Client mqttjs_ac5b1f1e closed its connection.
+1687603860: New connection from 172.18.0.5:35512 on port 1883.
+1687603860: New client connected from 172.18.0.5:35512 as mqttjs_e4895f57 (p2, c1, k60, u'hta-sensor').
+1687603863: Client mqttjs_e4895f57 closed its connection.
+1687603867: New connection from 172.18.0.5:35516 on port 1883.
+1687603867: New client connected from 172.18.0.5:35516 as mqttjs_39ff9f63 (p2, c1, k60, u'hta-sensor').
+1687603870: Client mqttjs_39ff9f63 closed its connection.
+1687603875: New connection from 172.18.0.5:53122 on port 1883.
+1687603875: New client connected from 172.18.0.5:53122 as mqttjs_5481d188 (p2, c1, k60, u'hta-sensor').
+1687603875: Client mqttjs_5481d188 closed its connection.
+1687603880: New connection from 172.18.0.5:47454 on port 1883.
+1687603880: New client connected from 172.18.0.5:47454 as mqttjs_7ce799dd (p2, c1, k60, u'hta-sensor').
+1687603920: Client mqttjs_7ce799dd closed its connection.
+1687603924: New connection from 172.18.0.5:51032 on port 1883.
+1687603924: New client connected from 172.18.0.5:51032 as mqttjs_5ea0f5ce (p2, c1, k60, u'hta-sensor').
+1687603949: Client mqttjs_5ea0f5ce closed its connection.
+1687603952: New connection from 172.18.0.5:50030 on port 1883.
+1687603952: New client connected from 172.18.0.5:50030 as mqttjs_5bf49f2d (p2, c1, k60, u'hta-sensor').
+1687603989: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687604036: Client mqttjs_5bf49f2d closed its connection.
+1687604040: New connection from 172.18.0.5:57314 on port 1883.
+1687604040: New client connected from 172.18.0.5:57314 as mqttjs_46e05cb3 (p2, c1, k60, u'hta-sensor').
+1687604077: Client mqttjs_46e05cb3 closed its connection.
+1687604081: New connection from 172.18.0.5:47940 on port 1883.
+1687604081: New client connected from 172.18.0.5:47940 as mqttjs_4a489490 (p2, c1, k60, u'hta-sensor').
+1687604294: Client mqttjs_4a489490 closed its connection.
+1687604298: New connection from 172.18.0.5:48710 on port 1883.
+1687604298: New client connected from 172.18.0.5:48710 as mqttjs_9c899fe1 (p2, c1, k60, u'hta-sensor').
+1687604530: Client mqttjs_9c899fe1 closed its connection.
+1687604535: New connection from 172.18.0.5:60042 on port 1883.
+1687604535: New client connected from 172.18.0.5:60042 as mqttjs_b6e1ac6e (p2, c1, k60, u'hta-sensor').
+1687604647: Client mqttjs_b6e1ac6e closed its connection.
+1687604652: New connection from 172.18.0.5:57144 on port 1883.
+1687604652: New client connected from 172.18.0.5:57144 as mqttjs_0a4b1959 (p2, c1, k60, u'hta-sensor').
+1687604656: Client mqttjs_0a4b1959 closed its connection.
+1687604660: New connection from 172.18.0.5:36460 on port 1883.
+1687604660: New client connected from 172.18.0.5:36460 as mqttjs_4a7d82c8 (p2, c1, k60, u'hta-sensor').
+1687604710: Client mqttjs_4a7d82c8 closed its connection.
+1687604714: New connection from 172.18.0.5:45788 on port 1883.
+1687604714: New client connected from 172.18.0.5:45788 as mqttjs_8867c432 (p2, c1, k60, u'hta-sensor').
+1687604805: Client mqttjs_8867c432 closed its connection.
+1687604809: New connection from 172.18.0.5:55876 on port 1883.
+1687604809: New client connected from 172.18.0.5:55876 as mqttjs_00983afe (p2, c1, k60, u'hta-sensor').
+1687604813: Client mqttjs_00983afe closed its connection.
+1687604817: New connection from 172.18.0.5:55886 on port 1883.
+1687604817: New client connected from 172.18.0.5:55886 as mqttjs_362b42a4 (p2, c1, k60, u'hta-sensor').
+1687604856: Client mqttjs_362b42a4 closed its connection.
+1687604860: New connection from 172.18.0.5:49646 on port 1883.
+1687604860: New client connected from 172.18.0.5:49646 as mqttjs_203df797 (p2, c1, k60, u'hta-sensor').
+1687604862: Client mqttjs_203df797 closed its connection.
+1687604866: New connection from 172.18.0.5:49652 on port 1883.
+1687604866: New client connected from 172.18.0.5:49652 as mqttjs_1589eaa0 (p2, c1, k60, u'hta-sensor').
+1687604918: Client mqttjs_1589eaa0 closed its connection.
+1687604923: New connection from 172.18.0.5:48378 on port 1883.
+1687604923: New client connected from 172.18.0.5:48378 as mqttjs_05d6368b (p2, c1, k60, u'hta-sensor').
+1687604951: Client mqttjs_05d6368b closed its connection.
+1687604955: New connection from 172.18.0.5:49312 on port 1883.
+1687604955: New client connected from 172.18.0.5:49312 as mqttjs_896fae90 (p2, c1, k60, u'hta-sensor').
+1687605081: Client mqttjs_896fae90 closed its connection.
+1687605085: New connection from 172.18.0.5:32858 on port 1883.
+1687605085: New client connected from 172.18.0.5:32858 as mqttjs_0d582b0f (p2, c1, k60, u'hta-sensor').
+1687605131: Client mqttjs_0d582b0f closed its connection.
+1687605135: New connection from 172.18.0.5:52438 on port 1883.
+1687605135: New client connected from 172.18.0.5:52438 as mqttjs_fbf5d1fc (p2, c1, k60, u'hta-sensor').
+1687605295: Client mqttjs_fbf5d1fc closed its connection.
+1687605299: New connection from 172.18.0.5:56682 on port 1883.
+1687605299: New client connected from 172.18.0.5:56682 as mqttjs_5329dd68 (p2, c1, k60, u'hta-sensor').
+1687605404: Client mqttjs_5329dd68 closed its connection.
+1687605408: New connection from 172.18.0.5:58078 on port 1883.
+1687605408: New client connected from 172.18.0.5:58078 as mqttjs_9e401df7 (p2, c1, k60, u'hta-sensor').
+1687605448: Client mqttjs_9e401df7 closed its connection.
+1687605452: New connection from 172.18.0.5:59908 on port 1883.
+1687605452: New client connected from 172.18.0.5:59908 as mqttjs_8e7904ed (p2, c1, k60, u'hta-sensor').
+1687605460: Client mqttjs_8e7904ed closed its connection.
+1687605464: New connection from 172.18.0.5:47256 on port 1883.
+1687605464: New client connected from 172.18.0.5:47256 as mqttjs_f6f5463f (p2, c1, k60, u'hta-sensor').
+1687605514: Client mqttjs_f6f5463f closed its connection.
+1687605519: New connection from 172.18.0.5:58816 on port 1883.
+1687605519: New client connected from 172.18.0.5:58816 as mqttjs_0bb8230a (p2, c1, k60, u'hta-sensor').
+1687605668: Client mqttjs_0bb8230a closed its connection.
+1687605672: New connection from 172.18.0.5:60078 on port 1883.
+1687605672: New client connected from 172.18.0.5:60078 as mqttjs_03bd113a (p2, c1, k60, u'hta-sensor').
+1687605790: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687605955: Client mqttjs_03bd113a closed its connection.
+1687605960: New connection from 172.18.0.5:36380 on port 1883.
+1687605960: New client connected from 172.18.0.5:36380 as mqttjs_68595dfa (p2, c1, k60, u'hta-sensor').
+1687605998: Client mqttjs_68595dfa closed its connection.
+1687606003: New connection from 172.18.0.5:38718 on port 1883.
+1687606003: New client connected from 172.18.0.5:38718 as mqttjs_70589b5c (p2, c1, k60, u'hta-sensor').
+1687606117: Client mqttjs_70589b5c closed its connection.
+1687606121: New connection from 172.18.0.5:40846 on port 1883.
+1687606121: New client connected from 172.18.0.5:40846 as mqttjs_a2ac7a5f (p2, c1, k60, u'hta-sensor').
+1687606151: Client mqttjs_a2ac7a5f closed its connection.
+1687606156: New connection from 172.18.0.5:58950 on port 1883.
+1687606156: New client connected from 172.18.0.5:58950 as mqttjs_e33caa4d (p2, c1, k60, u'hta-sensor').
+1687606479: Client mqttjs_e33caa4d closed its connection.
+1687606487: New connection from 172.18.0.5:43656 on port 1883.
+1687606487: New client connected from 172.18.0.5:43656 as mqttjs_bebadff8 (p2, c1, k60, u'hta-sensor').
+1687606511: Client mqttjs_bebadff8 closed its connection.
+1687606840: New connection from 172.18.0.5:59366 on port 1883.
+1687606840: New client connected from 172.18.0.5:59366 as mqttjs_c3442678 (p2, c1, k60, u'hta-sensor').
+1687607089: Client mqttjs_c3442678 closed its connection.
+1687607094: New connection from 172.18.0.5:50880 on port 1883.
+1687607094: New client connected from 172.18.0.5:50880 as mqttjs_b5992668 (p2, c1, k60, u'hta-sensor').
+1687607110: Client mqttjs_b5992668 closed its connection.
+1687607113: New connection from 172.18.0.5:45490 on port 1883.
+1687607113: New client connected from 172.18.0.5:45490 as mqttjs_f8fcfdbb (p2, c1, k60, u'hta-sensor').
+1687607153: Client mqttjs_f8fcfdbb closed its connection.
+1687607156: New connection from 172.18.0.5:42352 on port 1883.
+1687607156: New client connected from 172.18.0.5:42352 as mqttjs_e34e497b (p2, c1, k60, u'hta-sensor').
+1687607163: Client mqttjs_e34e497b closed its connection.
+1687607167: New connection from 172.18.0.5:54504 on port 1883.
+1687607167: New client connected from 172.18.0.5:54504 as mqttjs_ae62e2ad (p2, c1, k60, u'hta-sensor').
+1687607197: Client mqttjs_ae62e2ad closed its connection.
+1687607202: New connection from 172.18.0.5:51546 on port 1883.
+1687607202: New client connected from 172.18.0.5:51546 as mqttjs_0846fc10 (p2, c1, k60, u'hta-sensor').
+1687607543: Client mqttjs_0846fc10 closed its connection.
+1687607591: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1687607692: New connection from 172.18.0.5:42818 on port 1883.
+1687607692: New client connected from 172.18.0.5:42818 as mqttjs_d0e32ded (p2, c1, k60, u'hta-sensor').
+1687607754: Client mqttjs_d0e32ded closed its connection.
+1687607758: New connection from 172.18.0.5:42190 on port 1883.
+1687607758: New client connected from 172.18.0.5:42190 as mqttjs_68c1481d (p2, c1, k60, u'hta-sensor').
+1687607790: New connection from 172.18.0.1:34472 on port 1883.
+1687607790: New client connected from 172.18.0.1:34472 as 6496d9e93b18104e71ab17d1 (p2, c1, k60, u'hta-sensor').
+1687607875: Client 6496d9e93b18104e71ab17d1 disconnected due to malformed packet.
+1687607913: Client mqttjs_68c1481d closed its connection.
+1687607916: New connection from 172.18.0.5:50782 on port 1883.
+1687607916: New client connected from 172.18.0.5:50782 as mqttjs_5735b9ca (p2, c1, k60, u'hta-sensor').
+1687607993: Client mqttjs_5735b9ca closed its connection.
+1687607997: New connection from 172.18.0.5:59430 on port 1883.
+1687607997: New client connected from 172.18.0.5:59430 as mqttjs_396e0753 (p2, c1, k60, u'hta-sensor').
+1687608027: Client mqttjs_396e0753 closed its connection.
+1687608031: New connection from 172.18.0.5:33870 on port 1883.
+1687608031: New client connected from 172.18.0.5:33870 as mqttjs_6a42d442 (p2, c1, k60, u'hta-sensor').
+1687608046: Client mqttjs_6a42d442 closed its connection.
+1687608050: New connection from 172.18.0.5:35094 on port 1883.
+1687608050: New client connected from 172.18.0.5:35094 as mqttjs_ff5eeb8e (p2, c1, k60, u'hta-sensor').
+1687608299: Client mqttjs_ff5eeb8e closed its connection.
+1687608303: New connection from 172.18.0.5:47478 on port 1883.
+1687608303: New client connected from 172.18.0.5:47478 as mqttjs_e0f245b4 (p2, c1, k60, u'hta-sensor').

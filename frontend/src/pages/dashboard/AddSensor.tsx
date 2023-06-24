@@ -17,8 +17,8 @@ import { Sensor } from "../../types";
 import { availableRooms, wallTypes } from "../../utils";
 import { Wizard, useWizard } from "react-use-wizard";
 
-export function AddSensor({ open, onClose }: { open: boolean; onClose: () => void }) {
-    const { register, getValues, setValue, onSubmit } = useRegisterSensor();
+export function AddSensor({ open, onClose, refresh }: { open: boolean; onClose: () => void, refresh?: () => void}) {
+    const { register, getValues, setValue, onSubmit } = useRegisterSensor(refresh);
     const [enterButton, setEnterButton] = useState(false);
   
     return (

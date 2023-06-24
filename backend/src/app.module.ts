@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { MqttController } from './mqtt.controller';
+import { MqttController } from './mqtt/mqtt.controller';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { InfluxDbModule } from './influx.module';
+import { InfluxDbModule } from './influx/influx.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { UserModule } from './user/user.module';
 import { SensorModule } from './sensor/sensor.module';

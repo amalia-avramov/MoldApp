@@ -2,6 +2,7 @@ import { Button, Modal, TextField } from "@mui/material";
 import { TitleWithLogo } from "../../components/TitleWithLogo";
 import { useRegister } from "./useRegister";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import "./register.css";
 import { useNavigate } from "react-router-dom";
 
@@ -12,7 +13,7 @@ export function Register() {
   return (
     <div className="register-container">
       <TitleWithLogo />
-      <div className="register-title">SIGN OUT</div>
+      <div className="register-title">SIGN UP</div>
       <div className="register-description">
         Looks like you don’t have an account. Let’s create a new account for
         you.
@@ -71,6 +72,16 @@ export function Register() {
         >
           CREATE ACCOUNT
         </Button>
+        <div>
+        <Button
+          style={{justifyContent: "left"}}
+          disableElevation
+          onClick={() => navigate('/login')}
+        >
+          <ArrowBackIosNewIcon/>
+          Back
+        </Button>
+        </div>
         {showModal && (
           <Modal open={true}>
             <div className="register-modal">

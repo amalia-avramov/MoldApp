@@ -17,10 +17,12 @@ export type Sensor = {
   room: string;
   ipAddress: string;
   wallType: string;
+  isActive: boolean;
 };
 
 export type Room = {
   sensorId: string;
+  isActive: boolean;
   name: string;
 };
 

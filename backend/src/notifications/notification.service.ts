@@ -11,6 +11,9 @@ export class NotificationService {
     private notificationModel: Model<Notification>,
   ) {}
 
+  // ----------------------------------------------------
+  // Create notification function
+  // ----------------------------------------------------
   async create(createNotificationDto: NotificationDTO): Promise<Notification> {
     const createdNotification = new this.notificationModel(
       createNotificationDto,
@@ -18,6 +21,9 @@ export class NotificationService {
     return createdNotification.save();
   }
 
+  // ----------------------------------------------------
+  // Update notification function
+  // ----------------------------------------------------
   async updateNotificationById(
     id: string,
     updatedNotification: Notification,
@@ -28,16 +34,25 @@ export class NotificationService {
     return sensor;
   }
 
+  // ----------------------------------------------------
+  // Find all notifications function
+  // ----------------------------------------------------
   async findAll(): Promise<Notification[]> {
     return (await this.notificationModel.find().exec()).reverse();
   }
 
+  // ----------------------------------------------------
+  // Find notification by user ID function
+  // ----------------------------------------------------
   async findNotificationsByUserId(userId: string): Promise<Notification[]> {
     return (
       await this.notificationModel.find({ userId: userId }).exec()
     ).reverse();
   }
 
+  // ----------------------------------------------------
+  // Delete notification function
+  // ----------------------------------------------------
   async delete(id: string) {
     const deletedNotification = await this.notificationModel
       .findByIdAndRemove({ _id: id })
@@ -45,6 +60,9 @@ export class NotificationService {
     return deletedNotification;
   }
 
+  // ----------------------------------------------------
+  // Delete all notifications function
+  // ----------------------------------------------------
   async deleteAll() {
     return this.notificationModel.deleteMany();
   }
