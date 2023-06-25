@@ -3,6 +3,9 @@ import { server } from "../../utils";
 import { User } from "../../types";
 import { useState } from "react";
 
+// ----------------------------------------------------
+// Register hook
+// ----------------------------------------------------
 export function useRegister() {
   const {
     register,

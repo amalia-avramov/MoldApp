@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { server } from "../../utils";
 import { LoginUser, User } from "../../types";
 
+// ----------------------------------------------------
+// Authentification hook
+// ----------------------------------------------------
 export function useLogin() {
   const {
     register,

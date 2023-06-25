@@ -2,6 +2,9 @@ import useSWR from "swr";
 import { server } from "../../utils";
 import { Room } from "../../types";
 
+// ----------------------------------------------------
+// Room hook
+// ----------------------------------------------------
 export function useRoom() {
   const userId = localStorage.getItem("loggedUserId");
 

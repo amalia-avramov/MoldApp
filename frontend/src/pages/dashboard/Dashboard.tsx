@@ -62,7 +62,7 @@ function DashboardWithoutSensors() {
       >
         Add sensor
       </Button>
-      <AddSensor open={addSensor} onClose={() => setAddSensor(false)}/>
+      <AddSensor open={addSensor} onClose={() => setAddSensor(false)} />
     </div>
   );
 }

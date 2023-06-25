@@ -3,6 +3,9 @@ import { Sensor } from "../../types";
 import { server } from "../../utils";
 import ObjectId from "bson-objectid";
 
+// ----------------------------------------------------
+// Register sensor hook
+// ----------------------------------------------------
 export function useRegisterSensor(refresh?: () => void) {
   const { register, handleSubmit, getValues, setValue } = useForm<Sensor>();
 
@@ -23,7 +26,7 @@ export function useRegisterSensor(refresh?: () => void) {
     if (!result.ok) {
       console.log(result);
     } else {
-      if(refresh) refresh();
+      if (refresh) refresh();
     }
   };
   return { register, getValues, setValue, onSubmit: handleSubmit(onSubmit) };

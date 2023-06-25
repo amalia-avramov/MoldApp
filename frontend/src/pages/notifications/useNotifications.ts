@@ -2,6 +2,9 @@ import useSWR from "swr";
 import { server } from "../../utils";
 import { NotificationDTO } from "../../types";
 
+// ----------------------------------------------------
+// Notification hook
+// ----------------------------------------------------
 export function useNotifications() {
   const userId = localStorage.getItem("loggedUserId");
   const fetcher = (url: string) => fetch(url).then((res) => res.json());

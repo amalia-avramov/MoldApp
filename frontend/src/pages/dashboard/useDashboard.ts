@@ -2,6 +2,10 @@ import { server } from "../../utils";
 import { Room, Sensor } from "../../types";
 import useSWR from "swr";
 
+
+// ----------------------------------------------------
+// Dashboard hook
+// ----------------------------------------------------
 export function useDashboard() {
   const userId = localStorage.getItem("loggedUserId");
 

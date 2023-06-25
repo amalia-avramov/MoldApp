@@ -2,6 +2,9 @@
 
 The application is designed to provide users with real-time information about the indoor environment, especially in terms of critical temperature and humidity parameters that favor mold growth.
 
+## 🔗 Links
+[Link to repository](https://github.com/amalia-avramov/MoldApp)
+
 ## Prerequisites
 
 Before running this project, make sure you have the following installed on your machine:
@@ -11,7 +14,7 @@ Before running this project, make sure you have the following installed on your 
 - PlatformIO extension
 - Dev Containers extension
 
-## Setup
+# Setup
 
 Clone this repository to your local machine.
 
@@ -56,3 +59,11 @@ npm run dev
 - Open the `/sensors` folder in VS Code.
 - Once the PlatformIO project is opened, you can use the PlatformIO sidebar to access various features, such as building, uploading firmware, and managing libraries.
 - Use `Upload and Monitor` task to upload the firmware and monitor the device output.
+
+## Running Ports
+
+- Port `3001`: Frontend application
+- Port `3000`: Backend server
+- Port `1883/9001`: MQTT server
+- Port `9999`: InfluxDB
+- Port `8088`: MongoDB

@@ -2,6 +2,9 @@ import { server } from "../../utils";
 import { SensorData } from "../../types";
 import useSWR from "swr";
 
+// ----------------------------------------------------
+// Sensor data hook
+// ----------------------------------------------------
 export function useSensorData(sensorId: string) {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
 

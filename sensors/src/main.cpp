@@ -44,7 +44,6 @@ char *mqttStatus = "disconnected";
 // Initialize AsyncWebServer object on port 80
 AsyncWebServer server(80);
 
-//
 WiFiClient wifiClient;
 PubSubClient client(wifiClient);
 
